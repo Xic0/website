@@ -6,7 +6,7 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>http://congresso.comdignitatis.org/</loc>
-    <lastmod>2016-03-22</lastmod>
+    <lastmod>2017-04-17</lastmod>
       <changefreq>Weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -25,7 +25,7 @@ http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <xhtml:link rel="alternate" hreflang="en-us" href="http://congresso.comdignitatis.org/index.html" />
     <xhtml:link rel="alternate" hreflang="pt-pt" href="http://congresso.comdignitatis.org/index.html" />
     <xhtml:link rel="alternate" hreflang="pt-br" href="http://congresso.comdignitatis.org/index.html" />
-    <lastmod>2016-03-22</lastmod>
+    <lastmod>2017-04-17</lastmod>
       <changefreq>Weekly</changefreq>
       <priority>0.8</priority>
   </url>

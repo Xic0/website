@@ -266,11 +266,20 @@ th {
   .table-bordered td {
     border: 1px solid #ddd !important;
   }
+  .printInfo {
+  font-family: Oswald;
+  font-size: 19px;
+  line-height: 1.42;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 20px;
+  /*text-transform: uppercase;*/
+}
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('fonts/glyphicons-halflings-regular.eot');
+  src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('fonts/glyphicons-halflings-regular.woff') format('woff'), url('fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -1101,13 +1110,20 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #3d9970;
+  color: #FFFFFF;
   text-decoration: none;
 }
-a:hover,
+/*a:hover,
 a:focus {
-  color: #276248;
-  text-decoration: underline;
+  border-bottom: 2px solid;
+  font-weight:bold;
+  text-transform: uppercase;
+}*/
+#Programa a:hover,
+a:focus {
+  border-bottom: 2px solid;
+  font-weight:bold;
+  text-transform: uppercase;
 }
 a:focus {
   outline: thin dotted;
@@ -6788,6 +6804,7 @@ body {
   margin-top: 20px;
   text-transform: uppercase;
 }
+
 
 table#idPrograma tr td:first-child{
   text-align: center;
