@@ -1119,6 +1119,18 @@ a:focus {
   font-weight:bold;
   text-transform: uppercase;
 }*/
+#Trabalhos a {
+  border-bottom: 1px dashed;
+}
+#Programa a {
+  border-bottom: 1px dashed;
+}
+#Trabalhos a:hover,
+a:focus {
+  border-bottom: 2px solid;
+  font-weight:bold;
+  text-transform: uppercase;
+}
 #Programa a:hover,
 a:focus {
   border-bottom: 2px solid;
