@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-container">
+  <h2>Tabs in a Grid</h2>
+
+  <div class="w3-row">
+    <a href="javascript:void(0)" onclick="openCity(event, 'London');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">London</div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'Programa24');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">24 de Maio</div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'Programa25');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">25 de Maio</div>
+    </a>
+  </div>
+
+  <div id="London" class="w3-container city" style="display:none">
+    <h2>London</h2>
+    <p>London is the capital city of England.</p>
+  </div>
+
+  <div id="Programa24" class="w3-container city" style="display:none">
+        <table class="w3-table w3-striped w3-theme-l4">
+                <thead>
+                    <tr>
+                        <th colspan=2 class="w3-wide w3-large w3-round w3-theme">24 de Maio de 2018</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="cd-border-theme">08h30</td>
+                        <td>
+                            <p>Receção dos Participantes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cd-border-theme">09h00</td>
+                        <td>
+                            <p>Sessão de Abertura</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cd-border-theme">09h30</td>
+                        <td>
+                            <p>
+                                <i>“Acesso à Justiça e Participação: os Desafios da Convenção dos Direitos da Criança”</i>
+                            </p>
+                            <p><i>“A Importância da Perspetiva da Criança na Análise do seu Direito à Participação nos Processos que lhe Dizem
+                                    Respeito”</i></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cd-border-theme">10h30</td>
+                        <td>
+                            <p>Pausa para Café</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cd-border-theme">11h00</td>
+                        <td>
+                            <p>
+                                <i>“Aspetos Psicossociais da Prevenção da Delinquência Juvenil”</i>
+                            </p>
+                            <p>
+                                <i>“A Intervenção da Comunidade e das Organizações na Prevenção da Delinquência Juvenil”</i>
+                            </p>
+                            <p><i>“Transições online-offline: análise de alguns desafios do uso das redes sociais na infância e adolescência”</i></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cd-border-theme">12h45</td>
+                        <td>
+                            <p>Almoço livre</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cd-border-theme">14h15</td>
+                        <td>
+                            <p>
+                                <i>“Prevenção da Delinquência Juvenil: Intervenção Situacional e Justiça Restaurativa”</i>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cd-border-theme">15h00</td>
+                        <td>
+                            <p>
+                                <i>“«Aos Olhos dos Outros Nós Somos Sempre o Problema!» Desafios à Intervenção da Justiça Juvenil”</i>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cd-border-theme">15h30</td>
+                        <td>
+                            <p>Pausa para Café</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cd-border-theme">15h45</td>
+                        <td>
+                            <p>
+                                <i>“Interface do Sistema de Promoção e Proteção com o Sistema de Justiça Juvenil”</i>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cd-border-theme">16h30</td>
+                        <td>
+                            <p>
+                                <i>“O papel das Magistraturas no Sistema de Justiça Juvenil”</i>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cd-border-theme">17h00</td>
+                        <td>
+                            <p>Encerramento dos Trabalhos</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+  </div>
+
+  <div id="Programa25" class="w3-container city" style="display:none">
+        <table class="w3-table w3-striped w3-theme-l4">
+                <thead>
+                    <tr>
+                        <th colspan=2 class="w3-wide w3-large w3-round w3-theme">25 de Maio de 2018</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="cd-border-theme">08h30</td>
+                        <td>
+                            <p>Receção dos Participantes</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cd-border-theme">09h00</td>
+                        <td>
+                            <p class="w3-center">
+                                <span class="w3-wide">Sessões Paralelas</span><br>
+                                <i>“Prevenção da Delinquência Juvenil e os Princípios da Justiça Amiga"</i>
+                            </p>
+                            <ol>
+                                <li style="list-style-type: square;"><i>“Sociedade, Comunicação social e Prevenção Situacional”</i></li>
+                                <li style="list-style-type: square;"><i>“Interface entre Sistema de Proteção e o Sistema de Justiça Juvenil – o Papel das Magistraturas”</i></li>
+                                <li style="list-style-type: square;"><i>“O Acesso à Justiça e a Participação da Criança”</i></li>
+                                <li style="list-style-type: square;"><i>“Resolução Extrajudicial de Conflitos”</i></li>
+                            </ol>
+                         </td>
+                    </tr>
+                    <tr>
+                        <td class="cd-border-theme">11h00</td>
+                        <td>
+                            <p>Pausa para Café</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cd-border-theme">11h30</td>
+                        <td>
+                            <p>Continuação dos trabalhos</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cd-border-theme">12h30</td>
+                        <td>
+                            <p>Almoço Livre</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cd-border-theme">14h00</td>
+                        <td>
+                            <p>Momento Cultural</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cd-border-theme">14h30</td>
+                        <td>
+                            <p>Apresentação das Conclusões das Sessões Paralelas
+                                <br>Debate /*colocar no subtítulo ?? */</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cd-border-theme">16h00</td>
+                        <td>
+                            <p>Pausa para Café</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cd-border-theme">16h15</td>
+                        <td>
+                            <p>
+                                <i>“Le Juge des Enfants: un Juge Mineur? Débat entre Sécurité Publique et Intérêt de L’Enfant et la
+                                    Place de sa Parole”</i>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cd-border-theme">17h00</td>
+                        <td>
+                            <p>Encerramento dos trabalhos</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+  </div>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-border-red";
+}
+</script>
+
+</body>
+</html>

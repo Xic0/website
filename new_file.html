@@ -11,10 +11,12 @@
 <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"> -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-indigo.css"> 
+<link href="https://fonts.googleapis.com/css?family=Cookie|Catamaran|Open+Sans:800" rel="stylesheet"> 
 <style>
     body {font-family: "Lato", sans-serif}
 </style>
     <style>
+            .cd-list {list-style-type:square !important}
             .w3-theme-l5 {color:#000 !important; background-color:#f0f8f0 !important}
             .w3-theme-l4 {color:#000 !important; background-color:#cee9cc !important}
             .w3-theme-l3 {color:#000 !important; background-color:#9dd49a !important}
@@ -25,6 +27,7 @@
             .w3-theme-d3 {color:#fff !important; background-color:#22481f !important}
             .w3-theme-d4 {color:#fff !important; background-color:#1d3e1b !important}
             .w3-theme-d5 {color:#fff !important; background-color:#183416 !important}
+            .cd-theme-bg {color:#fff !important; background-color:#A2C731 !important}
     
             .w3-theme-light {color:#000 !important; background-color:#f0f8f0 !important}
             .w3-theme-dark {color:#fff !important; background-color:#183416 !important}
@@ -64,20 +67,28 @@
 <div class="w3-display-container w3-theme w3-padding-48" style="height:300px">
     <div class="w3-display-middle w3-center">
         <h3>II Congresso Europeu ─ Uma Justiça Amiga das Crianças</h3>
-        <h4>24 e 25 de Maio de 2018<h4>
+        <h4>24 e 25 de Maio de 2018</h4>
         <h4>Fundação Calouste Gulbenkian</h4>
     </div>
+    <img src="pics/logo.png" alt="logo" style="height:250px" />
 </div>
 
+<div class="w3-display-container w3-padding-48 w3-center cd-theme-bg">
+    <p>
+        <span class="w3-text-theme" style="font-family: 'Open Sans', sans-serif;font-size:3vw;">II CONGRESSO EUROPEU</span><br>
+        <span style="font-size:72px; font-size:5vw;font-family: 'Catamaran', sans-serif;">Uma Justiça Amiga das </span>
+        <span class="w3-text-theme w3-wide" style="font-size:9vw;font-family: 'Cookie', cursive;"> crianças</span>
+    </p>
+</div>
 <!-- BANNER !!Change Image source -->
 <div class="w3-display-container w3-center" style="max-width:100%;background-size:cover;background-attachment:fixed;position:relative">
-    <img src="img/bg1.jpg" style="width:100%">
+    <img src="pics/banner.jpg" style="width:100%">
 </div>
 
 <!-- COMISSÃO ORGANIZADORA -->
 <div id="Organização" class="w3-container w3-content w3-padding-64" style="max-width:900px">
     <h2 class=" w3-text-theme">Comissão Organizadora</h2>
-    <ul>
+    <ul class="cd-list">
         <li>Procuradoria-Geral da República</li>
         <li>Ordem dos Advogados</li>
         <li>Direção-Geral de Reinserção e Serviços Prisionais</li>
@@ -114,7 +125,7 @@
 </div>
 
 <!-- PROGRAMA -->
-<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:900px" id="Programa">
+<!-- <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:900px" id="Programa">
     <h2 class="w3-wide w3-round w3-padding-32 w3-theme" style="font-variant: small-caps;">Programa</h2>
     <table class="w3-table w3-striped w3-theme-l4">
         <thead>
@@ -141,6 +152,8 @@
                     <p>
                         <i>“Acesso à Justiça e Participação: os Desafios da Convenção dos Direitos da Criança”</i>
                     </p>
+                    <p><i>“A Importância da Perspetiva da Criança na Análise do seu Direito à Participação nos Processos que lhe Dizem
+                            Respeito”</i></p>
                 </td>
             </tr>
             <tr>
@@ -158,6 +171,7 @@
                     <p>
                         <i>“A Intervenção da Comunidade e das Organizações na Prevenção da Delinquência Juvenil”</i>
                     </p>
+                    <p><i>“Transições online-offline: análise de alguns desafios do uso das redes sociais na infância e adolescência”</i></p>
                 </td>
             </tr>
             <tr>
@@ -295,6 +309,209 @@
             </tr>
         </tbody>
     </table>
+</div> -->
+
+<div class="w3-container w3-content" style="max-width:900px">
+    <h2 class="w3-wide w3-center w3-round w3-padding-32 w3-theme" style="font-variant: small-caps;">Programa</h2>
+    <div class="w3-row w3-padding-16 w3-center">
+        <a href="javascript:void(0)" onclick="openProgram(event, 'Programa24');">
+            <div class="w3-half tablink w3-bottombar w3-hover-border-theme w3-border-theme w3-padding">24 de Maio de 2018</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openProgram(event, 'Programa25');">
+            <div class="w3-half tablink w3-bottombar w3-hover-border-theme w3-padding">25 de Maio de 2018</div>
+        </a>
+    </div>
+    <div id="Programa24" class="cPrograma" style="display:block">
+        <table class="w3-table w3-striped w3-theme-l4">
+            <tbody>
+                <tr>
+                    <td class="cd-border-theme">08h30</td>
+                    <td>
+                        <p>Receção dos Participantes</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cd-border-theme">09h00</td>
+                    <td>
+                        <p>Sessão de Abertura</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cd-border-theme">09h30</td>
+                    <td>
+                        <p>
+                            <i>“Acesso à Justiça e Participação: os Desafios da Convenção dos Direitos da Criança”</i>
+                        </p>
+                        <p>
+                            <i>“A Importância da Perspetiva da Criança na Análise do seu Direito à Participação nos Processos
+                                que lhe Dizem Respeito”
+                            </i>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cd-border-theme">10h30</td>
+                    <td>
+                        <p>Pausa para Café</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cd-border-theme">11h00</td>
+                    <td>
+                        <p>
+                            <i>“Aspetos Psicossociais da Prevenção da Delinquência Juvenil”</i>
+                        </p>
+                        <p>
+                            <i>“A Intervenção da Comunidade e das Organizações na Prevenção da Delinquência Juvenil”</i>
+                        </p>
+                        <p>
+                            <i>“Transições online-offline: análise de alguns desafios do uso das redes sociais na infância e
+                                adolescência”
+                            </i>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cd-border-theme">12h45</td>
+                    <td>
+                        <p>Almoço livre</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cd-border-theme">14h15</td>
+                    <td>
+                        <p>
+                            <i>“Prevenção da Delinquência Juvenil: Intervenção Situacional e Justiça Restaurativa”</i>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cd-border-theme">15h00</td>
+                    <td>
+                        <p>
+                            <i>“«Aos Olhos dos Outros Nós Somos Sempre o Problema!» Desafios à Intervenção da Justiça Juvenil”</i>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cd-border-theme">15h30</td>
+                    <td>
+                        <p>Pausa para Café</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cd-border-theme">15h45</td>
+                    <td>
+                        <p>
+                            <i>“Interface do Sistema de Promoção e Proteção com o Sistema de Justiça Juvenil”</i>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cd-border-theme">16h30</td>
+                    <td>
+                        <p>
+                            <i>“O papel das Magistraturas no Sistema de Justiça Juvenil”</i>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cd-border-theme">17h00</td>
+                    <td>
+                        <p>Encerramento dos Trabalhos</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="Programa25" class="cPrograma" style="display:none">
+        <table class="w3-table w3-striped w3-theme-l4">
+            <tbody>
+                <tr>
+                    <td class="cd-border-theme">08h30</td>
+                    <td>
+                        <p>Receção dos Participantes</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cd-border-theme">09h00</td>
+                    <td>
+                        <p class="w3-center">
+                            <span class="w3-wide">Sessões Paralelas</span>
+                            <br>
+                            <i>“Prevenção da Delinquência Juvenil e os Princípios da Justiça Amiga"</i>
+                        </p>
+                        <ol class="cd-list">
+                            <li>
+                                <i>“Sociedade, Comunicação social e Prevenção Situacional”</i>
+                            </li>
+                            <li>
+                                <i>“Interface entre Sistema de Proteção e o Sistema de Justiça Juvenil – o Papel das Magistraturas”</i>
+                            </li>
+                            <li>
+                                <i>“O Acesso à Justiça e a Participação da Criança”</i>
+                            </li>
+                            <li>
+                                <i>“Resolução Extrajudicial de Conflitos”</i>
+                            </li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cd-border-theme">11h00</td>
+                    <td>
+                        <p>Pausa para Café</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cd-border-theme">11h30</td>
+                    <td>
+                        <p>Continuação dos trabalhos</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cd-border-theme">12h30</td>
+                    <td>
+                        <p>Almoço Livre</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cd-border-theme">14h00</td>
+                    <td>
+                        <p>Momento Cultural</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cd-border-theme">14h30</td>
+                    <td>
+                        <p>Apresentação das Conclusões das Sessões Paralelas
+                            <br>Debate /*colocar no subtítulo ?? */</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cd-border-theme">16h00</td>
+                    <td>
+                        <p>Pausa para Café</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cd-border-theme">16h15</td>
+                    <td>
+                        <p>
+                            <i>“Le Juge des Enfants: un Juge Mineur? Débat entre Sécurité Publique et Intérêt de L’Enfant et
+                                la Place de sa Parole”</i>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cd-border-theme">17h00</td>
+                    <td>
+                        <p>Encerramento dos trabalhos</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </div>
 
 <p class="w3-padding-16">&nbsp;</p>
@@ -310,12 +527,10 @@
             <p class="w3-wide">Presidente da Mesa</p>
             <p class="w3-large" style="font-variant: small-caps;">
                 <span class="w3-text-theme fa fa-file-pdf-o"></span> Rosa Clemente</p>
-            <p class="w3-small">Centro de Direito da Família da Universidade de Coimbra</p>
         </div>
         <div class="w3-half">
             <p class="w3-wide w3-small">&nbsp;</p>
             <p class="w3-large" style="font-variant: small-caps;"> Marta Santos Pais</p>
-            <span class="w3-small">Representante Especial do Secretário-Geral das Nações Unidas sobre a Violência contra Crianças</span>
         </div>
     </div>
     <div class="w3-row w3-padding-32" id="Session1_2">
@@ -327,7 +542,6 @@
             <p class="w3-wide w3-small">&nbsp;</p>
             <p class="w3-large" style="font-variant: small-caps;">
                 <span class="w3-text-theme fa fa-file-pdf-o"></span> Rosa Martins</p>
-            <p class="w3-small">Faculdade de Direito de Coimbra</p>
         </div>
     </div>
     <div class="w3-row w3-padding-32" id="Session1_3">
@@ -338,12 +552,10 @@
             <p class="w3-wide w3-small">Presidente da Mesa</p>
             <p class="w3-large" style="font-variant: small-caps;">
                 <span class="w3-text-theme fa fa-file-pdf-o"></span> Edmundo Martinho</p>
-            <p class="w3-small">Provedor da SCML</p>
         </div>
         <div class="w3-half">
             <p class="w3-wide w3-small">&nbsp;</p>
             <p class="w3-large" style="font-variant: small-caps;"> Josefina Castro</p>
-            <span class="w3-small">Faculdade de Direito da Universidade do Porto</span>
         </div>
     </div>
     <div class="w3-row w3-padding-32" id="Session1_4">
@@ -354,13 +566,11 @@
             <p class="w3-wide w3-small">Presidente da Mesa</p>
             <p class="w3-large" style="font-variant: small-caps;">
                 <span class="w3-text-theme fa fa-file-pdf-o"></span> A indicar pela Casa Pia Lisboa</p>
-            <p class="w3-small">Provedor da SCML</p>
         </div>
         <div class="w3-half">
             <p class="w3-wide w3-small">&nbsp;</p>
             <p class="w3-large" style="font-variant: small-caps;">
                 <span class="w3-text-theme fa fa-file-pdf-o"></span> Katia Almeida</p>
-            <span class="w3-small">Pressley Ridge</span>
         </div>
     </div>
     <div class="w3-row w3-padding-32" id="Session1_5">
@@ -371,14 +581,11 @@
             <p class="w3-wide w3-small">Presidente da Mesa</p>
             <p class="w3-large" style="font-variant: small-caps;">
                 <span class="w3-text-theme fa fa-file-pdf-o"></span> Guilherme de Oliveira</p>
-            <p class="w3-small">Centro de Direito da Família da Universidade de Coimbra</p>
         </div>
         <div class="w3-half">
             <p class="w3-wide w3-small">&nbsp;</p>
             <p class="w3-large" style="font-variant: small-caps;">
                 <span class="w3-text-theme fa fa-file-pdf-o"></span> Benjamin Sayous</p>
-            <span class="w3-small">Crimonólogo, Professor Doutor em Direito Penal – Universidade de Pau, França e Presidente do Institut Français
-                pour la Justice Restaurative</span>
         </div>
     </div>
     <div class="w3-row w3-padding-32" id="Session1_6">
@@ -389,13 +596,11 @@
             <p class="w3-wide w3-small">Presidente da Mesa</p>
             <p class="w3-large" style="font-variant: small-caps;">
                 <span class="w3-text-theme fa fa-file-pdf-o"></span> Celso Manata</p>
-            <p class="w3-small">Diretor-Geral de Reinserção e Serviços Prisionais</p>
         </div>
         <div class="w3-half">
             <p>&nbsp;</p>
             <p class="w3-large" style="font-variant: small-caps;">
                 <span class="w3-text-theme fa fa-file-pdf-o"></span> Maria João Leote de Carvalho</p>
-            <span class="w3-small">Investigadora</span>
         </div>
     </div>
     <div class="w3-row w3-padding-32" id="Session1_7">
@@ -406,19 +611,16 @@
             <p class="w3-wide w3-small">Presidente da Mesa</p>
             <p class="w3-large" style="font-variant: small-caps;">
                 <span class="w3-text-theme fa fa-file-pdf-o"></span> Guilherme Figueiredo</p>
-            <p class="w3-small">Bastonário da Ordem dos Advogados</p>
         </div>
         <div class="w3-third">
             <p class="w3-wide w3-small">&nbsp;</p>
             <p class="w3-large" style="font-variant: small-caps;">
                 <span class="w3-text-theme fa fa-file-pdf-o"></span> João Cóias</p>
-            <span class="w3-small">Direção-Geral de Reinserção e Serviços Prisionais</span>
         </div>
         <div class="w3-third">
             <p class="w3-wide w3-small">&nbsp;</p>
             <p class="w3-large" style="font-variant: small-caps;">
                 <span class="w3-text-theme fa fa-file-pdf-o"></span> Sandra Alves</p>
-            <span class="w3-small">Instituto da Segurança Social, IP</span>
         </div>
     </div>
     <div class="w3-row w3-padding-32" id="Session1_8">
@@ -429,13 +631,11 @@
             <p class="w3-wide w3-small">Presidente da Mesa</p>
             <p class="w3-large" style="font-variant: small-caps;">
                 <span class="w3-text-theme fa fa-file-pdf-o"></span> Laborinho Lúcio</p>
-            <p class="w3-small">Juiz Conselheiro Jubilado</p>
         </div>
         <div class="w3-half">
             <p>&nbsp;</p>
             <p class="w3-large" style="font-variant: small-caps;">
                 <a href="NB2018/NB2018_RC.pdf"><span class="w3-text-theme fa fa-file-pdf-o"></span></a> Rui do Carmo</p>
-            <span class="w3-small">Procurador-Geral Adjunto</span>
         </div>
     </div>  
     <div class="w3-row w3-padding-32" id="Session2_1">
@@ -445,22 +645,18 @@
         <div class="w3-quarter">
             <p class="w3-large" style="font-variant: small-caps;">
                 <span class="w3-text-theme fa fa-file-pdf-o"></span> José Martins</p>
-            <p class="w3-small">Casa Pia de Lisboa</p>
         </div>
         <div class="w3-quarter">
             <p class="w3-large" style="font-variant: small-caps;">
                 <span class="w3-text-theme fa fa-file-pdf-o"></span> Nuno Otero</p>
-            <span class="w3-small">Professor e Blogger</span>
         </div>
         <div class="w3-quarter">
             <p class="w3-large" style="font-variant: small-caps;">
                 <span class="w3-text-theme fa fa-file-pdf-o"></span> Rui Alves Pereira</p>
-            <span class="w3-small">Advogado</span>
         </div>
         <div class="w3-quarter">
             <p class="w3-large" style="font-variant: small-caps;">
                 <span class="w3-text-theme fa fa-file-pdf-o"></span> Jornalista*</p>
-            <span class="w3-small">Jornalista*</span>
         </div>
     </div>
     <div class="w3-padding-32" id="Session2_2">
@@ -471,29 +667,24 @@
             <div class="w3-third">
                 <p class="w3-large" style="font-variant: small-caps;">
                     <span class="w3-text-theme fa fa-file-pdf-o"></span> Catarina Condesso</p>
-                <p class="w3-small">Juíza de Direito</p>
             </div>
             <div class="w3-third">
                 <p class="w3-large" style="font-variant: small-caps;">
                     <span class="w3-text-theme fa fa-file-pdf-o"></span> Joana Fonseca</p>
-                <span class="w3-small">Comissão de Proteção de Crianças e Jovens</span>
             </div>
             <div class="w3-third">
                 <p class="w3-large" style="font-variant: small-caps;">
                     <span class="w3-text-theme fa fa-file-pdf-o"></span> Marta Carreira</p>
-                <span class="w3-small">ISCE</span>
             </div>
         </div>
         <div class="w3-row">
             <div class="w3-half">
                 <p class="w3-large" style="font-variant: small-caps;">
                     <span class="w3-text-theme fa fa-file-pdf-o"></span> Manuela Matos</p>
-                <span class="w3-small">Advogada</span>
             </div>
             <div class="w3-half">
                 <p class="w3-large" style="font-variant: small-caps;">
                     <span class="w3-text-theme fa fa-file-pdf-o"></span> Norberto Martins</p>
-                <span class="w3-small">Procurador</span>
             </div>
         </div>
     </div>
@@ -504,22 +695,18 @@
         <div class="w3-quarter">
             <p class="w3-large" style="font-variant: small-caps;">
                 <span class="w3-text-theme fa fa-file-pdf-o"></span> Clotilde Neves</p>
-            <p class="w3-small">Advogado</p>
         </div>
         <div class="w3-quarter">
             <p class="w3-large" style="font-variant: small-caps;">
                 <span class="w3-text-theme fa fa-file-pdf-o"></span> Maria da Conceição Lopes</p>
-            <span class="w3-small">Procuradora da República</span>
         </div>
         <div class="w3-quarter">
             <p class="w3-large" style="font-variant: small-caps;">
                 <span class="w3-text-theme fa fa-file-pdf-o"></span> Rui Godinho</p>
-            <span class="w3-small">SCML</span>
         </div>
         <div class="w3-quarter">
             <p class="w3-large" style="font-variant: small-caps;">
                 <span class="w3-text-theme fa fa-file-pdf-o"></span> Rute Agulhas</p>
-            <span class="w3-small">ISCTE</span>
         </div>
     </div>
     <div class="w3-padding-32" id="Session2_4">
@@ -530,29 +717,24 @@
             <div class="w3-third">
                 <p class="w3-large" style="font-variant: small-caps;">
                     <span class="w3-text-theme fa fa-file-pdf-o"></span> Adelino Calado</p>
-                <p class="w3-small">Professor</p>
             </div>
             <div class="w3-third">
                 <p class="w3-large" style="font-variant: small-caps;">
                     <span class="w3-text-theme fa fa-file-pdf-o"></span> Ana Ilhéu</p>
-                <span class="w3-small">Direção-Geral de Reinserção e Serviços Prisionais</span>
             </div>
             <div class="w3-third">
                 <p class="w3-large" style="font-variant: small-caps;">
                     <span class="w3-text-theme fa fa-file-pdf-o"></span> Célia Reis</p>
-                <span class="w3-small">Mediadora Escolar</span>
             </div>
         </div>
         <div class="w3-row">
             <div class="w3-half">
                 <p class="w3-large" style="font-variant: small-caps;">
                     <span class="w3-text-theme fa fa-file-pdf-o"></span> Cristina de Sousa</p>
-                <span class="w3-small">Advogada</span>
             </div>
             <div class="w3-half">
                 <p class="w3-large" style="font-variant: small-caps;">
                     <span class="w3-text-theme fa fa-file-pdf-o"></span> Marta Risques</p>
-                <span class="w3-small">Mediação Familiar</span>
             </div>
         </div>
     </div>
@@ -580,15 +762,29 @@
 
 
 <script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else { 
-        x.className = x.className.replace(" w3-show", "");
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
     }
-}
+
+    function openProgram(evt, day) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("cPrograma");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" w3-border-theme", "");
+        }
+        document.getElementById(day).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " w3-border-theme";
+    }
 </script>
 
 </body>
