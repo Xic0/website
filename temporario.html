@@ -566,13 +566,13 @@
                 </div>
                 <div class="w3-third">
                         <p class="w3-large" style="font-variant: small-caps;">
-                            <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_JF.pdf"><span class="w3-text-theme fa fa-file-pdf-o"></span></a> Joana Fonseca</p>
+                            <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_JF.pdf"><span class="w3-text-theme fa fa-file-pdf-o"></span></a> Joana Garcia da Fonseca</p>
                         <p class="w3-small">Comissão Nacional de Promoção dos Direitos e Proteção das Crianças e Jovens</p>
                 </div>
                 <div class="w3-third">
                     <p class="w3-large" style="font-variant: small-caps;">
                             <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_MC.pdf"><span class="w3-text-theme fa fa-file-pdf-o"></span></a> Marta Carreira</p>
-                    <p class="w3-small">Instituto Superior de Ciências Educativas</p>
+                    <p class="w3-small">ABLA - Assoiação de Beneficência Luso-Alemã / ISCE - Instituto Superior de Ciências Educativas</p>
                 </div>
             </div>
             <div class="w3-row">
@@ -723,6 +723,7 @@
         <div class="w3-row w3-padding-16">
                 <div class="w3-half">
                     <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran', monospace !important;">Parceiros</p>
+                    <img alt="Logotipo do Município de Viseu" style="height:100px; padding:5px;" src="img/PAR00.jpg">
                     <img alt="Logotipo do Centro de Formação da Associação de Escolas Rómulo de Carvalho" style="height:100px; padding:5px;" src="img/PAR01.png">
                 </div>
                 <div class="w3-half">
@@ -772,31 +773,43 @@
 </script>
 
 <script type="application/ld+json">
-    {
-    "@context":	    "http://schema.org",
-    "@type":	    "EducationEvent",
-    "name":		    "II Congresso Europeu Sobre uma Justiça Amiga das Crianças",
-    "organizer":    "ComDignitatis",
-    "doorTime" :    "2018-05-24T08:30",
-    "startDate":    "2018-05-24T09:00",
-    "endDate":	    "2018-05-25T17:00",
-    "url":		    "http://congresso.comdignitatis.org",
-    "location":
-    {
-                "@type":	"Place",
-                "sameAs":	"http://www.gulbenkian.pt",
-                "name":		"Fundação Calouste Gulbenkian",
-                "address":	"Av. Berna 45A, 1067-001 Lisboa"
-    },
-    "offers":
-    {
-                "@type":			"Offer",
-                "name":				"Formulário de Inscrição",
-                "url":				"https://goo.gl/forms/Hf2k5fPtL371e6aR2",
-                "category":			"primary",
-                "price":			"20",
-                "priceCurrency":	"EUR"
-    }
+    {  
+        "@context":"http://schema.org",
+        "@type":"EducationEvent",
+        "name":"II Congresso Europeu Sobre uma Justiça Amiga das Crianças",
+        "description":"II Congresso Europeu Sobre uma Justiça Amiga das Crianças",
+        "image":"http://congresso.comdignitatis.org/img/banner.png",
+        "organizer":"ComDignitatis",
+        "doorTime":"2018-05-24T08:30",
+        "startDate":"2018-05-24T09:00",
+        "endDate":"2018-05-25T17:00",
+        "url":"http://congresso.comdignitatis.org",
+        "location":{  
+            "@type":"Place",
+            "sameAs":"http://www.gulbenkian.pt",
+            "name":"Fundação Calouste Gulbenkian",
+            "address":"Av. Berna 45A, 1067-001 Lisboa"
+        },
+        "offers":[  
+            {  
+                "@type":"Offer",
+                "name":"Congresso (não estudante)",
+                "url":"https://goo.gl/forms/Hf2k5fPtL371e6aR2",
+                "price":"20",
+                "priceCurrency":"EUR",
+                "availability":"http://schema.org/LimitedAvailability",
+                "validFrom":"2018-02-01"
+            },
+            {  
+                "@type":"Offer",
+                "name":"Congresso (estudante)",
+                "url":"https://goo.gl/forms/Hf2k5fPtL371e6aR2",
+                "price":"15",
+                "priceCurrency":"EUR",
+                "availability":"http://schema.org/LimitedAvailability",
+                "validFrom":"2018-02-01"
+            }
+        ]
     }
 </script>
 
