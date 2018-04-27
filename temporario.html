@@ -14,11 +14,31 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+
     <style>
             body {font-family: "Lato", sans-serif !important}
 
             h1, h2, h3, h4, h5, h6 {font-family: "Roboto", sans-serif !important; font-weight: 400; margin: 10px 0;}
+
+            .cd-rotate {
+                /* Safari */
+                -webkit-transform: rotate(-90deg);
+
+                /* Firefox */
+                -moz-transform: rotate(-90deg);
+
+                /* IE */
+                -ms-transform: rotate(-90deg);
+
+                /* Opera */
+                -o-transform: rotate(-90deg);
+
+                /* Internet Explorer */
+                filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+            }
 
             .cd-cover-image {max-width:100%;background-size:cover;background-attachment:fixed;position:relative;background-color:#30662c !important}
             .cd-list {list-style-type:square !important}
@@ -54,16 +74,18 @@
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card-4">
     <span class="w3-bar-item">II Congresso Europeu</span>
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a class="w3-bar-item w3-button w3-padding-large w3-right w3-hover-none w3-text-grey w3-hover-text-white w3-hide-small" href="#Programa"><span class="fa fa-clock-o"></span> Programa</a>
-    <a class="w3-bar-item w3-button w3-padding-large w3-right w3-hover-none w3-text-grey w3-hover-text-white w3-hide-small" href="https://goo.gl/forms/Hf2k5fPtL371e6aR2" target=_blank><span class="fa fa-list-alt"></span> Formulário de Inscrição</a>
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fas fa-bars"></i></a>
+    <a class="w3-bar-item w3-button w3-padding-large w3-right w3-hover-none w3-text-grey w3-hover-text-white w3-hide-small" href="#Programa"><span class="fas fa-clock"></span> Programa</a>
+    <a class="w3-bar-item w3-button w3-padding-large w3-right w3-hover-none w3-text-grey w3-hover-text-white w3-hide-small" href="https://goo.gl/forms/Hf2k5fPtL371e6aR2" target=_blank><span class="fas fa-list-alt"></span> Formulário de Inscrição</a>
+    <a class="w3-bar-item w3-button w3-padding-large w3-right w3-hover-none w3-text-grey w3-hover-text-white w3-hide-small" onclick="document.getElementById('MomentoCultural').style.display='block'"><span class="fas fa-hand-holding-heart"></span> Momento Cultural</a>
   </div>
 </div>
 
 <!-- Navbar on small screens -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a class="w3-bar-item w3-button w3-padding-large" href="#Programa"><span class="fa fa-clock-o"></span> Programa</a>
-  <a class="w3-bar-item w3-button w3-padding-large" href="https://goo.gl/forms/Hf2k5fPtL371e6aR2" target=_blank><span class="fa fa-list-alt"></span> Formulário de Inscrição</a>
+  <a class="w3-bar-item w3-button w3-padding-large" href="#Programa"><span class="fas fa-clock"></span> Programa</a>
+  <a class="w3-bar-item w3-button w3-padding-large" href="https://goo.gl/forms/Hf2k5fPtL371e6aR2" target=_blank><span class="fas fa-list-alt"></span> Formulário de Inscrição</a>
+  <a <a class="w3-bar-item w3-button w3-padding-large" onclick="document.getElementById('MomentoCultural').style.display='block'"><span class="fas fa-hand-holding-heart"></span> Momento Cultural</a>
 </div>
 
 <!-- Page content -->
@@ -86,11 +108,25 @@
     <img alt="Logotipo CEJ" style="height:80px; padding:5px;" src="img/CCCO08.png">
     <img alt="Logotipo CDFUC" style="height:80px; padding:5px;" src="img/CCCO07.jpg">
     <img alt="Logotipo CICS NOVA" style="height:100px; padding:5px;" src="img/14.png">
+    <img alt="Logotipo FCT" style="height:80px; padding:5px;" src="img/CCCO14.png">
     <img alt="Logotipo Universidade Atlântica" style="height:80px; padding:5px;" src="img/CCCO09.jpg">
     <img alt="Logotipo Cáritas" style="height:80px; padding:5px;" src="img/CCCO10.jpg">
     <img alt="Logotipo Casa Pia" style="height:100px; padding:5px;" src="img/CP.png">
     <img alt="Logotipo CrescerSer" style="height:80px; padding:5px;" src="img/CCCO12.jpg">
     <img alt="Logotipo ComDignitatis" style="height:80px; padding:5px;" src="img/CCCO13.png">
+</div>
+
+<!-- MODAL -->
+<div id="MomentoCultural" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom">
+        <header class="w3-container w3-black">
+            <span onclick="document.getElementById('MomentoCultural').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+            <h2>Momento Cultural (11 de Maio)</h2>
+        </header>
+        <div class="w3-display-container w3-center">
+            <img alt="Momento Social" src="img/MS.png" style="width:100%">
+        </div>
+    </div>
 </div>
 
 <!-- MENSAGEM DE APRESENTAÇÃO -->
@@ -150,7 +186,7 @@
     <h2 class="w3-wide w3-center w3-round w3-padding-32 w3-theme" style="font-variant: small-caps;">Comissão Científica</h2>
     <ul class="cd-list">
         <li>Professor Doutor Guilherme de Oliveira</li>
-        <li>Professora Doutora Maria João Leote de Carvalho</li>
+        <li>Doutora Maria João Leote de Carvalho</li>
         <li>Doutora Rosa Clemente</li>            
     </ul>
 </div>
@@ -274,7 +310,7 @@
                         <p>Encerramento dos Trabalhos</p>
                     </td>
                 </tr>
-                <tr>
+                <!-- <tr>
                     <td colspan=2 class="w3-tag w3-round w3-large w3-theme">
                         <h4>Programa Social</h4>
                     </td>
@@ -296,7 +332,7 @@
                     <td>
                         <p>Concerto do Coro <em>Corelis</em> na Igreja do Convento de Santos-o-Novo</p>
                     </td>
-                </tr>
+                </tr> -->
             </tbody>
         </table>
     </div>
@@ -375,7 +411,7 @@
                 <tr>
                     <td class="cd-border-theme">17h00</td>
                     <td>
-                        <p>Encerramento dos trabalhos</p>
+                        <p>Concerto do Coro Corelis</p>
                     </td>
                 </tr>
             </tbody>
@@ -428,7 +464,7 @@
             </div>
             <div class="w3-half">
                 <p class="w3-wide w3-small">&nbsp;</p>
-                <p class="w3-large" style="font-variant: small-caps;"><span class="w3-text-red fa fa-file-pdf-o"></span> Josefina Castro</p>
+                <p class="w3-large"><a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_JC.pdf"><span class="w3-text-theme fa fa-file-pdf-o"></span></a> Josefina Castro</p>
                 <p class="w3-small">Faculdade de Direito da Universidade do Porto</p>
             </div>
         </div>
@@ -488,7 +524,7 @@
             <div class="w3-half">
                 <p class="w3-wide w3-small">&nbsp;</p>
                 <p class="w3-large" style="font-variant: small-caps;">
-                    <span class="w3-text-red fa fa-file-pdf-o"></span> Maria João Leote de Carvalho</p>
+                    <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_MJLC.pdf"><span class="w3-text-theme fa fa-file-pdf-o"></span></a> Maria João Leote de Carvalho</p>
                 <p class="w3-small">Centro Interdisciplinar de Ciências Sociais da Universidade Nova de Lisboa</p>
             </div>
         </div>
@@ -505,7 +541,7 @@
             <div class="w3-third">
                 <p class="w3-wide w3-small">&nbsp;</p>
                 <p class="w3-large" style="font-variant: small-caps;">
-                    <span class="w3-text-red fa fa-file-pdf-o"></span> João Cóias</p>
+                    <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_JOC.pdf"><span class="w3-text-theme fa fa-file-pdf-o"></span></a> João Cóias</p>
                 <p class="w3-small">Direção-Geral de Reinserção e Serviços Prisionais</p>
             </div>
             <div class="w3-third">
@@ -536,17 +572,22 @@
             <h4 class="w3-text-theme">
                 <i>“Sociedade, Comunicação social e Prevenção Situacional”</i>
             </h4>
-            <div class="w3-third">
+            <div class="w3-quarter">
                 <p class="w3-large" style="font-variant: small-caps;">
-                    <span class="w3-text-red fa fa-file-pdf-o"></span> Luís Castro <i class="w3-tag w3-round w3-theme w3-small">a confirmar</i></p>
-                <p class="w3-small">Jornalista</p>
+                    <span class="w3-text-red fa fa-file-pdf-o"></span> Fausto Amaro</p>
+                <p class="w3-small">Centro de Administração e Politicas Públicas, ISCSP,Universidade de Lisboa</p>
             </div>
-            <div class="w3-third">
+            <div class="w3-quarter">
                 <p class="w3-large" style="font-variant: small-caps;">
                     <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_NO.pdf"><span class="w3-text-theme fa fa-file-pdf-o"></span></a> Nuno Otero</p>
                 <p class="w3-small">Linnaeus University, Sweden</p>
             </div>
-            <div class="w3-third">
+            <div class="w3-quarter">
+                <p class="w3-large" style="font-variant: small-caps;">
+                    <span class="w3-text-red fa fa-file-pdf-o"></span> Rogério Canhões</p>
+                <p class="w3-small">Centro Educativo Navarro de Paiva</p>
+            </div>
+            <div class="w3-quarter">
                 <p class="w3-large" style="font-variant: small-caps;">
                     <span class="w3-text-red fa fa-file-pdf-o"></span> Rui Alves Pereira</p>
                 <p class="w3-small">Advogado</p>
@@ -694,12 +735,12 @@
                 <div class="w3-row">
                     <div class="w3-half">
                         <p class="w3-wide w3-small">Presidente da Mesa</p>
-                        <p class="w3-large" style="font-variant: small-caps;"><span class="w3-text-red fa fa-file-pdf-o"></span> Armando Leandro</p>
+                        <p class="w3-large" style="font-variant: small-caps;"><a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_AL.pdf"><span class="w3-text-theme fa fa-file-pdf-o"></span></a> Armando Leandro</p>
                         <p class="w3-small">Juiz Conselheiro Jubilado</p>
                     </div>
                     <div class="w3-half">
                         <p>&nbsp;</p>
-                        <p class="w3-large" style="font-variant: small-caps;"><span class="w3-text-red fa fa-file-pdf-o"></span> Jean Zermatten</p>
+                        <p class="w3-large" style="font-variant: small-caps;"><a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_JZ.pdf"><span class="w3-text-theme fa fa-file-pdf-o"></span></a> Jean Zermatten</p>
                         <p class="w3-small">Comité dos Direitos da Criança</p>
                     </div>
                 </div>
@@ -718,17 +759,38 @@
                 <img alt="Logotipo Fundação Calouste Gulbenkian" style="height:60px; padding:5px;" src="img/PAT01.png">
             </div>
         </div>
+        
         <div class="w3-row w3-padding-16">
                 <div class="w3-half">
                     <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran', monospace !important;">Parceiros</p>
                     <img alt="Logotipo do Município de Viseu" style="height:100px; padding:5px;" src="img/PAR00.jpg">
+                    <img alt="Logotipo Ordem Psicólogos" style="height:100px; padding:5px;" src="img/PAR06.jpg">
                     <img alt="Logotipo do Centro de Formação da Associação de Escolas Rómulo de Carvalho" style="height:100px; padding:5px;" src="img/PAR01.png">
+                    <img alt="Logotipo Museu Grão Vasco" style="height:100px; padding:5px;" src="img/PAR02.png">
+                    <img alt="Logotipo Museu Grão Vasco" style="height:100px; padding:5px;" src="img/PAR03.png">
+                    <img alt="Logotipo Museu Grão Vasco" style="height:100px; padding:5px;" src="img/PAR04.png">
+                    <img alt="Logotipo Agrupamento de Escolas Mundão" style="height:100px; padding:5px;" src="img/PAR05.png">
                 </div>
                 <div class="w3-half">
                     <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran', monospace !important;">Media Partner</p>
                     <img alt="Logotipos dos apoios" style="height:100px; padding:5px;" src="img/MP01.jpg">
                 </div>
-            </div>
+        </div>
+
+        <div class="w3-row w3-padding-16">
+                <div class="w3-half">
+                    <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran', monospace !important;">Patrocínios</p>
+                    <img alt="Logotipo da Glintt" style="height:100px; padding:5px;" src="img/PAT04.jpg">
+                    <img alt="Logotipo do Crédito Agrícola Mútuo" style="height:100px; padding:5px;" src="img/PAT02.jpg">
+                    <img alt="Logotipo Martins Alves" style="height:50px; padding:5px;" src="img/PAT03.jpg">
+                </div>
+                <div class="w3-half">
+                    <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran', monospace !important;">Apoios</p>
+                    <img alt="Logotipo Justiça TA" style="height:100px; padding:5px;" src="img/AP01.png">
+                    <img alt="Logotipo DATAJURIS" style="height:100px; padding:5px;" src="img/AP02.png">
+                    <img alt="Logotipo EPI" style="height:100px; padding:5px;" src="img/AP03.jpg">
+                </div>
+        </div>
     </div>
 
 <!-- FOOTER -->

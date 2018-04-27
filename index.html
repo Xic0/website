@@ -14,7 +14,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+
     <style>
             body {font-family: "Lato", sans-serif !important}
 
@@ -71,16 +74,18 @@
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card-4">
     <span class="w3-bar-item">II Congresso Europeu</span>
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a class="w3-bar-item w3-button w3-padding-large w3-right w3-hover-none w3-text-grey w3-hover-text-white w3-hide-small" href="#Programa"><span class="fa fa-clock-o"></span> Programa</a>
-    <a class="w3-bar-item w3-button w3-padding-large w3-right w3-hover-none w3-text-grey w3-hover-text-white w3-hide-small" href="https://goo.gl/forms/Hf2k5fPtL371e6aR2" target=_blank><span class="fa fa-list-alt"></span> Formulário de Inscrição</a>
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fas fa-bars"></i></a>
+    <a class="w3-bar-item w3-button w3-padding-large w3-right w3-hover-none w3-text-grey w3-hover-text-white w3-hide-small" href="#Programa"><span class="fas fa-clock"></span> Programa</a>
+    <a class="w3-bar-item w3-button w3-padding-large w3-right w3-hover-none w3-text-grey w3-hover-text-white w3-hide-small" href="https://goo.gl/forms/Hf2k5fPtL371e6aR2" target=_blank><span class="fas fa-list-alt"></span> Formulário de Inscrição</a>
+    <a class="w3-bar-item w3-button w3-padding-large w3-right w3-hover-none w3-text-grey w3-hover-text-white w3-hide-small" onclick="document.getElementById('MomentoCultural').style.display='block'"><span class="fas fa-hand-holding-heart"></span> Momento Cultural</a>
   </div>
 </div>
 
 <!-- Navbar on small screens -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a class="w3-bar-item w3-button w3-padding-large" href="#Programa"><span class="fa fa-clock-o"></span> Programa</a>
-  <a class="w3-bar-item w3-button w3-padding-large" href="https://goo.gl/forms/Hf2k5fPtL371e6aR2" target=_blank><span class="fa fa-list-alt"></span> Formulário de Inscrição</a>
+  <a class="w3-bar-item w3-button w3-padding-large" href="#Programa"><span class="fas fa-clock"></span> Programa</a>
+  <a class="w3-bar-item w3-button w3-padding-large" href="https://goo.gl/forms/Hf2k5fPtL371e6aR2" target=_blank><span class="fas fa-list-alt"></span> Formulário de Inscrição</a>
+  <a <a class="w3-bar-item w3-button w3-padding-large" onclick="document.getElementById('MomentoCultural').style.display='block'"><span class="fas fa-hand-holding-heart"></span> Momento Cultural</a>
 </div>
 
 <!-- Page content -->
@@ -109,6 +114,19 @@
     <img alt="Logotipo Casa Pia" style="height:100px; padding:5px;" src="img/CP.png">
     <img alt="Logotipo CrescerSer" style="height:80px; padding:5px;" src="img/CCCO12.jpg">
     <img alt="Logotipo ComDignitatis" style="height:80px; padding:5px;" src="img/CCCO13.png">
+</div>
+
+<!-- MODAL -->
+<div id="MomentoCultural" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom">
+        <header class="w3-container w3-black">
+            <span onclick="document.getElementById('MomentoCultural').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+            <h2>Momento Cultural (11 de Maio)</h2>
+        </header>
+        <div class="w3-display-container w3-center">
+            <img alt="Momento Social" src="img/MS.png" style="width:100%">
+        </div>
+    </div>
 </div>
 
 <!-- MENSAGEM DE APRESENTAÇÃO -->
@@ -556,8 +574,8 @@
             </h4>
             <div class="w3-quarter">
                 <p class="w3-large" style="font-variant: small-caps;">
-                    <span class="w3-text-red fa fa-file-pdf-o"></span> <i class="w3-tag w3-round w3-theme w3-small">a confirmar</i></p>
-                <p class="w3-small">Jornalista</p>
+                    <span class="w3-text-red fa fa-file-pdf-o"></span> Fausto Amaro</p>
+                <p class="w3-small">Centro de Administração e Politicas Públicas, ISCSP,Universidade de Lisboa</p>
             </div>
             <div class="w3-quarter">
                 <p class="w3-large" style="font-variant: small-caps;">
@@ -770,6 +788,7 @@
                     <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran', monospace !important;">Apoios</p>
                     <img alt="Logotipo Justiça TA" style="height:100px; padding:5px;" src="img/AP01.png">
                     <img alt="Logotipo DATAJURIS" style="height:100px; padding:5px;" src="img/AP02.png">
+                    <img alt="Logotipo EPI" style="height:100px; padding:5px;" src="img/AP03.jpg">
                 </div>
         </div>
     </div>
