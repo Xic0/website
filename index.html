@@ -129,8 +129,24 @@
     </div>
 </div>
 
+<!-- ENGLiSH MESSAGE -->
+<div id="Message" class="w3-container w3-content w3-padding-32 w3-justify w3-hide" style="max-width:900px">
+    <h2 class="w3-wide w3-center w3-round w3-padding-32 w3-theme" style="font-variant: small-caps;">Presentation</h2>
+    <p>ComDignitatis works towards the protection of Human Dignity and the preservation of Human Rights, giving special attention to Children’s Rights. As such, we promulgate the European Directives supporting the development of a more child-friendly justice system, by encouraging, also, a national debate on these matters, as it is our goal to raise the awareness of Governors and professionals towards the crucial part that these Directives play and the urgency on implementing them.</p>
+    <p>With this in mind, on May of 2016, ComDignitatis organized, at the Calouste Gulbenkian Foundation, in Lisbon, the first edition of a Congress that supported these European Directives, called “I Congresso Europeu Sobre Uma Justiça Amiga das Crianças” (“The First European Congress About a Child-Friendly Justice System”), partnering up with several public institutions and entities.</p>
+    <p>This event allowed us to present the Directives and to encourage a debate on Children’s Rights and a deeper analysis on what are the children’s real needs, especially when involved in lawsuits or out-of-court disputes.</p>
+    <p>Certain that the continuity of such work is of extreme importance, and determinant to generate a higher level of trust and interest on our judicial system amongst the youngsters, we decided to set out to a second edition of the 2016’s Congress, which will happen this year, on <strong>May 24th and 25th of 2018</strong>, in Calouste Gulbenkian’s Foundation. The <strong>“II Congresso Europeu Sobre Uma Justiça Amiga das Crianças”</strong>, has as starting point the Directives on a more child-friendly justice system, but in this edition we want the debate to focus more specifically on the prevention of juvenile delinquency and on the justice system that handles the cases of young offenders. You can know more about the goals of this event <a target="_blank" hreflanf="pt" type="application/pdf" href="NB2018/goals.pdf"><b class="w3-hover-theme">here</b></a>.</p>
+    <p>We hope, with this second edition, to create a place that enables the active sharing of knowledge and experiences, thus allowing you to collectively generate innovative and creative solutions that promote an efficient response for when a child needs judicial support and an adequate intervention for the elimination of the juvenile delinquency problem that exists today.</p>
+    <p>We invite you, once again, to join us and partake in this event with your knowledge, experience and opinion.</p>
+    <p>We are counting on you!</p>
+    <br>
+    <span class="w3-text-theme far fa-file-pdf fa-lg"></span> <a target="_blank" hreflanf="en" type="application/pdf" href="NB2018/prog_en.pdf"><b class="w3-hover-theme">Download Programme</b></a> (English)
+    <br><br><br>
+    <button onclick="elSwitcher('Mensagem', 'Message')" class="w3-btn w3-theme-action w3-left-align">Versão Portuguesa</button>
+</div>
+
 <!-- MENSAGEM DE APRESENTAÇÃO -->
-    <div id="Mensagem" class="w3-container w3-content w3-padding-32 w3-justify" style="max-width:900px">
+    <div id="Mensagem" class="w3-container w3-content w3-padding-32 w3-justify w3-show" style="max-width:900px">
         <h2 class="w3-wide w3-center w3-round w3-padding-32 w3-theme" style="font-variant: small-caps;">Mensagem de Apresentação</h2>
         <p>No âmbito da sua missão como promotora da Dignidade Humana e da defesa dos Direito do Homem, em particular dos Direitos
             da Criança, a ComDignitatis tem vindo a divulgar as Diretrizes Europeias para uma Justiça Amiga das Crianças, promovendo
@@ -151,6 +167,8 @@
         <p>Convidamo-lo uma vez mais a juntar-se a nós e a este desafio, participando no Congresso com o seu saber, experiência
             e opinião.</p>
         <p>Contamos consigo!</p>
+        <br>
+        <button onclick="elSwitcher('Message', 'Mensagem')" class="w3-btn w3-theme-action w3-left-align">English Version</button>
     </div>
 
 <!-- ENTIDADE PROMOTORA -->
@@ -816,6 +834,29 @@
             x.className += " w3-show";
         } else {
             x.className = x.className.replace(" w3-show", "");
+        }
+    }
+
+    // English message
+    function displaySwitcher(id) {
+        var x = document.getElementById(id);
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+
+    // Element Switcher
+    function elSwitcher(id, id1) {
+        var x = document.getElementById(id);
+        var y = document.getElementById(id1);
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+            y.className = y.className.replace("w3-show", "w3-hide")
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+            y.className = y.className.replace("w3-hide", "w3-show")
         }
     }
 
