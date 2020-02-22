@@ -44,7 +44,6 @@ var c_cientifica = new Vue({
 var programa = new Vue({
 	"el":"#idPrograma1",
 	"data":{
-	  "header":"",
 	  "horario":[
 		{
 		  "hora":"8h30",
@@ -113,7 +112,6 @@ var programa = new Vue({
 var programa2 = new Vue({
 	"el":"#idPrograma2",
 	"data":{
-	  "header":"",
 	  "horario":[
 		{
 		  "hora":"9h00",
@@ -328,7 +326,7 @@ var dispSessions = new Vue({
 				"presidente": true
 			  },
 			  {
-				"nome": "",
+				"nome": "por confirmar",
 				"cargo": "",
 				"nb": "",
 				"presidente": false
@@ -477,19 +475,19 @@ var dispSessions = new Vue({
 				"presidente": false
 			  },
 			  {
-				"nome": "Casa Pia de Lisboa*",
+				"nome": "por confirmar",
 				"cargo": "Casa Pia de Lisboa*",
 				"nb": "",
 				"presidente": false
 			  },
 			  {
-				"nome": "Provedoria de Justiça*",
+				"nome": "por confirmar",
 				"cargo": "Provedoria de Justiça*",
 				"nb": "",
 				"presidente": false
 			  },
 			  {
-				"nome": "Serviço de Estrangeiros e Fronteiras*",
+				"nome": "por confirmar",
 				"cargo": "Serviço de Estrangeiros e Fronteiras*",
 				"nb": "",
 				"presidente": false
