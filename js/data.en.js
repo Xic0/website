@@ -596,42 +596,6 @@ var dispSessions = new Vue({
 	  }
 })
 
-var Patrocinios = new Vue({
-	"el":"#idPatrocinios",
-	"data":{
-		"images":[
-			{
-			   "alt":"Logotipo Glintt",
-			   "style":"height:100px; padding:5px;",
-			   "src":"img/PAT04.jpg"
-			},
-			{
-				"alt":"Logotipo Crédito Agrícola Mútuo",
-				"style":"height:100px; padding:5px;",
-				"src":"img/PAT02a.jpg"
-			 },
-			 {
-				"alt":"Logotipo Centro Internacional de Ensino e Investigação Fernão de Magalhães",
-				"style":"width:100px;padding:5px;",
-				"src":"img/PAT07.png"
-			 },
-			 {
-				"alt":"Logotipo Grupo Lourenço & Lousada",
-				"style":"height:100px; padding:5px;",
-				"src":"img/PAT05.png"
-			 },
-			 {
-				"alt":"Logotipo Martins Alves",
-				"style":"height:50px; padding:5px;",
-				"src":"img/PAT03.jpg"
-			 },
-			 {
-				"alt":"Logotipo Comboios de Portugal",
-				"style":"width:100px;padding:5px;",
-				"src":"img/PAT08.png"
-			 }
-		]
-	}
-})
+
 
 

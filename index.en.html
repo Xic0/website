@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="PT">
+<html lang="EN">
 <head>
     <meta charset=utf-8>
-    <meta name="description" content="Localização: Fundação Calouste Gulbenkian, Dias: 07 e 08 de Maio de 2020, Entidade Promotora: Comdignitatis" />
-    <meta name="keywords" content="congresso, europeu, justiça, crianças" />
+    <meta name="description" content="Location: Fundação Calouste Gulbenkian, Days: 07 and 08 of May 2020, Promoter Organisation: Comdignitatis" />
+    <meta name="keywords" content="congress, european, justice, children" />
     <meta name="author" content="ComDignitatis">
     <meta name="robots" content="index, nofollow">
     <meta name=googlebot content=noodp />
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <!-- congresso, justiça, crianças -->
+    <!-- congress, justice, children -->
     <title>III Congresso Europeu Sobre uma Justiça Amiga das Crianças</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="js/fontawesome-all.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> <!-- NOVO -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
     <style>
             body {font-family: "Lato", sans-serif !important}
@@ -60,7 +60,6 @@
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fas fa-bars"></i></a>
     <a class="w3-bar-item w3-button w3-padding-large w3-right w3-hover-none w3-text-grey w3-hover-text-white w3-hide-small" href="#Programa"><span class="fas fa-clock"></span> Programa</a>
     <a class="w3-bar-item w3-button w3-padding-large w3-right w3-hover-none w3-text-grey w3-hover-text-white w3-hide-small" href="https://goo.gl/forms/Hf2k5fPtL371e6aR2" target=_blank><span class="fas fa-list-alt"></span> Formulário de Inscrição</a>
-    <!-- <a class="w3-bar-item w3-button w3-padding-large w3-right w3-hover-none w3-text-amber w3-hover-text-white w3-hide-small" onclick="document.getElementById('MomentoCultural').style.display='block'"><span class="fas fa-hand-holding-heart"></span> Momento Cultural</a> -->
 </div>
 </div>
 
@@ -173,9 +172,6 @@
                     <p v-if="o.presidente" class="w3-wide w3-small">Presidente da Mesa</p>
                     <p v-else class="w3-wide w3-small">&nbsp;</p>
                     
-                    <p v-if="o.nb === ''" class="w3-large" style="font-variant: small-caps;">
-                        <span class="w3-text-red far fa-file-pdf"></span> {{ o.nome }}</p>
-
                     <p v-else class="w3-large" style="font-variant: small-caps;">
                         <a target="_blank" type="application/pdf" hreflang="pt" v-bind:href="o.nb">
                             <span class="w3-text-theme far fa-file-pdf"></span>
@@ -361,11 +357,13 @@
         </div>
 
         <div class="w3-row w3-padding-16">
-                <div class="w3-half" id="idPatrocinios">
+                <div class="w3-half">
                     <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran', monospace !important;">Patrocínios</p>
-                    <span v-for="logo in images">
-                        <img :alt="logo.alt" :style="logo.style" :src="logo.src">
-                    </span>
+                    <img alt="Logotipo da Glintt" style="height:100px; padding:5px;" src="img/PAT04.jpg">
+                    <img alt="Logotipo do Crédito Agrícola Mútuo" style="height:100px; padding:5px;" src="img/PAT02.jpg">
+                    <img alt="Logotipo Martins Alves" style="height:50px; padding:5px;" src="img/PAT03.jpg">
+                    <img alt="Logotipo Grupo Lourenço & Lousada" style="height:100px; padding:5px;" src="img/PAT05.png">
+                    <img alt="Logotipo CML" style="height:100px; padding:5px;" src="img/PAT06.svg">
                 </div>
                 <div class="w3-half">
                     <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran', monospace !important;">Apoios</p>
