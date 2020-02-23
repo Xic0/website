@@ -195,8 +195,8 @@ var programa2 = new Vue({
 			},
 			{
 			   "alt":"Logotipo Provedor de Justiça",
-			   "style":"width:100%;padding:5px;",
-			   "src":"img/PJUS.jpg"
+			   "style":"height:80px;padding:5px;",
+			   "src":"img/PJUS.png"
 			},
 			{
 			   "alt":"Logotipo Ordem dos Advogados",
@@ -620,16 +620,32 @@ var Patrocinios = new Vue({
 			 },
 			 {
 				"alt":"Logotipo Martins Alves",
-				"style":"height:50px; padding:5px;",
+				"style":"height:65px; padding:5px;",
 				"src":"img/PAT03.jpg"
 			 },
 			 {
 				"alt":"Logotipo Comboios de Portugal",
-				"style":"width:100px;padding:5px;",
+				"style":"height:80px;padding:5px;",
 				"src":"img/PAT08.png"
 			 }
 		]
 	}
 })
 
-
+var Parceiros = new Vue({
+	"el":"#idParceiros",
+	"data":{
+		"images":[
+			{
+			   "alt":"Logotipo Ordem Psicólogos",
+			   "style":"height:100px; padding:5px;",
+			   "src":"img/PAR06.jpg"
+			},
+			{
+				"alt":"Logotipo do Centro de Formação da Associação de Escolas Rómulo de Carvalho",
+				"style":"height:100px; padding:5px;",
+				"src":"img/PAR01.png"
+			 }
+		]
+	}
+})

@@ -319,15 +319,11 @@
         </div>
         
         <div class="w3-row w3-padding-16">
-                <div class="w3-half">
+                <div class="w3-half" id="idParceiros">
                     <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran', monospace !important;">Parceiros</p>
-                    <img alt="Logotipo do Município de Viseu" style="height:100px; padding:5px;" src="img/PAR00.jpg">
-                    <img alt="Logotipo Ordem Psicólogos" style="height:100px; padding:5px;" src="img/PAR06.jpg">
-                    <img alt="Logotipo do Centro de Formação da Associação de Escolas Rómulo de Carvalho" style="height:100px; padding:5px;" src="img/PAR01.png">
-                    <img alt="Logotipo Museu Grão Vasco" style="height:100px; padding:5px;" src="img/PAR02.png">
-                    <img alt="Logotipo Museu Grão Vasco" style="height:100px; padding:5px;" src="img/PAR03.png">
-                    <img alt="Logotipo Museu Grão Vasco" style="height:100px; padding:5px;" src="img/PAR04.png">
-                    <img alt="Logotipo Agrupamento de Escolas Mundão" style="height:100px; padding:5px;" src="img/PAR05.png">
+                    <span v-for="logo in images">
+                        <img :alt="logo.alt" :style="logo.style" :src="logo.src">
+                    </span>
                 </div>
                 <div class="w3-half">
                     <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran', monospace !important;">Media Partner</p>
@@ -355,12 +351,12 @@
     <footer class="w3-black">
         <section class="w3-container w3-content w3-black w3-padding-64" style="max-width:900px" id="FOOTER">
             <h2 class="w3-wide" style="font-variant:small-caps">Secretariado</h2>
-            <div class="w3-half">
-                <i class="fa fa-home fa-lg" style="width:30px"></i> Morada: Rua da Escola s/n, 2655-430 ERICEIRA, Portugal<br>
-                <i class="fa fa-envelope fa-lg" style="width:30px"></i> E-mail: comunicacao@comdignitatis.org<br>
-                <i class="fa fa-phone fa-lg" style="width:30px"></i> Telefone: +351(93)574-40-24 ─ Rita Jorge<br>
+            <div class="w3-twothird">
+                <p><i class="fa fa-home fa-lg" style="width:30px"></i> Morada: Rua Dr. Carlos Galrão, 3 - R/C Dtº, 2640-467 Mafra, Portugal</p>
+                <p><i class="fa fa-envelope fa-lg" style="width:30px"></i> E-mail: comunicacao@comdignitatis.org</p>
+                <p><i class="fa fa-phone fa-lg" style="width:30px"></i> Telefone: +351(93)574-40-24 ─ Rita Jorge</p>
             </div>
-            <div class="w3-half w3-center">
+            <div class="w3-third w3-center">
                 <a href="https://www.facebook.com/ComDignitatis-561123327240658/"><i class="fab fa-facebook-square fa-3x" style="width:30px"></i></a>
             </div>
         </section>
