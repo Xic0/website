@@ -29,6 +29,25 @@ var organization = new Vue({
 	}
 })
 
+
+var mensagem = new Vue({
+	"el":"#idMensagem",
+	"data":{
+		"header":"Mensagem de Apresentação",
+		"paragrafos": [
+			"Com a adoção da , em 1948, as Nações Unidas estabeleceram um padrão comum de direitos humanos. Desde então todos os tratados subsequentes, que incidem sobre a generalidade ou a especificidade dos direitos humanos, têm como matriz o princípio fundamental de que todos os seres humanos, qualquer que seja a sua nacionalidade, local de residência, sexo, origem étnica, cor, religião, idioma ou qualquer outro status, devem ser tratados com igualdade e respeito pela sua dignidade enquanto pessoas.",
+			"Nesta linha, também a CDC desenvolve e incorpora o conceito dos direitos das crianças a partir do movimento geral de direitos humanos e define uma estratégia estruturante assente em todas as categorias - onde se incluem direitos civis, políticos, económicos, sociais e culturais – precisando, por outro lado, cada direito especificamente por forma a que se torne uma realidade para todas as crianças.",
+			"Não por acaso, é reconhecido o contributo que a Convenção vem assumindo, pelo seu impacto a nível mundial, na afirmação e garantia dos direitos humanos contribuindo decisivamente para os esforços desenvolvidos nesse sentido pelas instituições da ONU, particularmente pela UNICEF e pela Organização Internacional do trabalho (OIT). Tal como é uma evidência que o conhecimento sistemático do quadro internacional dos direitos do homem - envolvendo a sociedade civil, os profissionais, os pais e as próprias crianças - favorece um melhor conhecimento dos direitos da criança e ajuda a sensibilizar para as ações que garantam, a todas e a cada uma, a realização dos seus direitos sem discriminação de qualquer natureza.",
+			"Ciente desta realidade a ComDignitatis - Associação Portuguesa para a Promoção da Dignidade Humana prosseguindo o trabalho que vem desenvolvendo a favor das crianças na defesa da sua dignidade como pessoa, vai promover, em parceria com um conjunto de instituições públicas e privadas, um amplo debate sobre este tema, no quadro do III Congresso Europeu sobre a Justiça Amiga das Crianças.",
+			"Partindo dos princípios que enformam a Justiça Amiga das Crianças, concentrados em três questões-chave para a proteção dos direitos das crianças, designadamente, (i) a igualdade de oportunidades para todas em todos os níveis do seu desenvolvimento, (ii) a participação assegurando-lhes uma vida inclusiva e livre de violência e (iii) o acesso à justiça, é intenção da ComDignitatis promover o debate e a reflexão tendentes a estabelecer o diagnostico da situação, sinalizando indicadores de ganhos e de constrangimentos. E sendo bem conhecida a dificuldade que a materialização destes princípios e direitos tem evidenciado, sobretudo quando se está perante factores adversos que assolam as sociedades na atualidade, com forte impacto negativo no respeito pelos direitos humanos (com particular incidência no grupo das crianças migrantes- refugiadas não acompanhadas ou separadas da família - que enfrentam todos os dias situações de exclusão, de perigo e de enorme precariedade) pretende-se que o diagnóstico estabeleça uma atenção prioritária à situação da criança nestas condições. Dados recentes convocam-nos para a emergência desta prioridade.",
+			"A Europol estima que “desaparecem” cerca de 10 000 crianças migrantes não acompanhadas após a chegada à Europa. Algumas desaparecem porque querem continuar a sua jornada e procurar parentes; outras podem cair nas mãos de traficantes e serem exploradas e vitimas de abusos; outras ainda, mesmo quando acompanhadas pelos pais, sofrem frequentemente violações persistentes dos seus direitos humanos (exemplos desta situação: o uso recorrente da detenção em vez de proteção social e as lacunas relativas ao direito de asilo).",
+			"Estes dados vêm, aliás, suscitando preocupação crescente nas Instituições internacionais e nos decisores, tal como evidenciam a necessidade de políticas mais fortes e melhores recursos. E é por isso que o Conselho da Europa consagrou a proteção da criança migrante e refugiada como uma das ações prioritárias da “Estratégia Europeia sobre os Direitos da Criança (2016/2021) ”.",
+			"Por tudo o que antecede, o III Congresso Europeu sobre a Justiça Amiga da Criança tem como tema central os “Direitos Humanos e a Criança”, com um foco especial nas questões relativas às crianças migrantes, refugiadas, não acompanhadas ou afastadas da família. O objetivo é o de contribuir para promover um amplo debate sobre as questões que se identificam como violadoras dos direitos humanos da criança, dando especial relevância e visibilidade aos problemas da criança migrante, tendente a contribuir para a definição das melhores politicas de acolhimento, integração e proteção da criança nestas circunstancias, tendo como suporte e referência a , a Convenção dos Direitos da Criança e as Diretrizes da Justiça Amiga da Criança."
+		]
+	}
+})
+
+
 var c_cientifica = new Vue({
 	el: "#idCientifica",
 	data: {
