@@ -215,7 +215,7 @@ var programa2 = new Vue({
 			{
 			   "alt":"Logotipo Provedor de Justiça",
 			   "style":"height:80px;padding:5px;",
-			   "src":"img/PJUS.png"
+			   "src":"img/PJUS.jpg"
 			},
 			{
 			   "alt":"Logotipo Ordem dos Advogados",
@@ -235,7 +235,7 @@ var programa2 = new Vue({
 			{
 			   "alt":"Logotipo CEJ",
 			   "style":"height:80px; padding:5px;",
-			   "src":"img/CCCO08.png"
+			   "src":"img/CCCO08.jpg"
 			},
 			{
 			   "alt":"Logotipo Segurança Social",
@@ -245,12 +245,12 @@ var programa2 = new Vue({
 			{
 			   "alt":"Logotipo SCML",
 			   "style":"height:100px; padding:5px;",
-			   "src":"img/16.png"
+			   "src":"img/16.jpg"
 			},
 			{
 			   "alt":"Logotipo Casa Pia",
 			   "style":"height:100px; padding:5px;",
-			   "src":"img/CP.png"
+			   "src":"img/CP.jpg"
 			},
 			{
 			   "alt":"Logotipo CDFUC",
@@ -260,12 +260,12 @@ var programa2 = new Vue({
 			{
 			   "alt":"Logotipo NOVA FCSH",
 			   "style":"height:100px; padding:5px;",
-			   "src":"img/FCSH.png"
+			   "src":"img/FCSH.jpg"
 			},
 			{
 			   "alt":"Logotipo FCT",
 			   "style":"height:80px; padding:5px;",
-			   "src":"img/CCCO14.png"
+			   "src":"img/CCCO14.jpg"
 			},
 			{
 			   "alt":"Logotipo Universidade Atlântica",
@@ -285,7 +285,7 @@ var programa2 = new Vue({
 			{
 			   "alt":"Logotipo ComDignitatis",
 			   "style":"height:80px; padding:5px;",
-			   "src":"img/CCCO13.png"
+			   "src":"img/CCCO13.jpg"
 			}
 		 ]
 	}
