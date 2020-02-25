@@ -630,22 +630,22 @@ var Patrocinios = new Vue({
 			 {
 				"alt":"Logotipo Centro Internacional de Ensino e Investigação Fernão de Magalhães",
 				"style":"width:100px;padding:5px;",
-				"src":"img/PAT07.png"
+				"src":"img/PAT07.jpg"
 			 },
 			 {
 				"alt":"Logotipo Grupo Lourenço & Lousada",
 				"style":"height:100px; padding:5px;",
-				"src":"img/PAT05.png"
+				"src":"img/PAT05.jpg"
 			 },
 			 {
 				"alt":"Logotipo Martins Alves",
-				"style":"height:65px; padding:5px;",
+				"style":"height:50px; padding:5px;",
 				"src":"img/PAT03.jpg"
 			 },
 			 {
 				"alt":"Logotipo Comboios de Portugal",
 				"style":"height:80px;padding:5px;",
-				"src":"img/PAT08.png"
+				"src":"img/PAT08.jpg"
 			 }
 		]
 	}
@@ -663,7 +663,7 @@ var Parceiros = new Vue({
 			{
 				"alt":"Logotipo do Centro de Formação da Associação de Escolas Rómulo de Carvalho",
 				"style":"height:100px; padding:5px;",
-				"src":"img/PAR01.png"
+				"src":"img/PAR01.jpg"
 			 }
 		]
 	}
