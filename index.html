@@ -2,435 +2,124 @@
 <html lang="PT">
 <head>
     <meta charset=utf-8>
-    <meta name="description" content="Localização: Fundação Calouste Gulbenkian, Dias: 24 e 25 de Maio de 2018, Entidade Promotora: Comdignitatis" />
+    <meta name="description" content="Localização: Fundação Calouste Gulbenkian, Dias: 07 e 08 de Maio de 2020, Entidade Promotora: Comdignitatis" />
     <meta name="keywords" content="congresso, europeu, justiça, crianças" />
     <meta name="author" content="ComDignitatis">
     <meta name="robots" content="index, nofollow">
     <meta name=googlebot content=noodp />
     <meta name=viewport content="width=device-width, initial-scale=1">
     <!-- congresso, justiça, crianças -->
-    <title>II Congresso Europeu Sobre uma Justiça Amiga das Crianças</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-    <link rel="stylesheet" href="js/fontawesome-all.min.css">
-
-
-    <style>
-            body {font-family: "Lato", sans-serif !important}
-
-            h1, h2, h3, h4, h5, h6 {font-family: "Roboto", sans-serif !important; font-weight: 400; margin: 10px 0;}
-
-            .cd-rotate {
-                /* Safari */
-                -webkit-transform: rotate(-90deg);
-
-                /* Firefox */
-                -moz-transform: rotate(-90deg);
-
-                /* IE */
-                -ms-transform: rotate(-90deg);
-
-                /* Opera */
-                -o-transform: rotate(-90deg);
-
-                /* Internet Explorer */
-                filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-            }
-
-            .cd-cover-image {max-width:100%;background-size:cover;background-attachment:fixed;position:relative;background-color:#30662c !important}
-            .cd-list {list-style-type:square !important}
-            .w3-theme-l5 {color:#000 !important; background-color:#f0f8f0 !important}
-            .w3-theme-l4 {color:#000 !important; background-color:#cee9cc !important}
-            .w3-theme-l3 {color:#000 !important; background-color:#9dd49a !important}
-            .w3-theme-l2 {color:#fff !important; background-color:#6dbe67 !important}
-            .w3-theme-l1 {color:#fff !important; background-color:#489a42 !important}
-            .w3-theme-d1 {color:#fff !important; background-color:#2b5d28 !important}
-            .w3-theme-d2 {color:#fff !important; background-color:#275323 !important}
-            .w3-theme-d3 {color:#fff !important; background-color:#22481f !important}
-            .w3-theme-d4 {color:#fff !important; background-color:#1d3e1b !important}
-            .w3-theme-d5 {color:#fff !important; background-color:#183416 !important}
-            .cd-theme-bg {color:#fff !important; background-color:#A2C731 !important}
-
-            .w3-theme-light {color:#000 !important; background-color:#f0f8f0 !important}
-            .w3-theme-dark {color:#fff !important; background-color:#183416 !important}
-            .w3-theme-action {color:#fff !important; background-color:#183416 !important}
-
-            .w3-theme {color:#fff !important; background-color:#30662c !important}
-            .w3-text-theme {color:#30662c !important}
-            .w3-border-theme {border-color:#30662c !important}
-            .cd-border-theme {border-color:#30662c; border-right-style:ridge; vertical-align: middle !important}
-
-            .w3-hover-theme:hover {color:#fff !important; background-color:#30662c !important}
-            .w3-hover-text-theme {color:#30662c !important}
-            .w3-hover-border-theme:hover {border-color:#30662c !important}
-        </style>
+    <title>III Congresso Europeu Sobre uma Justiça Amiga das Crianças</title>
+    <link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato|Roboto|Catamaran&display=swap">
+    <link rel="stylesheet" type="text/css" href="css/comdignitatis.css">
+    <script type="text/javascript" src="https://kit.fontawesome.com/16719b769f.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
 <!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card-4">
-    <span class="w3-bar-item">II Congresso Europeu</span>
+<div id="Navbar" class="w3-top">
+<div class="w3-bar w3-black w3-card-4">
+    <span class="w3-bar-item">{{ shorttitle }}</span>
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fas fa-bars"></i></a>
     <a class="w3-bar-item w3-button w3-padding-large w3-right w3-hover-none w3-text-grey w3-hover-text-white w3-hide-small" href="#Programa"><span class="fas fa-clock"></span> Programa</a>
-    <a class="w3-bar-item w3-button w3-padding-large w3-right w3-hover-none w3-text-grey w3-hover-text-white w3-hide-small" href="https://goo.gl/forms/Hf2k5fPtL371e6aR2" target=_blank><span class="fas fa-list-alt"></span> Formulário de Inscrição</a>
-    <a class="w3-bar-item w3-button w3-padding-large w3-right w3-hover-none w3-text-amber w3-hover-text-white w3-hide-small" onclick="document.getElementById('MomentoCultural').style.display='block'"><span class="fas fa-hand-holding-heart"></span> Momento Cultural</a>
-  </div>
+    <a class="w3-bar-item w3-button w3-padding-large w3-right w3-hover-none w3-text-grey w3-hover-text-white w3-hide-small" href="https://forms.gle/svRpbc34sYR26r3f8" target=_blank><span class="fas fa-list-alt"></span> Formulário de Inscrição</a>
+</div>
 </div>
 
-<!-- Navbar on small screens -->
+<!-- Navbar on small screens -->  <!-- CHECK THIS -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
   <a class="w3-bar-item w3-button w3-padding-large" href="#Programa"><span class="fas fa-clock"></span> Programa</a>
-  <a class="w3-bar-item w3-button w3-padding-large" href="https://goo.gl/forms/Hf2k5fPtL371e6aR2" target=_blank><span class="fas fa-list-alt"></span> Formulário de Inscrição</a>
-  <a class="w3-bar-item w3-button w3-padding-large w3-text-amber" onclick="document.getElementById('MomentoCultural').style.display='block'"><span class="fas fa-hand-holding-heart"></span> Momento Cultural</a>
+  <a class="w3-bar-item w3-button w3-padding-large" href="https://forms.gle/svRpbc34sYR26r3f8" target=_blank><span class="fas fa-list-alt"></span> Formulário de Inscrição</a>
 </div>
 
 <!-- Page content -->
 <div class="w3-content w3-theme-l5" style="max-width:2000px;margin-top:46px">
 
-<!-- BANNER -->
+<!-- BANNER --> <!-- PEDIR FOTO > RES -->
 <div class="w3-display-container w3-center cd-cover-image">
-    <img alt="Poster do Congresso" src="img/banner.png" style="width:100%">
+    <img alt="Poster do Congresso" src="img/bannersite.png" style="width:100%">
 </div>
 
 <!-- LOGOS -->
-<div class="w3-panel w3-border-theme w3-bottombar w3-padding-32 w3-center w3-white" style="margin-top:0">
-    <img alt="Com o Alto Patrocínio de Sua Excelência o Presidente da Républica" style="width:100%;padding:5px;" src="img/PAT00.jpg">
-    <img alt="Logotipo Ministério Público" style="height:80px; padding:5px;" src="img/CCCO01.jpg">
-    <img alt="Logotipo Ordem dos Advogados" style="height:100px; padding:5px;" src="img/CCCO04.jpg">
-    <img alt="Logotipo DGRSP" style="height:80px; padding:5px;" src="img/CCCO02.jpg">
-    <img alt="Logotipo CNPDPCJ" style="height:100px; padding:5px;" src="img/CCCO03.jpg">
-    <img alt="Logotipo Segurança Social" style="padding:5px;" src="img/CCCO06.jpg">
-    <img alt="Logotipo SCML" style="height:100px; padding:5px;" src="img/16.png">
-    <img alt="Logotipo CEJ" style="height:80px; padding:5px;" src="img/CCCO08.png">
-    <img alt="Logotipo CDFUC" style="height:80px; padding:5px;" src="img/CCCO07.jpg">
-    <img alt="Logotipo CICS NOVA" style="height:100px; padding:5px;" src="img/14.png">
-    <img alt="Logotipo FCT" style="height:80px; padding:5px;" src="img/CCCO14.png">
-    <img alt="Logotipo Universidade Atlântica" style="height:80px; padding:5px;" src="img/CCCO09.jpg">
-    <img alt="Logotipo Cáritas" style="height:80px; padding:5px;" src="img/CCCO10.jpg">
-    <img alt="Logotipo Casa Pia" style="height:100px; padding:5px;" src="img/CP.png">
-    <img alt="Logotipo CrescerSer" style="height:80px; padding:5px;" src="img/CCCO12.jpg">
-    <img alt="Logotipo ComDignitatis" style="height:80px; padding:5px;" src="img/CCCO13.png">
-</div>
-
-<!-- MODAL -->
-<div id="MomentoCultural" class="w3-modal">
-    <div class="w3-modal-content w3-animate-zoom">
-        <header class="w3-container w3-black">
-            <span onclick="document.getElementById('MomentoCultural').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-            <h2 class="w3-center">Momento Cultural<br>(11 de Maio)</h2>
-        </header>
-        <div class="w3-display-container w3-center">
-            <img alt="Momento Social" src="img/MS.png" style="width:100%">
-        </div>
-    </div>
-</div>
-
-<!-- ENGLiSH MESSAGE -->
-<div id="Message" class="w3-container w3-content w3-padding-32 w3-justify w3-hide" style="max-width:900px">
-    <h2 class="w3-wide w3-center w3-round w3-padding-32 w3-theme" style="font-variant: small-caps;">Presentation</h2>
-    <p>ComDignitatis works towards the protection of Human Dignity and the preservation of Human Rights, giving special attention to Children’s Rights. As such, we promulgate the European Directives supporting the development of a more child-friendly justice system, by encouraging, also, a national debate on these matters, as it is our goal to raise the awareness of Governors and professionals towards the crucial part that these Directives play and the urgency on implementing them.</p>
-    <p>With this in mind, on May of 2016, ComDignitatis organized, at the Calouste Gulbenkian Foundation, in Lisbon, the first edition of a Congress that supported these European Directives, called “I Congresso Europeu Sobre Uma Justiça Amiga das Crianças” (“The First European Congress About a Child-Friendly Justice System”), partnering up with several public institutions and entities.</p>
-    <p>This event allowed us to present the Directives and to encourage a debate on Children’s Rights and a deeper analysis on what are the children’s real needs, especially when involved in lawsuits or out-of-court disputes.</p>
-    <p>Certain that the continuity of such work is of extreme importance, and determinant to generate a higher level of trust and interest on our judicial system amongst the youngsters, we decided to set out to a second edition of the 2016’s Congress, which will happen this year, on <strong>May 24th and 25th of 2018</strong>, in Calouste Gulbenkian’s Foundation. The <strong>“II Congresso Europeu Sobre Uma Justiça Amiga das Crianças”</strong>, has as starting point the Directives on a more child-friendly justice system, but in this edition we want the debate to focus more specifically on the prevention of juvenile delinquency and on the justice system that handles the cases of young offenders. You can know more about the goals of this event <a target="_blank" hreflanf="pt" type="application/pdf" href="NB2018/goals.pdf"><b class="w3-hover-theme">here</b></a>.</p>
-    <p>We hope, with this second edition, to create a place that enables the active sharing of knowledge and experiences, thus allowing you to collectively generate innovative and creative solutions that promote an efficient response for when a child needs judicial support and an adequate intervention for the elimination of the juvenile delinquency problem that exists today.</p>
-    <p>We invite you, once again, to join us and partake in this event with your knowledge, experience and opinion.</p>
-    <p>We are counting on you!</p>
-    <br>
-    <span class="w3-text-theme far fa-file-pdf fa-lg"></span> <a target="_blank" hreflanf="en" type="application/pdf" href="NB2018/prog_en.pdf"><b class="w3-hover-theme">Download Programme</b></a> (English)
-    <br><br><br>
-    <button onclick="elSwitcher('Mensagem', 'Message')" class="w3-btn w3-theme-action w3-left-align">Versão Portuguesa</button>
+<div id="idLogos" class="w3-panel w3-border-theme w3-bottombar w3-padding-32 w3-center w3-white" style="margin-top:0">
+    <span v-for="logo in images">
+        <img :alt="logo.alt" :style="logo.style" :src="logo.src">
+    </span>
 </div>
 
 <!-- MENSAGEM DE APRESENTAÇÃO -->
-    <div id="Mensagem" class="w3-container w3-content w3-padding-32 w3-justify w3-show" style="max-width:900px">
-        <h2 class="w3-wide w3-center w3-round w3-padding-32 w3-theme" style="font-variant: small-caps;">Mensagem de Apresentação</h2>
-        <p>No âmbito da sua missão como promotora da Dignidade Humana e da defesa dos Direito do Homem, em particular dos Direitos
-            da Criança, a ComDignitatis tem vindo a divulgar as Diretrizes Europeias para uma Justiça Amiga das Crianças, promovendo
-            um amplo debate, a nível nacional, que visa a sensibilização dos Governantes e dos profissionais para o papel crucial
-            das Diretrizes e para a emergência da sua implementação.</p>
-        <p>Em Maio de 2016 realizámos na Fundação Calouste Gulbenkian o I Congresso Europeu Sobre Uma Justiça Amiga das Crianças,
-            em parceria com diversas entidades Públicas e da Sociedade Civil.</p>
-        <p>O Encontro permitiu dar a conhecer, publicamente, as Diretrizes e promoveu um debate e reflexão sobre os Direitos da
-            criança e as suas necessidades, quando envolvida em processos judiciais e extrajudiciais.</p>
-        <p>Acreditando que a continuidade destes trabalhos é de extrema importância para a reflexão sobre os direitos das nossas
-            Crianças e determinante para despoletar nos mais novos a confiança no sistema judicial, vamos realizar nos dias <strong>24
-            e 25 de Maio de 2018</strong>, na Fundação Calouste Gulbenkian, o <strong>II Congresso Europeu Sobre uma Justiça Amiga das Crianças</strong>,
-            um encontro que, partindo das Diretrizes «Uma Justiça Amiga das Crianças», incidirá especialmente na prevenção da
-            delinquência juvenil e no sistema de justiça para jovens autores de delito. Conheça os <a target="_blank" hreflanf="pt" type="application/pdf" href="NB2018/objectivos.pdf"><b class="w3-hover-theme">objetivos</b></a> deste Congresso.</p>
-        <p>Esperamos que este Congresso seja um espaço de partilha ativa de conhecimentos e experiências e que contribua para a
-            construção coletiva de soluções inovadoras e criativas que promovam um efetivo acesso das crianças à justiça e uma
-            intervenção adequada para a eliminação do problema da delinquência juvenil, entre nós.</p>
-        <p>Convidamo-lo uma vez mais a juntar-se a nós e a este desafio, participando no Congresso com o seu saber, experiência
-            e opinião.</p>
-        <p>Contamos consigo!</p>
-        <br>
-        <button onclick="elSwitcher('Message', 'Mensagem')" class="w3-btn w3-theme-action w3-left-align">English Version</button>
+<div id="idMensagem" class="w3-container w3-content w3-padding-16 w3-justify w3-show" style="max-width:900px">
+    <h2 class="w3-wide w3-center w3-round w3-padding-16 w3-theme" style="font-variant: small-caps;">{{ header }}</h2>
+    <div v-for="p in paragrafos">
+        <p>{{ p }}</p>
     </div>
-
+</div>    
 <!-- ENTIDADE PROMOTORA -->
-<div id="Promotora" class="w3-container w3-content w3-padding-32" style="max-width:900px">
-    <h2 class="w3-wide w3-center w3-round w3-padding-32 w3-theme" style="font-variant: small-caps;">Entidade Promotora</h2>
+<div id="Promotora" class="w3-container w3-content w3-padding-16" style="max-width:900px">
+    <h2 class="w3-wide w3-center w3-round w3-padding-16 w3-theme" style="font-variant: small-caps;">Entidade Promotora</h2>
     <ul class="cd-list">
         <li>ComDignitatis - Associação Portuguesa para a Promoção da Dignidade Humana</li>
     </ul>
 </div>
 
 <!-- COMISSÃO ORGANIZADORA -->
-<div id="Organização" class="w3-container w3-content w3-padding-32" style="max-width:900px">
-    <h2 class="w3-wide w3-center w3-round w3-padding-32 w3-theme" style="font-variant: small-caps;">Comissão Organizadora</h2>
+<div id="idOrganização" class="w3-container w3-content w3-padding-16" style="max-width:900px">
+    <h2 class="w3-wide w3-center w3-round w3-padding-16 w3-theme" style="font-variant: small-caps;">{{ header }}</h2>
     <ul class="cd-list">
-        <li>Procuradoria-Geral da República</li>
-        <li>Ordem dos Advogados</li>
-        <li>Direção-Geral de Reinserção e Serviços Prisionais</li>
-        <li>Comissão Nacional de Promoção dos Direitos e Proteção das Crianças e Jovens</li>
-        <li>Instituto da Segurança Social, I.P.</li>
-        <li>Santa Casa da Misericórdia de Lisboa</li>
-        <li>Centro de Estudos Judiciários</li>
-        <li>Centro de Direito da Família da Universidade de Coimbra</li>
-        <li>Centro Interdisciplinar de Ciências Sociais da Universidade Nova de Lisboa (CICS.NOVA)</li>
-        <li>Universidade Atlântica</li>
-        <li>Cáritas Portuguesa</li>
-        <li>Casa Pia de Lisboa</li>
-        <li>CrescerSer - Associação Portuguesa para o Direito dos Menores e da Família</li>
+        <li v-for="member in members">{{ member.text }}</li>
     </ul>
 </div>
 
 <!-- COMISSÃO CIENTÍFICA -->
-<div id="Organização" class="w3-container w3-content w3-padding-32" style="max-width:900px">
-    <h2 class="w3-wide w3-center w3-round w3-padding-32 w3-theme" style="font-variant: small-caps;">Comissão Científica</h2>
+<div id="idCientifica" class="w3-container w3-content w3-padding-16" style="max-width:900px">
+    <h2 class="w3-wide w3-center w3-round w3-padding-16 w3-theme" style="font-variant: small-caps;">{{ header }}</h2>
     <ul class="cd-list">
-        <li>Professor Doutor Guilherme de Oliveira</li>
-        <li>Doutora Maria João Leote de Carvalho</li>
-        <li>Doutora Rosa Clemente</li>            
+        <li v-for="membro in membros">{{ membro.nome }}</li>
     </ul>
 </div>
 
-<!-- AVISOS -->
-<div class="w3-container w3-content w3-padding-32 w3-hide" style="max-width:900px">
-<div class="w3-panel w3-round w3-border w3-border-theme w3-theme-l2">
-<span class="w3-text-theme fa fa-5x fa-info-circle" style="line-height:0.4em;"></span>
-<p class="w3-xlarge w3-center" style="margin-top:-5px">Assistir ao congresso conta como horas de formação para professores e crédito para psicólogos.</p>
-</div>
-</div>
 
 <!-- PROGRAMA -->
 <div id="Programa" class="w3-container w3-content" style="max-width:900px">
-    <h2 class="w3-wide w3-center w3-round w3-padding-32 w3-theme" style="font-variant: small-caps;">Programa</h2>
+    <h2 class="w3-wide w3-center w3-round w3-padding-16 w3-theme" style="font-variant: small-caps;">Programa</h2>
     <div class="w3-row w3-padding-16 w3-center">
-        <a href="javascript:void(0)" onclick="openProgram(event, 'Programa24');">
-            <div class="w3-half tablink w3-bottombar w3-hover-border-theme w3-border-theme w3-padding">24 de Maio de 2018</div>
+        <a href="javascript:void(0)" onclick="openProgram(event, 'idPrograma1');">
+            <div class="w3-half tablink w3-bottombar w3-hover-border-theme w3-border-theme w3-padding">07 de Maio de 2020</div>
         </a>
-        <a href="javascript:void(0)" onclick="openProgram(event, 'Programa25');">
-            <div class="w3-half tablink w3-bottombar w3-hover-border-theme w3-padding">25 de Maio de 2018</div>
+        <a href="javascript:void(0)" onclick="openProgram(event, 'idPrograma2');">
+            <div class="w3-half tablink w3-bottombar w3-hover-border-theme w3-padding">08 de Maio de 2020</div>
         </a>
     </div>
-    <div id="Programa24" class="cPrograma" style="display:block">
+    <div id="idPrograma1" class="cPrograma" style="display:block">
         <table class="w3-table w3-striped w3-theme-l4">
             <tbody>
-                <tr>
-                    <td class="cd-border-theme">08h30</td>
+                <tr v-for="h in horario">
+                    <td class="cd-border-theme">{{ h.hora }}</td>
                     <td>
-                        <p>Receção dos Participantes</p>
+                        <p v-if="h.tema"><i>“{{ h.título }}”</i></p>
+                        <p v-else>{{ h.título }}</p>
+                        <p v-if='h.debate'>Debate</p>
                     </td>
                 </tr>
-                <tr>
-                    <td class="cd-border-theme">09h00</td>
-                    <td>
-                        <p>Sessão de Abertura</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cd-border-theme">09h30</td>
-                    <td>
-                        <p>
-                            <i>“Acesso à Justiça e Participação: os Desafios da Convenção dos Direitos da Criança”</i>
-                        </p>
-                        <p>
-                            <i>“A Importância da Perspetiva da Criança na Análise do seu Direito à Participação nos Processos
-                                que lhe Dizem Respeito”
-                            </i>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cd-border-theme">10h30</td>
-                    <td>
-                        <p>Pausa para Café</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cd-border-theme">11h00</td>
-                    <td>
-                        <p>
-                            <i>“Aspetos Psicossociais da Prevenção da Delinquência Juvenil”</i>
-                        </p>
-                        <p>
-                            <i>“A Intervenção da Comunidade e das Organizações na Prevenção da Delinquência Juvenil”</i>
-                        </p>
-                        <p>
-                            <i>“Transições online-offline: análise de alguns desafios do uso das redes sociais na infância e
-                                adolescência”
-                            </i>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cd-border-theme">12h45</td>
-                    <td>
-                        <p>Almoço livre</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cd-border-theme">14h15</td>
-                    <td>
-                        <p>
-                            <i>“La Prévention de la Délinquance Juvénile: Les Promesses de la Justice Restaurative”</i>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cd-border-theme">15h00</td>
-                    <td>
-                        <p>
-                            <i>“«Aos Olhos dos Outros Nós Somos Sempre o Problema!» Desafios à Intervenção da Justiça Juvenil”</i>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cd-border-theme">15h30</td>
-                    <td>
-                        <p>Pausa para Café</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cd-border-theme">15h45</td>
-                    <td>
-                        <p>
-                            <i>“Interface do Sistema de Promoção e Proteção com o Sistema de Justiça Juvenil”</i>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cd-border-theme">16h30</td>
-                    <td>
-                        <p>
-                            <i>“O papel das Magistraturas no Sistema de Justiça Juvenil”</i>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cd-border-theme">17h00</td>
-                    <td>
-                        <p>Sessão de Encerramento do 1º dia do Congresso presidida pelo Comissário Europeu da Investigação, Ciência e Inovação, Eng.º Carlos Moedas</p>
-                    </td>
-                </tr>
-                <!-- <tr>
-                    <td colspan=2 class="w3-tag w3-round w3-large w3-theme">
-                        <h4>Programa Social</h4>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cd-border-theme">19h00</td>
-                    <td>
-                        <p>Receção no Convento de Santos-o-Novo</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cd-border-theme">19h15</td>
-                    <td>
-                        <p>Jantar no Convento de Santos-o-Novo</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cd-border-theme">21h30</td>
-                    <td>
-                        <p>Concerto do Coro <em>Corelis</em> na Igreja do Convento de Santos-o-Novo</p>
-                    </td>
-                </tr> -->
             </tbody>
         </table>
     </div>
-    <div id="Programa25" class="cPrograma" style="display:none">
+    <div id="idPrograma2" class="cPrograma" style="display:none">
         <table class="w3-table w3-striped w3-theme-l4">
             <tbody>
-                <tr>
-                    <td class="cd-border-theme">09h00</td>
+                <tr v-for="h in horario">
+                    <td class="cd-border-theme">{{ h.hora }}</td>
                     <td>
-                        <p class="w3-center">
-                            <span class="w3-wide">Sessões Paralelas</span>
-                            <br>
-                            <i>“Prevenção da Delinquência Juvenil e os Princípios da Justiça Amiga"</i>
-                        </p>
-                        <ol class="cd-list">
-                            <li>
-                                <i>“Sociedade, Comunicação social e Prevenção Situacional”</i>
-                            </li>
-                            <li>
-                                <i>“Interface entre Sistema de Proteção e o Sistema de Justiça Juvenil – o Papel das Magistraturas”</i>
-                            </li>
-                            <li>
-                                <i>“O Acesso à Justiça e a Participação da Criança”</i>
-                            </li>
-                            <li>
-                                <i>“Resolução Consensual de Conflitos”</i>
-                            </li>
+                    <p class="w3-center" v-if="h.paralelas">
+                        <span class="w3-wide">Sessões Paralelas</span><br>
+                        <i>{{ h.título }}</i>
+                        <ol class="cd-list" v-for="t in h.subtítulos">
+                            <li><i>“{{ t }}”</i></li>
                         </ol>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cd-border-theme">11h00</td>
-                    <td>
-                        <p>Pausa para Café</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cd-border-theme">11h30</td>
-                    <td>
-                        <p>Continuação dos trabalhos</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cd-border-theme">12h30</td>
-                    <td>
-                        <p>Almoço Livre</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cd-border-theme">14h30</td>
-                    <td>
-                        <p>Apresentação de trabalhos realizados pelos alunos dos Agrupamentos de Escolas do Mundão e do Viso sobre “Uma Justiça Amiga nas Escolas”</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cd-border-theme">15h00</td>
-                    <td>
-                            <p>Apresentação das Conclusões das Sessões Paralelas</p>
-                            <p>Debate</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cd-border-theme">16h00</td>
-                    <td>
-                        <p>Pausa para Café</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cd-border-theme">16h15</td>
-                    <td>
-                        <p>
-                            <i lang="fr">“Le Juge des Enfants: un Juge Mineur? Débat entre Sécurité Publique et Intérêt de L’Enfant et la Place de sa Parole”</i>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="cd-border-theme">17h00</td>
-                    <td>
-                        <p>Concerto do Coro Corelis</p>
-                    </td>
+                    </p>
+                    <p v-if="!h.paralelas">{{ h.título }}</p>
+                    <p v-if='h.debate'>Debate</p>
                 </tr>
             </tbody>
         </table>
@@ -439,337 +128,195 @@
 
 <p class="w3-padding-16">&nbsp;</p>
 
-<!-- ORADORES -->
-    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:900px" id="Oradores">
-        <h2 class="w3-wide w3-round w3-padding-32 w3-theme" style="font-variant: small-caps;">Oradores</h2>
-        <div class="w3-row w3-padding-32" id="Session1_1">
-            <h4 class="w3-text-theme">
-                <i>“Acesso à Justiça e Participação: os Desafios da Convenção dos Direitos da Criança”</i>
-            </h4>
-            <div class="w3-half">
-                <p class="w3-wide w3-small">Presidente da Mesa</p>
-                <p class="w3-large" style="font-variant: small-caps;">
-                    <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_RoCl.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Rosa Clemente</p>
-                <p class="w3-small">Centro de Direito da Família da Faculdade de Direito de Coimbra</p>
-            </div>
-            <div class="w3-half">
-                <p class="w3-wide w3-small">&nbsp;</p>
-                <p class="w3-large" style="font-variant: small-caps;">
-                        <span class="w3-text-red far fa-file-pdf"></span> Marta Santos Pais</p>
-                <p class="w3-small">Representante Especial do Secretário-Geral das Nações Unidas sobre a Violência contra Crianças</p>
-            </div>
-        </div>
-        <div class="w3-row w3-padding-32" id="Session1_2">
-            <h4 class="w3-text-theme">
-                <i>“A Importância da Perspetiva da Criança na Análise do seu Direito à Participação nos Processos que lhe Dizem Respeito”</i>
-            </h4>
-            <div class="w3-center">
-                <p class="w3-wide w3-small">&nbsp;</p>
-                <p class="w3-large" style="font-variant: small-caps;">
-                    <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_RM.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Rosa Martins</p>
-                <p class="w3-small">Faculdade de Direito de Coimbra</p>
-            </div>
-        </div>
-        <div class="w3-row w3-padding-32" id="Session1_3">
-            <h4 class="w3-text-theme">
-                <i>“Aspetos Psicossociais da Prevenção da Delinquência Juvenil”</i>
-            </h4>
-            <div class="w3-half">
-                <p class="w3-wide w3-small">Presidente da Mesa</p>
-                <p class="w3-large" style="font-variant: small-caps;">
-                    <span class="w3-text-red far fa-file-pdf"></span> Edmundo Martinho</p>
-                <p class="w3-small">Santa Casa da Misericórdia de Lisboa</p>
-            </div>
-            <div class="w3-half">
-                <p class="w3-wide w3-small">&nbsp;</p>
-                <p class="w3-large"><a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_JC.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Josefina Castro</p>
-                <p class="w3-small">Faculdade de Direito da Universidade do Porto</p>
-            </div>
-        </div>
-        <div class="w3-row w3-padding-32" id="Session1_4">
-            <h4 class="w3-text-theme">
-                <i>“A Intervenção da Comunidade e das Organizações na Prevenção da Delinquência Juvenil”</i>
-            </h4>
-            <div class="w3-half">
-                <p class="w3-wide w3-small">Presidente da Mesa</p>
-                <p class="w3-large" style="font-variant: small-caps;"><a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_CF.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Cristina Fangueiro</p>
-                <p class="w3-small">Casa Pia de Lisboa</p>
-            </div>
-            <div class="w3-half">
-                <p class="w3-wide w3-small">&nbsp;</p>
-                <p class="w3-large" style="font-variant: small-caps;"><a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_KA.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Katia Almeida</p>
-                <p class="w3-small">Pressley Ridge</p>
-            </div>
-        </div>
-        <div class="w3-row w3-padding-32" id="Session1_5">
-            <h4 class="w3-text-theme">
-                <i>“Transições online-offline: análise de alguns desafios do uso das redes sociais na infância e adolescência”</i>
-            </h4>
-            <div class="w3-center">
-                <p class="w3-wide w3-small">&nbsp;</p>
-                <p class="w3-large" style="font-variant: small-caps;">
-                    <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_NO.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Nuno Otero</p>
-                <p class="w3-small">Linnaeus University, Sweden</p>
-            </div>
-        </div>
-        <div class="w3-row w3-padding-32" id="Session1_6">
-            <h4 class="w3-text-theme">
-                <i>“Prevenção da Delinquência Juvenil: Intervenção Situacional e Justiça Restaurativa”</i>
-            </h4>
-            <div class="w3-half">
-                <p class="w3-wide w3-small">Presidente da Mesa</p>
-                <p class="w3-large" style="font-variant: small-caps;">
-                    <span class="w3-text-red far fa-file-pdf"></span> Rosário Farmhouse</p>
-                <p class="w3-small">Comissão Nacional de Promoção dos Direitos e Proteção das Crianças e Jovens</p>
-            </div>
-            <div class="w3-half">
-                <p class="w3-wide w3-small">&nbsp;</p>
-                <p class="w3-large" style="font-variant: small-caps;">
-                        <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_BS.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Benjamin Sayous</p>
-                <p class="w3-small">Universidade de Pau, França</p>
-            </div>
-        </div>
-        <div class="w3-row w3-padding-32" id="Session1_7">
-            <h4 class="w3-text-theme">
-                <i>“«Aos Olhos dos Outros Nós Somos Sempre o Problema!» Desafios à Intervenção da Justiça Juvenil”</i>
-            </h4>
-            <div class="w3-half">
-                <p class="w3-wide w3-small">Presidente da Mesa</p>
-                <p class="w3-large" style="font-variant: small-caps;">
-                    <span class="w3-text-red far fa-file-pdf"></span> Celso Manata</p>
-                <p class="w3-small">Direção-Geral de Reinserção e Serviços Prisionais</p>
-            </div>
-            <div class="w3-half">
-                <p class="w3-wide w3-small">&nbsp;</p>
-                <p class="w3-large" style="font-variant: small-caps;">
-                    <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_MJLC.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Maria João Leote de Carvalho</p>
-                <p class="w3-small">Centro Interdisciplinar de Ciências Sociais da Universidade Nova de Lisboa</p>
-            </div>
-        </div>
-        <div class="w3-row w3-padding-32" id="Session1_8">
-            <h4 class="w3-text-theme">
-                <i>“Interface do Sistema de Promoção e Proteção com o Sistema de Justiça Juvenil”</i>
-            </h4>
-            <div class="w3-third">
-                <p class="w3-wide w3-small">Presidente da Mesa</p>
-                <p class="w3-large" style="font-variant: small-caps;">
-                    <span class="w3-text-red far fa-file-pdf"></span> Guilherme Figueiredo</p>
-                <p class="w3-small">Ordem dos Advogados</p>
-            </div>
-            <div class="w3-third">
-                <p class="w3-wide w3-small">&nbsp;</p>
-                <p class="w3-large" style="font-variant: small-caps;">
-                    <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_JOC.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> João Cóias</p>
-                <p class="w3-small">Direção-Geral de Reinserção e Serviços Prisionais</p>
-            </div>
-            <div class="w3-third">
-                <p class="w3-wide w3-small">&nbsp;</p>
-                <p class="w3-large" style="font-variant: small-caps;">
-                    <span class="w3-text-red far fa-file-pdf"></span> Sandra Alves</p>
-                <p class="w3-small">Instituto da Segurança Social, IP</p>
-            </div>
-        </div>
-        <div class="w3-row w3-padding-32" id="Session1_9">
-            <h4 class="w3-text-theme">
-                <i>“O papel das Magistraturas no Sistema de Justiça Juvenil”</i>
-            </h4>
-            <div class="w3-half">
-                <p class="w3-wide w3-small">Presidente da Mesa</p>
-                <p class="w3-large" style="font-variant: small-caps;">
-                    <span class="w3-text-red far fa-file-pdf"></span> Laborinho Lúcio</p>
-                <p class="w3-small">Juiz Conselheiro Jubilado</p>
-            </div>
-            <div class="w3-half">
-                <p class="w3-wide w3-small">&nbsp;</p>
-                <p class="w3-large" style="font-variant: small-caps;">
-                    <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_RC.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Rui do Carmo</p>
-                <p class="w3-small">Procurador da República Jubilado</p>
-            </div>
-        </div>  
-        <div class="w3-row w3-padding-32" id="Session2_1">
-            <h4 class="w3-text-theme">
-                <i>“Sociedade, Comunicação social e Prevenção Situacional”</i>
-            </h4>
-            <div class="w3-quarter">
-                <p class="w3-large" style="font-variant: small-caps;">
-                    <span class="w3-text-red far fa-file-pdf"></span> Fausto Amaro</p>
-                <p class="w3-small">Centro de Administração e Politicas Públicas, ISCSP,Universidade de Lisboa</p>
-            </div>
-            <div class="w3-quarter">
-                <p class="w3-large" style="font-variant: small-caps;">
-                    <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_NO.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Nuno Otero</p>
-                <p class="w3-small">Linnaeus University, Sweden</p>
-            </div>
-            <div class="w3-quarter">
-                <p class="w3-large" style="font-variant: small-caps;">
-                    <span class="w3-text-red far fa-file-pdf"></span> Rogério Canhões</p>
-                <p class="w3-small">Centro Educativo Navarro de Paiva</p>
-            </div>
-            <div class="w3-quarter">
-                <p class="w3-large" style="font-variant: small-caps;">
-                    <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_RAP.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Rui Alves Pereira</p>
-                <p class="w3-small">Advogado</p>
-            </div>
-        </div>
-        <div class="w3-padding-32" id="Session2_2">
-            <h4 class="w3-text-theme">
-                <i>“Interface entre Sistema de Proteção e o Sistema de Justiça Juvenil – o Papel das Magistraturas”</i>
-            </h4>
-            <div class="w3-row">
-                <div class="w3-third">
-                    <p class="w3-large" style="font-variant: small-caps;">
-                            <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_CC.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Catarina Condesso</p>
-                    <p class="w3-small">Juíza de Direito</p>
-                </div>
-                <div class="w3-third">
-                        <p class="w3-large" style="font-variant: small-caps;">
-                            <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_JF.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Joana Garcia da Fonseca</p>
-                        <p class="w3-small">Comissão Nacional de Promoção dos Direitos e Proteção das Crianças e Jovens</p>
-                </div>
-                <div class="w3-third">
-                    <p class="w3-large" style="font-variant: small-caps;">
-                            <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_MC.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Marta Carreira</p>
-                    <p class="w3-small">ABLA - Assoiação de Beneficência Luso-Alemã / ISCE - Instituto Superior de Ciências Educativas</p>
-                </div>
-            </div>
-            <div class="w3-row">
-                <div class="w3-half">
-                    <p class="w3-large" style="font-variant: small-caps;">
-                        <span class="w3-text-red far fa-file-pdf"></span> Alexandra Queiroz</p>
-                        <p class="w3-small">Advogada</p>
 
+<!-- ORADORES -->
+<div class="w3-container w3-content w3-center w3-padding-16" style="max-width:900px;" id="idOradores">
+    <h2 class="w3-wide w3-round w3-padding-16 w3-theme" style="font-variant: small-caps;">Oradores</h2>
+    <div v-for="s in sessions">
+        
+        <div class="w3-row w3-padding-16" v-if="s.layout === 1">
+            <h4 class="w3-text-theme"><i>“{{ s.title }}”</i></h4>
+            <div v-for="o in s.oradores">
+                <div class="w3-center">
+                    <p v-if="o.presidente" class="w3-wide w3-small">Presidente da Mesa</p>
+                    <p v-else class="w3-wide w3-small">&nbsp;</p>
+                    
+                    <p v-if="o.nb === ''" class="w3-large" style="font-variant: small-caps;"><span class="w3-text-red far fa-file-pdf"></span> {{ o.nome }}</p>
+                    <p v-else class="w3-large" style="font-variant: small-caps;"><a target="_blank" type="application/pdf" hreflang="pt" v-bind:href="o.nb"><span class="w3-text-theme far fa-file-pdf"></span></a> {{ o.nome }}</p>
+
+                    <p class="w3-small">{{ o.cargo }}</p>
                 </div>
+            </div>
+        </div>
+
+        <div class="w3-row w3-padding-16" v-if="s.layout === 2">
+            <h4 class="w3-text-theme"><i>“{{ s.title }}”</i></h4>
+            <div v-for="o in s.oradores">
+            
                 <div class="w3-half">
-                    <p class="w3-large" style="font-variant: small-caps;">
-                        <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_NM.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Norberto Martins</p>
-                        <p class="w3-small">Procurador da República</p>
+                    <p v-if="o.presidente" class="w3-wide w3-small">Presidente da Mesa</p>
+                    <p v-else class="w3-wide w3-small">&nbsp;</p>
+
+                    <p v-if="o.nb === ''" class="w3-large" style="font-variant: small-caps;">
+                        <span class="w3-text-red far fa-file-pdf"></span> {{ o.nome }}</p>
+
+                    <p v-else class="w3-large" style="font-variant: small-caps;">
+                        <a target="_blank" type="application/pdf" hreflang="pt" v-bind:href="o.nb">
+                            <span class="w3-text-theme far fa-file-pdf"></span>
+                        </a> {{ o.nome }}
+                    </p>
+                    
+                    <p class="w3-small">{{ o.cargo }}</p>
                 </div>
+
             </div>
+
         </div>
-        <div class="w3-row w3-padding-32" id="Session2_3">
-            <h4 class="w3-text-theme">
-                <i>“O Acesso à Justiça e a Participação da Criança”</i>
-            </h4>
-            <div class="w3-quarter">
-                <p class="w3-large" style="font-variant: small-caps;">
-                    <span class="w3-text-red far fa-file-pdf"></span> Clotilde Neves</p>
-                <p class="w3-small">Advogada</p>
-            </div>
-            <div class="w3-quarter">
-                <p class="w3-large" style="font-variant: small-caps;">
-                    <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_MCL.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Maria da Conceição Lopes</p>
-                <p class="w3-small">Procuradora da República</p>
-            </div>
-            <div class="w3-quarter">
-                <p class="w3-large" style="font-variant: small-caps;">
-                    <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_RG.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Rui Godinho</p>
-                <p class="w3-small">Santa Casa da Misericórdia de Lisboa</p>
-            </div>  
-            <div class="w3-quarter">
-                <p class="w3-large" style="font-variant: small-caps;">
-                    <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_RA.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Rute Agulhas</p>
-                <p class="w3-small">ISCTE – Instituto Universitário de Lisboa</p>
-            </div>
-        </div>
-        <div class="w3-padding-32" id="Session2_4">
-            <h4 class="w3-text-theme">
-                <i>“Resolução Consensual de Conflitos”</i>
-            </h4>
-            <div class="w3-row">
+
+        <div class="w3-row w3-padding-16" v-if="s.layout === 6">
+            <h4 class="w3-text-theme"><i>“{{ s.title }}”</i></h4>
+            <div v-for="o in s.oradores.slice(0, 3)">
+            
                 <div class="w3-third">
-                    <p class="w3-large" style="font-variant: small-caps;">
-                        <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_AC.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Adelino Calado</p>
-                    <p class="w3-small">Agrupamento de Escolas de Carcavelos</p>
+                    <p v-if="o.presidente" class="w3-wide w3-small">Presidente da Mesa</p>
+                    <p v-else class="w3-wide w3-small">&nbsp;</p>
+
+                    <p v-if="o.nb === ''" class="w3-large" style="font-variant: small-caps;">
+                        <span class="w3-text-red far fa-file-pdf"></span> {{ o.nome }}</p>
+
+                    <p v-else class="w3-large" style="font-variant: small-caps;">
+                        <a target="_blank" type="application/pdf" hreflang="pt" v-bind:href="o.nb">
+                            <span class="w3-text-theme far fa-file-pdf"></span>
+                        </a> {{ o.nome }}
+                    </p>
+                    
+                    <p class="w3-small">{{ o.cargo }}</p>
                 </div>
+
+            </div>
+            <div class="w3-row">
+            <div v-for="o in s.oradores.slice(3)">
+            
                 <div class="w3-third">
-                    <p class="w3-large" style="font-variant: small-caps;">
-                        <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_AI.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Ana Ilhéu</p>
-                    <p class="w3-small">Direção-Geral de Reinserção e Serviços Prisionais</p>
+                    <p v-if="o.presidente" class="w3-wide w3-small">Presidente da Mesa</p>
+                    <p v-else class="w3-wide w3-small">&nbsp;</p>
+
+                    <p v-if="o.nb === ''" class="w3-large" style="font-variant: small-caps;">
+                        <span class="w3-text-red far fa-file-pdf"></span> {{ o.nome }}</p>
+
+                    <p v-else class="w3-large" style="font-variant: small-caps;">
+                        <a target="_blank" type="application/pdf" hreflang="pt" v-bind:href="o.nb">
+                            <span class="w3-text-theme far fa-file-pdf"></span>
+                        </a> {{ o.nome }}
+                    </p>
+                    
+                    <p class="w3-small">{{ o.cargo }}</p>
                 </div>
+
+            </div>
+            </div>
+
+        </div>
+
+        <div class="w3-row w3-padding-16" v-if="s.layout === 7">
+            <h4 class="w3-text-theme"><i>“{{ s.title }}”</i></h4>
+            <div v-for="o in s.oradores.slice(0, 3)">
+            
                 <div class="w3-third">
-                    <p class="w3-large" style="font-variant: small-caps;">
-                        <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_CR.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Célia Reis</p>
-                    <p class="w3-small">Mediadora Escolar</p>
+                    <p v-if="o.presidente" class="w3-wide w3-small">Presidente da Mesa</p>
+                    <p v-else class="w3-wide w3-small">&nbsp;</p>
+
+                    <p v-if="o.nb === ''" class="w3-large" style="font-variant: small-caps;">
+                        <span class="w3-text-red far fa-file-pdf"></span> {{ o.nome }}</p>
+
+                    <p v-else class="w3-large" style="font-variant: small-caps;">
+                        <a target="_blank" type="application/pdf" hreflang="pt" v-bind:href="o.nb">
+                            <span class="w3-text-theme far fa-file-pdf"></span>
+                        </a> {{ o.nome }}
+                    </p>
+                    
+                    <p class="w3-small">{{ o.cargo }}</p>
                 </div>
+
             </div>
             <div class="w3-row">
-                <div class="w3-half">
-                    <p class="w3-large" style="font-variant: small-caps;">
-                        <span class="w3-text-red far fa-file-pdf"></span> Cristina de Sousa</p>
-                    <p class="w3-small">Advogada</p>
+            <div v-for="o in s.oradores.slice(3)">
+            
+                <div class="w3-quarter">
+                    <p v-if="o.presidente" class="w3-wide w3-small">Presidente da Mesa</p>
+                    <p v-else class="w3-wide w3-small">&nbsp;</p>
+
+                    <p v-if="o.nb === ''" class="w3-large" style="font-variant: small-caps;">
+                        <span class="w3-text-red far fa-file-pdf"></span> {{ o.nome }}</p>
+
+
+                    <p v-else class="w3-large" style="font-variant: small-caps;">
+                        <a target="_blank" type="application/pdf" hreflang="pt" v-bind:href="o.nb">
+                            <span class="w3-text-theme far fa-file-pdf"></span>
+                        </a> {{ o.nome }}
+                    </p>
+                    
+                    <p class="w3-small">{{ o.cargo }}</p>
                 </div>
-                <div class="w3-half">
-                    <p class="w3-large" style="font-variant: small-caps;">
-                        <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_MR.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Marta Risques</p>
-                    <p class="w3-small">Mediadora Familiar</p>
-                </div>
+
             </div>
+            </div>
+
         </div>
-        <div class="w3-padding-32" id="Session2_5">
-            <h4 class="w3-text-theme">
-                <i>Apresentação das Conclusões das Sessões Paralelas</i>
-            </h4>
-            <div class="w3-row">
+
+        <div class="w3-row w3-padding-16" v-if="s.layout === 10">
+            <h4 class="w3-text-theme"><i>“{{ s.title }}”</i></h4>
+            <div v-for="o in s.oradores.slice(0, 2)">
+            
                 <div class="w3-half">
-                    <p class="w3-wide w3-small">Presidente da Mesa</p>
-                    <p class="w3-large" style="font-variant: small-caps;">
-                        <span class="w3-text-red far fa-file-pdf"></span> Joana Marques Vidal</p>
-                    <p class="w3-small">Procuradora-Geral da República</p>
+                    <p v-if="o.extra" class="w3-wide w3-small">{{ o.texto }}</p>
+                    <p v-else class="w3-wide w3-small">&nbsp;</p>
+
+                    <p v-if="o.nb === ''" class="w3-large" style="font-variant: small-caps;">
+                        <span class="w3-text-red far fa-file-pdf"></span> {{ o.nome }}</p>
+
+                    <p v-else class="w3-large" style="font-variant: small-caps;">
+                        <a target="_blank" type="application/pdf" hreflang="pt" v-bind:href="o.nb">
+                            <span class="w3-text-theme far fa-file-pdf"></span>
+                        </a> {{ o.nome }}
+                    </p>
+                    
+                    <p class="w3-small">{{ o.cargo }}</p>
                 </div>
-                <div class="w3-half">
-                    <p class="w3-wide w3-small">Relator</p>
-                    <p class="w3-large" style="font-variant: small-caps;">
-                        <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_PG.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Paulo Guerra</p>
-                    <p class="w3-small">Centro de Estudos Judiciários</p>
-                </div>
+
             </div>
             <div class="w3-row">
+            <div v-for="o in s.oradores.slice(2)">
+            
                 <div class="w3-quarter">
-                    <p class="w3-wide w3-small">Correlatores</p>
-                    <p class="w3-large" style="font-variant: small-caps;">
-                            <a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_AM.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Ana Massena</p>
-                    <p class="w3-small">Centro de Estudos Judiciários</p>
+                    <p v-if="o.extra" class="w3-wide w3-small">{{ o.texto }}</p>
+                    <p v-else class="w3-wide w3-small">&nbsp;</p>
+
+                    <p v-if="o.nb === ''" class="w3-large" style="font-variant: small-caps;">
+                        <span class="w3-text-red far fa-file-pdf"></span> {{ o.nome }}</p>
+
+                    <p v-else class="w3-large" style="font-variant: small-caps;">
+                        <a target="_blank" type="application/pdf" hreflang="pt" v-bind:href="o.nb">
+                            <span class="w3-text-theme far fa-file-pdf"></span>
+                        </a> {{ o.nome }}
+                    </p>
+                    
+                    <p class="w3-small">{{ o.cargo }}</p>
                 </div>
-                <div class="w3-quarter">
-                    <p class="w3-wide w3-small">&nbsp;</p>
-                    <p class="w3-large" style="font-variant: small-caps;"><a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_CG.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Chandra Gracias</p>
-                    <p class="w3-small">Centro de Estudos Judiciários</p>
-                </div>
-                <div class="w3-quarter">
-                    <p class="w3-wide w3-small">&nbsp;</p>
-                    <p class="w3-large" style="font-variant: small-caps;"><a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_FS.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Fátima Serrano</p>
-                    <p class="w3-small">CrescerSer</p>
-                </div>
-                <div class="w3-quarter">
-                    <p class="w3-wide w3-small">&nbsp;</p>
-                    <p class="w3-large" style="font-variant: small-caps;">
-                        <span class="w3-text-red far fa-file-pdf"></span> Maria Perquilhas</p>
-                    <p class="w3-small">Centro de Estudos Judiciários</p>
-                </div>
+
             </div>
+            </div>
+
         </div>
-            <div class="w3-padding-32" id="Session2_6">
-                <h4 class="w3-text-theme"><i lang="fr">“Le Juge des Enfants: un Juge Mineur? Débat entre Sécurité Publique et Intérêt de L’Enfant et la Place de sa Parole”</i></h4>
-                <div class="w3-row">
-                    <div class="w3-half">
-                        <p class="w3-wide w3-small">Presidente da Mesa</p>
-                        <p class="w3-large" style="font-variant: small-caps;"><a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_AL.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Armando Leandro</p>
-                        <p class="w3-small">Juiz Conselheiro Jubilado</p>
-                    </div>
-                    <div class="w3-half">
-                        <p>&nbsp;</p>
-                        <p class="w3-large" style="font-variant: small-caps;"><a target="_blank" type="application/pdf" hreflang="pt" href="NB2018/NB2018_JZ.pdf"><span class="w3-text-theme far fa-file-pdf"></span></a> Jean Zermatten</p>
-                        <p class="w3-small">Comité dos Direitos da Criança</p>
-                    </div>
-                </div>
-            </div>
+
     </div>
+</div>
 
 <!-- PATROCÍNIOS / APOIOS / PARCEIROS  -->
-    <div class="w3-container w3-border-theme w3-topbar w3-padding-32 w3-center w3-white" style="font-weight:900">
+    <div class="w3-container w3-border-theme w3-topbar w3-padding-16 w3-center w3-white" style="font-weight:900">
         <div class="w3-row">
             <div class="w3-half">
-                <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran', monospace !important;">Alto Patrocínio</p>
+                <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran' !important;">Alto Patrocínio</p>
                 <img alt="Com o Alto Patrocínio de Sua Excelência o Presidente da Républica" style="height:100px; padding:5px;" src="img/PAT00.jpg">
             </div>
             <div class="w3-half">
@@ -779,15 +326,11 @@
         </div>
         
         <div class="w3-row w3-padding-16">
-                <div class="w3-half">
+                <div class="w3-half" id="idParceiros">
                     <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran', monospace !important;">Parceiros</p>
-                    <img alt="Logotipo do Município de Viseu" style="height:100px; padding:5px;" src="img/PAR00.jpg">
-                    <img alt="Logotipo Ordem Psicólogos" style="height:100px; padding:5px;" src="img/PAR06.jpg">
-                    <img alt="Logotipo do Centro de Formação da Associação de Escolas Rómulo de Carvalho" style="height:100px; padding:5px;" src="img/PAR01.png">
-                    <img alt="Logotipo Museu Grão Vasco" style="height:100px; padding:5px;" src="img/PAR02.png">
-                    <img alt="Logotipo Museu Grão Vasco" style="height:100px; padding:5px;" src="img/PAR03.png">
-                    <img alt="Logotipo Museu Grão Vasco" style="height:100px; padding:5px;" src="img/PAR04.png">
-                    <img alt="Logotipo Agrupamento de Escolas Mundão" style="height:100px; padding:5px;" src="img/PAR05.png">
+                    <span v-for="logo in images">
+                        <img :alt="logo.alt" :style="logo.style" :src="logo.src">
+                    </span>
                 </div>
                 <div class="w3-half">
                     <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran', monospace !important;">Media Partner</p>
@@ -796,13 +339,11 @@
         </div>
 
         <div class="w3-row w3-padding-16">
-                <div class="w3-half">
+                <div class="w3-half" id="idPatrocinios">
                     <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran', monospace !important;">Patrocínios</p>
-                    <img alt="Logotipo da Glintt" style="height:100px; padding:5px;" src="img/PAT04.jpg">
-                    <img alt="Logotipo do Crédito Agrícola Mútuo" style="height:100px; padding:5px;" src="img/PAT02.jpg">
-                    <img alt="Logotipo Martins Alves" style="height:50px; padding:5px;" src="img/PAT03.jpg">
-                    <img alt="Logotipo Grupo Lourenço & Lousada" style="height:100px; padding:5px;" src="img/PAT05.png">
-                    <img alt="Logotipo CML" style="height:100px; padding:5px;" src="img/PAT06.svg">
+                    <span v-for="logo in images">
+                        <img :alt="logo.alt" :style="logo.style" :src="logo.src">
+                    </span>
                 </div>
                 <div class="w3-half">
                     <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran', monospace !important;">Apoios</p>
@@ -813,108 +354,27 @@
         </div>
     </div>
 
-<!-- FOOTER -->
-    <section class="w3-black">
-        <footer class="w3-container w3-content w3-black" style="max-width:900px" id="FOOTER">
+    <!-- FOOTER -->
+    <footer class="w3-black">
+        <section class="w3-container w3-content w3-black w3-padding-64" style="max-width:900px" id="FOOTER">
             <h2 class="w3-wide" style="font-variant:small-caps">Secretariado</h2>
-            <i class="fa fa-home fa-lg" style="width:30px"></i> Morada: Rua da Escola s/n, 2655-430 ERICEIRA, Portugal<br>
-            <i class="fa fa-envelope fa-lg" style="width:30px"></i> E-mail: comunicacao@comdignitatis.org<br>
-            <i class="fa fa-phone fa-lg" style="width:30px"></i> Telefone: +351(93)574-40-24 ─ Rita Jorge<br>
-            <br>
-            <a href="https://www.facebook.com/ComDignitatis-561123327240658/"><i class="w3-margin-bottom fa fa-facebook-official fa-3x"></i></a>
-        </footer>
-    </section>
+            <div class="w3-twothird">
+                <p><i class="fa fa-home fa-lg" style="width:30px"></i> Morada: Rua Dr. Carlos Galrão, 3 - R/C Dtº, 2640-467 Mafra, Portugal</p>
+                <p><i class="fa fa-envelope fa-lg" style="width:30px"></i> E-mail: comunicacao@comdignitatis.org</p>
+                <p><i class="fa fa-phone fa-lg" style="width:30px"></i> Telefone: +351(93)574-40-24 ─ Rita Jorge</p>
+            </div>
+            <div class="w3-third w3-center">
+                <a href="https://www.facebook.com/ComDignitatis-561123327240658/"><i class="fab fa-facebook-square fa-3x" style="width:30px"></i></a>
+            </div>
+        </section>
+    </footer>
+    
 </div>
 
-<script>
-    // Used to toggle the menu on small screens when clicking on the menu button
-    function myFunction() {
-        var x = document.getElementById("navDemo");
-        if (x.className.indexOf("w3-show") == -1) {
-            x.className += " w3-show";
-        } else {
-            x.className = x.className.replace(" w3-show", "");
-        }
-    }
-
-    // English message
-    function displaySwitcher(id) {
-        var x = document.getElementById(id);
-        if (x.className.indexOf("w3-show") == -1) {
-            x.className += " w3-show";
-        } else {
-            x.className = x.className.replace(" w3-show", "");
-        }
-    }
-
-    // Element Switcher
-    function elSwitcher(id, id1) {
-        var x = document.getElementById(id);
-        var y = document.getElementById(id1);
-        if (x.className.indexOf("w3-show") == -1) {
-            x.className += " w3-show";
-            y.className = y.className.replace("w3-show", "w3-hide")
-        } else {
-            x.className = x.className.replace(" w3-show", "");
-            y.className = y.className.replace("w3-hide", "w3-show")
-        }
-    }
-
-    function openProgram(evt, day) {
-        var i, x, tablinks;
-        x = document.getElementsByClassName("cPrograma");
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablink");
-        for (i = 0; i < x.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" w3-border-theme", "");
-        }
-        document.getElementById(day).style.display = "block";
-        evt.currentTarget.firstElementChild.className += " w3-border-theme";
-    }
-</script>
-
-<script type="application/ld+json">
-    {  
-        "@context":"http://schema.org",
-        "@type":"EducationEvent",
-        "name":"II Congresso Europeu Sobre uma Justiça Amiga das Crianças",
-        "description":"II Congresso Europeu Sobre uma Justiça Amiga das Crianças",
-        "image":"http://congresso.comdignitatis.org/img/banner.png",
-        "organizer":"ComDignitatis",
-        "doorTime":"2018-05-24T08:30",
-        "startDate":"2018-05-24T09:00",
-        "endDate":"2018-05-25T17:00",
-        "url":"http://congresso.comdignitatis.org",
-        "location":{  
-            "@type":"Place",
-            "sameAs":"http://www.gulbenkian.pt",
-            "name":"Fundação Calouste Gulbenkian",
-            "address":"Av. Berna 45A, 1067-001 Lisboa"
-        },
-        "offers":[  
-            {  
-                "@type":"Offer",
-                "name":"Congresso (não estudante)",
-                "url":"https://goo.gl/forms/Hf2k5fPtL371e6aR2",
-                "price":"20",
-                "priceCurrency":"EUR",
-                "availability":"http://schema.org/LimitedAvailability",
-                "validFrom":"2018-02-01"
-            },
-            {  
-                "@type":"Offer",
-                "name":"Congresso (estudante)",
-                "url":"https://goo.gl/forms/Hf2k5fPtL371e6aR2",
-                "price":"15",
-                "priceCurrency":"EUR",
-                "availability":"http://schema.org/LimitedAvailability",
-                "validFrom":"2018-02-01"
-            }
-        ]
-    }
-</script>
+<script type="text/javascript" src="js/comdignitatis.js"></script>
+<script type="text/javascript" src="js/vue.js"></script>
+<script type="text/javascript" src="js/data.pt.js"></script>
+<script type="application/ld+json" src="js/comdignitatis.json"></script>
 
 <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
