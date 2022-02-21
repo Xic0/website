@@ -114,7 +114,7 @@ var programa = new Vue({
 			},
 			{
 				"hora": "15h30",
-				"título": "Políticas e Práticas de Sustentabilidade da Coesão Familiar – o Papel do Empresariado",
+				"título": "Políticas e Práticas de Sustentabilidade da Coesão Familiar – o Papel do Empresariado + Pilares da Integração da Criança Migrante – os Desafios da Educação",
 				"debate": true,
 				"tema": true
 			},
@@ -139,7 +139,7 @@ var programa2 = new Vue({
 					"A Criança em Contexto de Violência Doméstica",
 					"Criança, Família e Relações Laborais",
 					"Criança Refugiada, Não Acompanhada e Separada da Família",
-					"O Direito de Participação da Criança"
+					"Criança Migrante – Inclusão Escolar"
 				],
 				"paralelas": true,
 				"debate": false,
@@ -219,8 +219,8 @@ var dispSessions = new Vue({
 				"title": "Migrações, Integração e Direito à Proteção",
 				"oradores": [
 					{
-						"nome": "por confirmar",
-						"cargo": "",
+						"nome": "Armando Leandro",
+						"cargo": "Juiz Conselheiro Jubilado",
 						"nb": "",
 						"presidente": true
 					},
@@ -254,18 +254,18 @@ var dispSessions = new Vue({
 			},
 			{
 				"id": "1_4",
-				"title": "Comunicação e Audição da Criança nas Decisões que Lhe Dizem Respeito",
+				"title": "Pilares da Integração da Criança Migrante – os Desafios da Educação",
 				"oradores": [
 					{
-						"nome": "Maria Lúcia Amaral",
-						"cargo": "Provedora de Justiça, Serviço de Estrangeiros e Fronteiras",
+						"nome": "Laborinho Lúcio",
+						"cargo": "Juiz Conselheiro Jubilado",
 						"nb": "",
 						"presidente": true
 					},
 					{
-						"nome": "Catarina Tomás",
-						"cargo": "Escola Superior de Educação de Lisboa e Centro Interdisciplinar de Ciências Sociais da Universidade Nova de Lisboa",
-						"nb": "NB2020/NB2020_CT.pdf",
+						"nome": "Guilherme d’Oliveira Martins",
+						"cargo": "Fundação Calouste Gulbenkian",
+						"nb": "",
 						"presidente": false
 					}
 				],
@@ -338,13 +338,13 @@ var dispSessions = new Vue({
 						"presidente": false
 					},
 					{
-						"nome": "Fátima Matos",
+						"nome": "Sónia Baltazar",
 						"cargo": "Instituto da Segurança Social, IP",
 						"nb": "",
 						"presidente": false
 					},
 					{
-						"nome": "Fausto Leite",
+						"nome": "Por Confirmar",
 						"cargo": "Advogado",
 						"nb": "",
 						"presidente": false
@@ -356,9 +356,9 @@ var dispSessions = new Vue({
 						"presidente": false
 					},
 					{
-						"nome": "Maria João Cunha",
-						"cargo": "Delta",
-						"nb": "NB2020/NB2020_MJC.pdf",
+						"nome": "Por Confirmar",
+						"cargo": "Jerónimo Martins",
+						"nb": "",
 						"presidente": false
 					},
 					{
@@ -405,8 +405,8 @@ var dispSessions = new Vue({
 						"presidente": false
 					},
 					{
-						"nome": "por confirmar",
-						"cargo": "Serviço de Estrangeiros e Fronteiras*",
+						"nome": "Ana Sofia Barros",
+						"cargo": "Alto Comissariado das Nações Unidas para os Refugiados",
 						"nb": "",
 						"presidente": false
 					}
@@ -415,12 +415,12 @@ var dispSessions = new Vue({
 			},
 			{
 				"id": "2_4",
-				"title": "O Direito de Participação da Criança",
+				"title": "Criança Migrante – Inclusão Escolar",
 				"oradores": [
 					{
-						"nome": "Alcina da Costa Ribeiro",
-						"cargo": "Juíza Desembargadora",
-						"nb": "NB2020/NB2020_ACR.pdf",
+						"nome": "",
+						"cargo": "",
+						"nb": "",
 						"presidente": false
 					},
 					{
@@ -430,20 +430,20 @@ var dispSessions = new Vue({
 						"presidente": false
 					},
 					{
-						"nome": "Joana Garcia da Fonseca",
+						"nome": "Rosário Farmhouse",
 						"cargo": "Comissão Nacional de Promoção dos Direitos e Proteção das Crianças e Jovens",
-						"nb": "NB2020/NB2020_JF.pdf",
-						"presidente": false
-					},
-					{
-						"nome": "Julieta Monginho",
-						"cargo": "Procuradora-Geral Adjunta",
 						"nb": "",
 						"presidente": false
 					},
 					{
-						"nome": "Paulo Pinto",
-						"cargo": "PSP do Porto",
+						"nome": "Eurídice Gomes",
+						"cargo": "Procuradora da República",
+						"nb": "",
+						"presidente": false
+					},
+					{
+						"nome": "Marlene Carriço",
+						"cargo": "Jornalista, Universidade de Coimbra**",
 						"nb": "",
 						"presidente": false
 					},
@@ -454,9 +454,9 @@ var dispSessions = new Vue({
 						"presidente": false
 					},
 					{
-						"nome": "Sara Pereira",
-						"cargo": "Universidade do Minho",
-						"nb": "NB2020/NB2020_SP.pdf",
+						"nome": "",
+						"cargo": "",
+						"nb": "",
 						"presidente": false
 					}
 				],
@@ -467,8 +467,8 @@ var dispSessions = new Vue({
 				"title": "Apresentação das Conclusões das Sessões Paralelas",
 				"oradores": [
 					{
-						"nome": "Armando Leandro",
-						"cargo": "Juiz Conselheiro Jubilado",
+						"nome": "Alcina da Costa Ribeiro",
+						"cargo": "Juíza Desembargadora",
 						"nb": "",
 						"extra": true,
 						"texto": "Presidente da Mesa"

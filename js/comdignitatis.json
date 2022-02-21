@@ -5,9 +5,9 @@
     "description":"III Congresso Europeu Sobre uma Justiça Amiga das Crianças",
     "image":"http://congresso.comdignitatis.org/img/banner.png",
     "organizer":"ComDignitatis",
-    "doorTime":"2020-05-07T08:30",
-    "startDate":"2020-05-07T09:00",
-    "endDate":"2020-05-08T17:00",
+    "doorTime":"2022-05-04T08:30",
+    "startDate":"2022-05-05T09:00",
+    "endDate":"2022-05-05T17:00",
     "url":"http://congresso.comdignitatis.org",
     "location":{  
         "@type":"Place",
@@ -19,20 +19,20 @@
         {  
             "@type":"Offer",
             "name":"Congresso (não estudante)",
-            "url":"https://goo.gl/forms/Hf2k5fPtL371e6aR2",
+            "url":"https://forms.gle/T4jAXiQ93HaMhd618",
             "price":"25",
             "priceCurrency":"EUR",
             "availability":"http://schema.org/LimitedAvailability",
-            "validFrom":"2020-02-01"
+            "validFrom":"2022-02-01"
         },
         {  
             "@type":"Offer",
             "name":"Congresso (estudante)",
-            "url":"https://goo.gl/forms/Hf2k5fPtL371e6aR2",
+            "url":"https://forms.gle/T4jAXiQ93HaMhd618",
             "price":"20",
             "priceCurrency":"EUR",
             "availability":"http://schema.org/LimitedAvailability",
-            "validFrom":"2020-02-01"
+            "validFrom":"2022-02-01"
         }
     ],
     "performer":"Orquestra Geração"
