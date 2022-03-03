@@ -265,7 +265,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Guilherme d’Oliveira Martins",
 						"cargo": "Fundação Calouste Gulbenkian",
-						"nb": "",
+						"nb": "NB2022/G7edO6aM5s.pdf",
 						"presidente": false
 					}
 				],
@@ -278,7 +278,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Paula Guimarães",
 						"cargo": "Objetivos do Milénio/Nações Unidas",
-						"nb": "NB2020/NB2020_PG.pdf",
+						"nb": "NB2022/P3aG7s.pdf",
 						"presidente": false
 					}
 				],
@@ -377,7 +377,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Célia Chamiça",
 						"cargo": "Comissão Nacional de Promoção dos Direitos e Proteção das Crianças e Jovens",
-						"nb": "NB2020/NB2020_CC.pdf",
+						"nb": "NB2022/C3aC5a.pdf",
 						"presidente": false
 					},
 					{
@@ -389,7 +389,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Martino Gliozzi",
 						"cargo": "Centro de Saúde do Martim Moniz**",
-						"nb": "",
+						"nb": "NB2022/M5oG5i.pdf",
 						"presidente": false
 					},
 					{
@@ -426,13 +426,13 @@ var dispSessions = new Vue({
 					{
 						"nome": "António Santinha",
 						"cargo": "Santa Casa da Misericórdia de Lisboa",
-						"nb": "",
+						"nb": "NB2022/A5oS6a.pdf",
 						"presidente": false
 					},
 					{
 						"nome": "Rosário Farmhouse",
 						"cargo": "Comissão Nacional de Promoção dos Direitos e Proteção das Crianças e Jovens",
-						"nb": "",
+						"nb": "NB2022/R5oF7e.pdf",
 						"presidente": false
 					},
 					{
@@ -496,7 +496,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Maria Perquilhas",
 						"cargo": "Juíza Desembargadora",
-						"nb": "",
+						"nb": "NB2022/M3aP8s.pdf",
 						"extra": false
 					},
 					{
