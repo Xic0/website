@@ -168,7 +168,7 @@ var programa2 = new Vue({
 			},
 			{
 				"hora": "14h30",
-				"título": "Apresentação de Trabalhos realizados pelos alunos do Agrupamento de Escolas Padre António de Andrade – Oleiros e Agrupamento de Escolas da Bobadela sobre “Uma Justiça Amiga nas Escolas”",
+				"título": "Programa “Uma Justiça Amiga nas Escolas”",
 				"paralelas": false,
 				"debate": false,
 				"tema": false
@@ -225,8 +225,8 @@ var dispSessions = new Vue({
 						"presidente": true
 					},
 					{
-						"nome": "por confirmar",
-						"cargo": "",
+						"nome": "Sara Pereira",
+						"cargo": "Alto Comissariado para as Migrações",
 						"nb": "",
 						"presidente": false
 					}
@@ -297,7 +297,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Aurora Dantier",
 						"cargo": "Comissário da PSP",
-						"nb": "",
+						"nb": "NB2022/A4aD5r.pdf",
 						"presidente": false
 					},
 					{
@@ -313,9 +313,9 @@ var dispSessions = new Vue({
 						"presidente": false
 					},
 					{
-						"nome": "Helena Gonçalves",
-						"cargo": "Procuradora da República",
-						"nb": "",
+						"nome": "Ana Teresa Leal",
+						"cargo": "Procuradora-Geral Adjunta",
+						"nb": "NB2022/A1aT4aL2l.pdf",
 						"presidente": false
 					},
 					{
@@ -344,9 +344,9 @@ var dispSessions = new Vue({
 						"presidente": false
 					},
 					{
-						"nome": "Por Confirmar",
+						"nome": "Cláudio Rodrigues Gomes",
 						"cargo": "Advogado",
-						"nb": "",
+						"nb": "NB2022/C5oR7sG3s.pdf",
 						"presidente": false
 					},
 					{
@@ -356,9 +356,9 @@ var dispSessions = new Vue({
 						"presidente": false
 					},
 					{
-						"nome": "Por Confirmar",
-						"cargo": "Jerónimo Martins",
-						"nb": "",
+						"nome": "José Eduardo Sapateiro",
+						"cargo": "Centro de Estudos Judiciários",
+						"nb": "J2eE5oS7o.pdf",
 						"presidente": false
 					},
 					{
@@ -407,7 +407,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Ana Sofia Barros",
 						"cargo": "Alto Comissariado das Nações Unidas para os Refugiados",
-						"nb": "",
+						"nb": "NB2022/A1aS3aB4s.pdf",
 						"presidente": false
 					}
 				],
@@ -418,9 +418,9 @@ var dispSessions = new Vue({
 				"title": "Criança Migrante – Inclusão Escolar",
 				"oradores": [
 					{
-						"nome": "",
-						"cargo": "",
-						"nb": "",
+						"nome": "Paula Couceiro",
+						"cargo": "Universidade de Coimbra",
+						"nb": "NB2022/P3aC6o.pdf",
 						"presidente": false
 					},
 					{
@@ -438,7 +438,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Eurídice Gomes",
 						"cargo": "Procuradora da República",
-						"nb": "",
+						"nb": "NB2022/E6eG3s.pdf",
 						"presidente": false
 					},
 					{
@@ -452,24 +452,44 @@ var dispSessions = new Vue({
 						"cargo": "Casa Pia de Lisboa",
 						"nb": "NB2020/NB2020_SV.pdf",
 						"presidente": false
-					},
-					{
-						"nome": "",
-						"cargo": "",
-						"nb": "",
-						"presidente": false
 					}
 				],
-				"layout": 7
+				"layout": 6
 			},
 			{
 				"id": "2_5",
+				"title": "Programa “Uma Justiça Amiga nas Escolas",
+				"oradores": [
+					{
+						"nome": "Alcina da Costa Ribeiro",
+						"cargo": "Juíza Desembargadora",
+						"nb": "NB2022/A4aC3aR5o.pdf",
+						"extra": true,
+						"texto": "Presidente da Mesa"
+					},
+					{
+						"nome": "Paula Soares",
+						"cargo": "Procuradora da República",
+						"nb": "NB2022/P3aS4s.pdf",
+						"presidente": false
+					},
+					{
+						"nome": "Rui Alves Pereira",
+						"cargo": "Advogado",
+						"nb": "NB2022/R5oF7e.pdf",
+						"presidente": false
+					}
+				],
+				"layout": 3
+			},
+			{
+				"id": "2_6",
 				"title": "Apresentação das Conclusões das Sessões Paralelas",
 				"oradores": [
 					{
 						"nome": "Alcina da Costa Ribeiro",
 						"cargo": "Juíza Desembargadora",
-						"nb": "",
+						"nb": "NB2022/A4aC3aR5o.pdf",
 						"extra": true,
 						"texto": "Presidente da Mesa"
 					},
@@ -481,9 +501,9 @@ var dispSessions = new Vue({
 						"texto": "Relator"
 					},
 					{
-						"nome": "Ana Teresa Leal",
-						"cargo": "Procuradora da República e Docente do Centro de Estudos Judiciários",
-						"nb": "NB2020/NB2020_ATL.pdf",
+						"nome": "Maria Oliveira Mendes",
+						"cargo": "Docente do Centro de Estudos Judiciários",
+						"nb": "NB2022/M3aO6aM4s.pdf",
 						"extra": true,
 						"texto": "Correlatores"
 					},
@@ -502,7 +522,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Pedro Raposo de Figueiredo",
 						"cargo": "Juiz de Direito e Docente do Centro de Estudos Judiciários",
-						"nb": "",
+						"nb": "NB2022/P3oR4oF8o.pdf",
 						"extra": false
 					}
 				],

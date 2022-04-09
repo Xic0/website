@@ -151,6 +151,7 @@
     <h2 class="w3-wide w3-round w3-padding-16 w3-theme" style="font-variant: small-caps;">Oradores</h2>
     <div v-for="s in sessions">
         
+        <!-- LAYOUT ─ UM -->
         <div class="w3-row w3-padding-16" v-if="s.layout === 1">
             <h4 class="w3-text-theme"><i>“{{ s.title }}”</i></h4>
             <div v-for="o in s.oradores">
@@ -166,6 +167,7 @@
             </div>
         </div>
 
+        <!-- LAYOUT ─ DOiS -->
         <div class="w3-row w3-padding-16" v-if="s.layout === 2">
             <h4 class="w3-text-theme"><i>“{{ s.title }}”</i></h4>
             <div v-for="o in s.oradores">
@@ -190,6 +192,31 @@
 
         </div>
 
+        <!-- LAYOUT ─ TRES -->
+        <div class="w3-row w3-padding-16" v-if="s.layout === 3">
+            <h4 class="w3-text-theme"><i>“{{ s.title }}”</i></h4>
+            <div v-for="o in s.oradores.slice(0, 3)">
+            
+                <div class="w3-third">
+                    <p v-if="o.presidente" class="w3-wide w3-small">Presidente da Mesa</p>
+                    <p v-else class="w3-wide w3-small">&nbsp;</p>
+
+                    <p v-if="o.nb === ''" class="w3-large" style="font-variant: small-caps;">
+                        <span class="w3-text-red far fa-file-pdf"></span> {{ o.nome }}</p>
+
+                    <p v-else class="w3-large" style="font-variant: small-caps;">
+                        <a target="_blank" type="application/pdf" hreflang="pt" v-bind:href="o.nb">
+                            <span class="w3-text-theme far fa-file-pdf"></span>
+                        </a> {{ o.nome }}
+                    </p>
+                    
+                    <p class="w3-small">{{ o.cargo }}</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- LAYOUT ─ SEiS -->
         <div class="w3-row w3-padding-16" v-if="s.layout === 6">
             <h4 class="w3-text-theme"><i>“{{ s.title }}”</i></h4>
             <div v-for="o in s.oradores.slice(0, 3)">
@@ -235,6 +262,7 @@
 
         </div>
 
+        <!-- LAYOUT ─ SETE -->
         <div class="w3-row w3-padding-16" v-if="s.layout === 7">
             <h4 class="w3-text-theme"><i>“{{ s.title }}”</i></h4>
             <div v-for="o in s.oradores.slice(0, 3)">
@@ -281,6 +309,7 @@
 
         </div>
 
+        <!-- LAYOUT ─ DEZ -->
         <div class="w3-row w3-padding-16" v-if="s.layout === 10">
             <h4 class="w3-text-theme"><i>“{{ s.title }}”</i></h4>
             <div v-for="o in s.oradores.slice(0, 2)">
