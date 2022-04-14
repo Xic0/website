@@ -131,10 +131,16 @@ var Patrocinios = new Vue({
                 "src": "img/PAT09.jpg"
             },
             {
-                "alt": "Logotipo Comboios de Portugal",
+                "alt": "Logotipo Cerger",
                 "style": "height:80px;padding:5px;",
-                "src": "img/PAT08.jpg"
+                "src": "img/PAT10.jpg"
             }
+            // ,
+            // {
+            //     "alt": "Logotipo Grupo das Casas",
+            //     "style": "height:80px;padding:5px;",
+            //     "src": "img/PAT11.jpg"
+            // }
         ]
     }
 })

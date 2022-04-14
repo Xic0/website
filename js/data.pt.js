@@ -1,7 +1,15 @@
 var navbar = new Vue({
 	el: '#Navbar',
 	data: {
-		shorttitle: 'III Congresso Europeu'
+		shorttitle: 'III Congresso Europeu',
+		url_form: 'https://forms.gle/C4JsBub6C6PhcU4D9'
+	}
+})
+
+var navDemo = new Vue({
+	el: '#navDemo',
+	data: {
+		url_form: 'https://forms.gle/C4JsBub6C6PhcU4D9'
 	}
 })
 
@@ -221,7 +229,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Armando Leandro",
 						"cargo": "Juiz Conselheiro Jubilado",
-						"nb": "",
+						"nb": "NB2022/A5oL5o.pdf",
 						"presidente": true
 					},
 					{
@@ -309,7 +317,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Helena Almeida",
 						"cargo": "Pediatra, Núcleo Hospitalar de Apoio às Crianças e Jovens em Risco do Hospital Fernando Fonseca",
-						"nb": "",
+						"nb": "NB2022/H4aA5a.pdf",
 						"presidente": false
 					},
 					{
@@ -340,7 +348,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Sónia Baltazar",
 						"cargo": "Instituto da Segurança Social, IP",
-						"nb": "",
+						"nb": "NB2022/S3aB6r.pdf",
 						"presidente": false
 					},
 					{
@@ -358,13 +366,13 @@ var dispSessions = new Vue({
 					{
 						"nome": "José Eduardo Sapateiro",
 						"cargo": "Centro de Estudos Judiciários",
-						"nb": "J2eE5oS7o.pdf",
+						"nb": "NB2022/J2eE5oS7o.pdf",
 						"presidente": false
 					},
 					{
 						"nome": "Paula Pinto",
 						"cargo": "Centro de Administração e Políticas Públicas, ISCSP, Universidade de Lisboa",
-						"nb": "",
+						"nb": "NB2022/P3aP3o.pdf",
 						"presidente": false
 					}
 				],
@@ -395,13 +403,13 @@ var dispSessions = new Vue({
 					{
 						"nome": "Leonor Fechas",
 						"cargo": "Casa Pia de Lisboa",
-						"nb": "",
+						"nb": "NB2022/L4rF4s.pdf",
 						"presidente": false
 					},
 					{
 						"nome": "Ricardo Carvalho",
 						"cargo": "Provedoria de Justiça",
-						"nb": "",
+						"nb": "NB2022/R5oC6o.pdf",
 						"presidente": false
 					},
 					{
@@ -476,7 +484,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Rui Alves Pereira",
 						"cargo": "Advogado",
-						"nb": "NB2022/R5oF7e.pdf",
+						"nb": "",
 						"presidente": false
 					}
 				],
