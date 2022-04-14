@@ -134,13 +134,17 @@ var Patrocinios = new Vue({
                 "alt": "Logotipo Cerger",
                 "style": "height:80px;padding:5px;",
                 "src": "img/PAT10.jpg"
+            },
+            {
+                "alt": "Logotipo A Casa das Casas",
+                "style": "height:150px;padding:5px;",
+                "src": "img/PAT11.jpg"
+            },
+            {
+                "alt": "Logotipo Grupo das Casas",
+                "style": "height:150px;padding:5px;",
+                "src": "img/PAT12.jpg"
             }
-            // ,
-            // {
-            //     "alt": "Logotipo Grupo das Casas",
-            //     "style": "height:80px;padding:5px;",
-            //     "src": "img/PAT11.jpg"
-            // }
         ]
     }
 })
