@@ -77,11 +77,11 @@ var Logos = new Vue({
                 "style": "height:80px; padding:5px;",
                 "src": "img/CCCO09.jpg"
             },
-            {
-                "alt": "Logotipo Cáritas",
-                "style": "height:80px; padding:5px;",
-                "src": "img/CCCO10.jpg"
-            },
+            // {
+            //     "alt": "Logotipo Cáritas",
+            //     "style": "height:80px; padding:5px;",
+            //     "src": "img/CCCO10.jpg"
+            // },
             {
                 "alt": "Logotipo CrescerSer",
                 "style": "height:80px; padding:5px;",
@@ -144,6 +144,11 @@ var Patrocinios = new Vue({
                 "alt": "Logotipo Grupo das Casas",
                 "style": "height:150px;padding:5px;",
                 "src": "img/PAT12.jpg"
+            },
+            {
+                "alt": "Logotipo",
+                "style": "height:150px;padding:5px;",
+                "src": "img/PAT13.jpg"
             }
         ]
     }

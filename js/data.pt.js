@@ -30,7 +30,7 @@ var organization = new Vue({
 			{ text: 'Centro de Direito da Família da Universidade de Coimbra' },
 			{ text: 'Centro Interdisciplinar de Ciências Sociais da Universidade Nova de Lisboa' },
 			{ text: 'Universidade Atlântica' },
-			{ text: 'Cáritas Portuguesa' },
+			// { text: 'Cáritas Portuguesa' },
 			{ text: 'CrescerSer - Associação Portuguesa para o Direito dos Menores e da Família' },
 			{ text: 'ComDignitatis' }
 		]
@@ -86,8 +86,8 @@ var programa = new Vue({
 			},
 			{
 				"hora": "9h30",
-				"título": "Direitos Humanos e Direitos Fundamentais da Criança – Desafios do Século XXI",
-				"debate": false,
+				"título": "Estatuto Pessoal e Proteção dos Direitos da Criança Migrante ─ Políticas e Instrumentos Jurídicos Internacionais",
+				"debate": true,
 				"tema": true
 			},
 			{
@@ -110,8 +110,14 @@ var programa = new Vue({
 			},
 			{
 				"hora": "14h15",
-				"título": "Estatuto Pessoal e Proteção dos Direitos da Crianças Migrante – Políticas e Instrumentos Jurídicos Internacionais",
-				"debate": true,
+				"título": "Uma Vida entre Muitas ─ o Testemunho de um Jovem",
+				"debate": false,
+				"tema": true
+			},
+			{
+				"hora": "14h45",
+				"título": "Crianças Estrangeiras em Portugal",
+				"debate": false,
 				"tema": true
 			},
 			{
@@ -204,19 +210,19 @@ var dispSessions = new Vue({
 	"data": {
 		"sessions": [
 			{
-				"id": "1_1",
-				"title": "Direitos Humanos e Direitos Fundamentais da Criança– Desafios do Século XXI",
+				"id": "1_3",
+				"title": "Estatuto Pessoal e Proteção dos Direitos da Crianças Migrante – Políticas e Instrumentos Jurídicos Internacionais",
 				"oradores": [
 					{
-						"nome": "Lucília Gago",
-						"cargo": "Procuradora-Geral da República",
+						"nome": "Maria Lúcia Amaral",
+						"cargo": "Provedora de Justiça",
 						"nb": "",
 						"presidente": true
 					},
 					{
-						"nome": "Marta Santos Pais",
-						"cargo": "Comissão de Acompanhamento das Crianças Sírias Refugiadas",
-						"nb": "",
+						"nome": "George Moschos",
+						"cargo": "Rede Europeia de Ombudsman",
+						"nb": "NB2020/NB2020_GM.pdf",
 						"presidente": false
 					}
 				],
@@ -242,19 +248,32 @@ var dispSessions = new Vue({
 				"layout": 2
 			},
 			{
-				"id": "1_3",
-				"title": "Estatuto Pessoal e Proteção dos Direitos da Crianças Migrante – Políticas e Instrumentos Jurídicos Internacionais",
+				"id": "1_1",
+				"title": "Uma Vida entre Muitas ─ o Testemunho de um Jovem",
 				"oradores": [
 					{
-						"nome": "Maria Lúcia Amaral",
-						"cargo": "Provedora de Justiça",
-						"nb": "",
+						"nome": "António Santinha",
+						"cargo": "Santa Casa da Misericórdia de Lisboa",
+						"nb": "NB2022/A5oS6a.pdf",
+						"presidente": false
+					}
+				],
+				"layout": 1
+			},
+			{
+				"id": "1_6",
+				"title": "Crianças Estrangeiras em Portugal",
+				"oradores": [
+					{
+						"nome": "Maria João Leote de Carvalho",
+						"cargo": "Centro Interdisciplinar de Ciências Sociais da Universidade Nova de Lisboa",
+						"nb": "NB2020/NB2020_MJLC.pdf",
 						"presidente": true
 					},
 					{
-						"nome": "George Moschos",
-						"cargo": "Rede Europeia de Ombudsman",
-						"nb": "NB2020/NB2020_GM.pdf",
+						"nome": "Rosário Farmhouse",
+						"cargo": "Comissão Nacional de Promoção dos Direitos e Proteção das Crianças e Jovens",
+						"nb": "NB2022/R5oF7e.pdf",
 						"presidente": false
 					}
 				],
@@ -311,7 +330,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Dália Costa",
 						"cargo": "Centro de Administração e Políticas Públicas, ISCSP, Universidade de Lisboa",
-						"nb": "",
+						"nb": "NB2022/D3aC3a.pdf",
 						"presidente": false
 					},
 					{
@@ -423,7 +442,7 @@ var dispSessions = new Vue({
 			},
 			{
 				"id": "2_4",
-				"title": "Criança Migrante – Inclusão Escolar",
+				"title": "Criança Migrante ─ Inclusão Escolar",
 				"oradores": [
 					{
 						"nome": "Paula Couceiro",
@@ -451,7 +470,7 @@ var dispSessions = new Vue({
 					},
 					{
 						"nome": "Marlene Carriço",
-						"cargo": "Jornalista, Universidade de Coimbra**",
+						"cargo": "Jornalista",
 						"nb": "",
 						"presidente": false
 					},
@@ -484,7 +503,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Rui Alves Pereira",
 						"cargo": "Advogado",
-						"nb": "",
+						"nb": "NB2022/R1iA3sP5a.pdf",
 						"presidente": false
 					}
 				],
@@ -522,9 +541,9 @@ var dispSessions = new Vue({
 						"extra": false
 					},
 					{
-						"nome": "Maria Perquilhas",
-						"cargo": "Juíza Desembargadora",
-						"nb": "NB2022/M3aP8s.pdf",
+						"nome": "Chandra Gracias",
+						"cargo": "Juíza de Direito e Docente do Centro de Estudos Judiciários",
+						"nb": "NB2022/C5aG5s.pdf",
 						"extra": false
 					},
 					{
