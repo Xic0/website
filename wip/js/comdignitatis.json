@@ -1,0 +1,39 @@
+{  
+    "@context":"http://schema.org",
+    "@type":"EducationEvent",
+    "name":"III Congresso Europeu Sobre uma Justiça Amiga das Crianças",
+    "description":"III Congresso Europeu Sobre uma Justiça Amiga das Crianças",
+    "image":"http://congresso.comdignitatis.org/img/banner.png",
+    "organizer":"ComDignitatis",
+    "doorTime":"2022-05-04T08:30",
+    "startDate":"2022-05-05T09:00",
+    "endDate":"2022-05-05T17:00",
+    "url":"http://congresso.comdignitatis.org",
+    "location":{  
+        "@type":"Place",
+        "sameAs":"http://www.gulbenkian.pt",
+        "name":"Fundação Calouste Gulbenkian",
+        "address":"Av. Berna 45A, 1067-001 Lisboa"
+    },
+    "offers":[  
+        {  
+            "@type":"Offer",
+            "name":"Congresso (não estudante)",
+            "url":"https://forms.gle/T4jAXiQ93HaMhd618",
+            "price":"25",
+            "priceCurrency":"EUR",
+            "availability":"http://schema.org/LimitedAvailability",
+            "validFrom":"2022-02-01"
+        },
+        {  
+            "@type":"Offer",
+            "name":"Congresso (estudante)",
+            "url":"https://forms.gle/T4jAXiQ93HaMhd618",
+            "price":"20",
+            "priceCurrency":"EUR",
+            "availability":"http://schema.org/LimitedAvailability",
+            "validFrom":"2022-02-01"
+        }
+    ],
+    "performer":"Orquestra Geração"
+}
