@@ -2,14 +2,14 @@ var navbar = new Vue({
 	el: '#Navbar',
 	data: {
 		shorttitle: 'Conclusões do III Congresso Europeu',
-		url_form: 'https://forms.gle/C4JsBub6C6PhcU4D9'
+		url_form: 'https://forms.gle/3MBCbCaHu56zxgmq8'
 	}
 })
 
 var navDemo = new Vue({
 	el: '#navDemo',
 	data: {
-		url_form: 'https://forms.gle/C4JsBub6C6PhcU4D9'
+		url_form: 'https://forms.gle/3MBCbCaHu56zxgmq8'
 	}
 })
 
@@ -53,19 +53,6 @@ var mensagem = new Vue({
 		]
 	}
 })
-
-
-// var c_cientifica = new Vue({
-// 	el: "#idCientifica",
-// 	data: {
-// 		header: 'Comissão Científica',
-// 		membros: [
-// 			{ nome: 'Professor Doutor Fausto Amaro' },
-// 			{ nome: 'Doutora Maria João Leote de Carvalho' },
-// 			{ nome: 'Doutora Rosa Clemente' }
-// 		]
-// 	}
-// })
 
 var programa = new Vue({
 	"el": "#idPrograma1",

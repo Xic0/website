@@ -3,11 +3,6 @@ var Logos = new Vue({
     "data": {
         "images": [
             {
-                "alt": "Com o Alto Patrocínio de Sua Excelência o Presidente da Républica",
-                "style": "width:100%;padding:5px;",
-                "src": "../img/PAT00.jpg"
-            },
-            {
                 "alt": "Logotipo Ministério Público",
                 "style": "height:80px; padding:5px;",
                 "src": "../img/CCCO01.jpg"
@@ -77,11 +72,6 @@ var Logos = new Vue({
                 "style": "height:80px; padding:5px;",
                 "src": "../img/CCCO09.jpg"
             },
-            // {
-            //     "alt": "Logotipo Cáritas",
-            //     "style": "height:80px; padding:5px;",
-            //     "src": "../img/CCCO10.jpg"
-            // },
             {
                 "alt": "Logotipo CrescerSer",
                 "style": "height:80px; padding:5px;",
@@ -91,64 +81,6 @@ var Logos = new Vue({
                 "alt": "Logotipo ComDignitatis",
                 "style": "height:80px; padding:5px;",
                 "src": "../img/CCCO13.jpg"
-            }
-        ]
-    }
-})
-
-var Patrocinios = new Vue({
-    "el": "#idPatrocinios",
-    "data": {
-        "images": [
-            {
-                "alt": "Logotipo Glintt",
-                "style": "height:100px; padding:5px;",
-                "src": "../img/PAT04.jpg"
-            },
-            {
-                "alt": "Logotipo Crédito Agrícola Mútuo",
-                "style": "height:100px; padding:5px;",
-                "src": "../img/PAT02a.jpg"
-            },
-            {
-                "alt": "Logotipo Centro Internacional de Ensino e Investigação Fernão de Magalhães",
-                "style": "width:100px;padding:5px;",
-                "src": "../img/PAT07.jpg"
-            },
-            {
-                "alt": "Logotipo Grupo Lourenço & Lousada",
-                "style": "height:100px; padding:5px;",
-                "src": "../img/PAT05.jpg"
-            },
-            {
-                "alt": "Logotipo Martins Alves",
-                "style": "height:50px; padding:5px;",
-                "src": "../img/PAT03.jpg"
-            },
-            {
-                "alt": "Logotipo Hotel A.S.",
-                "style": "height:100px; padding:5px;",
-                "src": "../img/PAT09.jpg"
-            },
-            {
-                "alt": "Logotipo Cerger",
-                "style": "height:80px;padding:5px;",
-                "src": "../img/PAT10.jpg"
-            },
-            {
-                "alt": "Logotipo A Casa das Casas",
-                "style": "height:150px;padding:5px;",
-                "src": "../img/PAT11.jpg"
-            },
-            {
-                "alt": "Logotipo Grupo das Casas",
-                "style": "height:150px;padding:5px;",
-                "src": "../img/PAT12.jpg"
-            },
-            {
-                "alt": "Logotipo",
-                "style": "height:150px;padding:5px;",
-                "src": "../img/PAT13.jpg"
             }
         ]
     }
@@ -172,24 +104,6 @@ var Parceiros = new Vue({
                 "alt": "Logotipo Ordem dos Psicologos",
                 "style": "height:100px; padding:5px;",
                 "src": "img/23_05-PAR-003.jpg"
-            }
-        ]
-    }
-})
-
-var Apoios = new Vue({
-    "el": "#idApoios",
-    "data": {
-        "images": [
-            {
-                "alt": "Logotipo Justiça TA",
-                "style": "height:100px; padding:5px;",
-                "src": "../img/AP01.jpg"
-            },
-            {
-                "alt": "Logotipo DATAJURIS",
-                "style": "height:100px; padding:5px;",
-                "src": "../img/AP02.jpg"
             }
         ]
     }
