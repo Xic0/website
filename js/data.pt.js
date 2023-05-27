@@ -116,13 +116,20 @@ var programa = new Vue({
 			{
 				"hora": "16h15",
 				"título": "Síntese dos Trabalhos dos Grupos de Reflexão e Debate sobre as Conclusões",
-				"debate": true,
+				"debate": false,
 				"tema": false
 			}
 			,
 			{
 				"hora": "17h15",
-				"título": "Encerramento: Momento Musical",
+				"título": "Comentário Final",
+				"debate": false,
+				"tema": false
+			}
+			,
+			{
+				"hora": "17h30",
+				"título": "Encerramento: Momento Musical pela Universidade Sénior de Oleiros",
 				"debate": false,
 				"tema": false
 			}
@@ -163,6 +170,21 @@ var dispSessions = new Vue({
 						"nb": "NB2023/NB_PG.pdf",
 						"presidente": false,
 						"extra": true,
+						"texto": "Coordenador"
+					}
+				],
+				"layout": 1
+			},
+			{
+				"id": "c_3",
+				"title": "Comentário Final",
+				"oradores": [
+					{
+						"nome": "Armando Leandro",
+						"cargo": "Juiz Conselheiro Jubilado",
+						"nb": "NB2023/NB_AL.pdf",
+						"presidente": false,
+						"extra": false,
 						"texto": "Coordenador"
 					}
 				],

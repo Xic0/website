@@ -59,13 +59,13 @@ var Logos = new Vue({
             },
             {
                 "alt": "Logotipo CICS",
-                "style": "height:100px; padding:5px;",
+                "style": "height:130px; padding:5px;",
                 "src": "/img/CICS.jpg"
             },
             {
                 "alt": "Logotipo FCT",
-                "style": "height:80px; padding:5px;",
-                "src": "/img/CCCO14.jpg"
+                "style": "height:100px; padding:5px;",
+                "src": "/img/CCCO15a.jpg"
             },
             {
                 "alt": "Logotipo Universidade Atlântica",
