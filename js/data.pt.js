@@ -1,15 +1,15 @@
 var navbar = new Vue({
 	el: '#Navbar',
 	data: {
-		shorttitle: 'Conclusões do III Congresso Europeu',
-		url_form: 'https://forms.gle/3MBCbCaHu56zxgmq8'
+		shorttitle: 'IV Congresso Europeu Sobre Uma Justiça Amiga das Crianças',
+		url_form: 'https://forms.gle/Lx4bmxQhVJEDkPmh8'
 	}
 })
 
 var navDemo = new Vue({
 	el: '#navDemo',
 	data: {
-		url_form: 'https://forms.gle/3MBCbCaHu56zxgmq8'
+		url_form: 'https://forms.gle/Lx4bmxQhVJEDkPmh8'
 	}
 })
 
@@ -24,32 +24,27 @@ var organization = new Vue({
 			{ text: 'Comissão Nacional de Promoção dos Direitos e Proteção das Crianças e Jovens' },
 			{ text: 'Direção-Geral de Reinserção e Serviços Prisionais' },
 			{ text: 'Centro de Estudos Judiciários' },
-			{ text: 'Instituto da Segurança Social, I.P.' },
 			{ text: 'Santa Casa da Misericórdia de Lisboa' },
 			{ text: 'Casa Pia de Lisboa' },
 			{ text: 'Centro de Direito da Família da Universidade de Coimbra' },
 			{ text: 'Centro Interdisciplinar de Ciências Sociais da Universidade Nova de Lisboa' },
 			{ text: 'Universidade Atlântica' },
 			{ text: 'CrescerSer - Associação Portuguesa para o Direito dos Menores e da Família' },
-			{ text: 'ComDignitatis' }
+			{ text: 'ComDignitatis ─ Associação Portuguesa para a Promoção da Dignidade Humana' }
 		]
 	}
 })
-
 
 var mensagem = new Vue({
 	"el": "#idMensagem",
 	"data": {
 		"header": "Mensagem de Apresentação",
 		"paragrafos": [
-			"No âmbito da sua missão como promotora da Dignidade Humana e da defesa dos Direito do Homem, em particular dos Direitos da Criança, a ComDignitatis tem vindo a divulgar as Diretrizes Europeias para uma Justiça Amiga das Crianças, promovendo um amplo debate, a nível nacional, que visa a sensibilização dos Governantes e dos profissionais para o papel crucial das Diretrizes e para a emergência da sua implementação.",
-			"Em Maio de 2016 e 2018, realizámos, na Fundação Calouste Gulbenkian, o I e II Congresso Europeu Sobre Uma Justiça Amiga das Crianças, em parceria com diversas entidades Públicas e da Sociedade Civil.",
-			"O I Congresso permitiu dar a conhecer, publicamente, as Diretrizes e promoveu um debate e reflexão sobre os Direitos da criança e as suas necessidades, quando envolvida em processos judiciais e extrajudiciais, tendo o II Congresso incidido especialmente na justiça para os jovens autores de delitos e nas formas de prevenção da delinquência juvenil.",
-			"Já em Maio de 2022, realizámos o III Congresso Europeu Sobre Uma Justiça Amiga das Crianças que partiu uma vez mais das Diretrizes «Uma Justiça Amiga das Crianças» e abordou a temática dos Direitos Humanos da Criança.",
-			"Acreditando que a continuidade destes trabalhos é de extrema importância para a reflexão sobre os direitos das nossas Crianças e determinante para despoletar nos mais novos a confiança no sistema judicial, vamos realizar no dia 5 de Junho de 2023, no Edifício Multiusos do Parque das Devesas Altas, em Oleiros, um Encontro sobre o tema tendo em vista a apresentação pública das conclusões do III Congresso Europeu Sobre Uma Justiça Amiga das Crianças, seguida de debate e reflexão.",
-			"Este Encontro realiza-se em parceria com a Câmara Municipal de Oleiros e com várias Entidades públicas e privadas, nomeadamente a Procuradoria-Geral da República, a Provedoria de Justiça, a Ordem dos Advogados, a Comissão Nacional de Promoção dos Direitos e Proteção das Crianças e Jovens, a Direção-Geral de Reinserção e Serviços Prisionais, o Centro de Estudos Judiciários, o Instituto da Segurança Social, IP, a Santa Casa da Misericórdia de Lisboa, a Casa Pia de Lisboa, o Centro de Direito da Família da Universidade de Coimbra, o Centro Interdisciplinar de Ciências Sociais da Universidade Nova de Lisboa, a Universidade Atlântica e a Crescer – Associação Portuguesa para o Direito dos Menores e da Família.",
-			"Convidamo-lo uma vez mais a juntar-se a nós e a este desafio, participando nesta Sessão com o seu saber, experiência e opinião.",
-			"Contamos consigo!"
+			"Ipsum nisi cupidatat ea consequat eu duis ex duis et ad. Minim dolor mollit ipsum occaecat pariatur eiusmod eu tempor anim. Sit commodo ad non ea minim nostrud pariatur id pariatur eu irure elit ad eu. Ex nulla est veniam duis in. Consequat nostrud nostrud ullamco quis dolor velit duis mollit enim sit in. Aliquip labore cupidatat ipsum ipsum eiusmod magna magna incididunt deserunt sit excepteur anim ipsum officia.",
+			"Id sit et aliquip id irure dolor est. Ad consequat est amet consequat reprehenderit adipisicing culpa deserunt do incididunt proident Lorem ipsum. Eiusmod laborum labore ex et pariatur elit ipsum. Tempor dolore officia labore quis magna magna cillum ut.",
+			"Duis officia enim velit occaecat adipisicing consectetur nostrud culpa aute laboris proident duis dolor cupidatat. Cillum minim et consequat ullamco velit sit aliqua sunt id voluptate excepteur elit ut irure. Sunt officia consequat culpa est minim anim consectetur minim duis irure. Ad non labore et exercitation deserunt officia. Qui dolore in cupidatat exercitation Lorem officia laboris aute aute nisi Lorem. Sunt culpa et veniam labore nostrud irure. Ut sint est nisi nulla.",
+			"Minim eiusmod irure incididunt exercitation commodo eu elit ut adipisicing nulla sit laboris. Cillum laborum irure duis incididunt adipisicing. Laboris dolore officia ad commodo ad.",
+			"Non Lorem et aute Lorem nostrud officia quis pariatur aute ad officia duis qui et. Dolore deserunt tempor nostrud duis nulla ipsum dolor ipsum non tempor. Nisi consequat veniam esse nisi qui. Commodo veniam excepteur duis sint consectetur tempor eu enim quis.",
 		]
 	}
 })
@@ -66,70 +61,145 @@ var programa = new Vue({
 			},
 			{
 				"hora": "9h30",
-				"título": "Sessão de Abertura e Inauguração da Exposição de Trabalhos sobre o Projeto Youth-Friendly Justice",
+				"título": "Sessão de Abertura",
 				"debate": false,
 				"tema": false
 			},
 			{
 				"hora": "10h00",
-				"título": "Os Direitos Humanos num Mundo em Mudança",
+				"título": "O Direito Humano das Crianças à Educação: Perspetivas da Pedagogia, do Ensino e da Avaliação",
 				"debate": false,
 				"tema": true
 			},
 			{
-				"hora": "10h45",
+				"hora": "10h00",
+				"título": "Estratégia Global para a Família na Educação das Crianças",
+				"debate": false,
+				"tema": true
+			},
+			{
+				"hora": "11h30",
 				"título": "Pausa para Café",
 				"debate": false,
 				"tema": false
 			},
 			{
-				"hora": "11h00",
-				"título": "Leitura das Conclusões do III Congresso Europeu Sobre Uma Justiça Amiga das Crianças",
+				"hora": "12h00",
+				"título": "Pressupostos e Conteúdo do Direito à Educação na Convenção Sobre os Direitos da Criança",
 				"debate": false,
 				"tema": true
 			},
 			{
-				"hora": "12h00",
-				"título": "Projeto Youth-Friendly Justice",
-				"debate": false,
-				"tema": false
-			},
-			{
-				"hora": "12h30",
+				"hora": "12h45",
 				"título": "Almoço livre",
 				"debate": false,
 				"tema": false
 			},
 			{
 				"hora": "14h00",
-				"título": "Grupos de Reflexão e Debate sobre as Conclusões",
+				"título": "Momento Lúdico",
 				"debate": false,
 				"tema": false
 			},
 			{
-				"hora": "16h00",
+				"hora": "14h30",
+				"título": "Missão da Escola: Educação Formal e Não Formal – Complementaridade ou Confronto?",
+				"debate": false,
+				"tema": false
+			}
+			,
+			{
+				"hora": "15h15",
 				"título": "Pausa para Café",
 				"debate": false,
 				"tema": false
 			}
 			,
 			{
-				"hora": "16h15",
-				"título": "Síntese dos Trabalhos dos Grupos de Reflexão e Debate sobre as Conclusões",
+				"hora": "15h30",
+				"título": "O Direito à Educação na Era da Inteligência Artificial",
 				"debate": false,
 				"tema": false
 			}
 			,
+			{
+				"hora": "16h15",
+				"título": "Outras Formas de Educar",
+				"debate": true,
+				"tema": false
+			},
+			{
+				"hora": "17h00",
+				"título": "Encerramento dos Trabalhos",
+				"debate": false,
+				"tema": false
+			}
+		]
+	}
+})
+
+var programa1 = new Vue({
+	"el": "#idPrograma2",
+	"data": {
+		"horario": [
+			{
+				"hora": "9h30",
+				"título": "O Direito à Educação",
+				"subtítulos": [
+					"A Escola e a Saúde Mental das Crianças",
+					"A Escola Inclusiva e a Multiculturalidade",
+					"A Escola, Famílias e Cidadania",
+					"A Violência na Escola e o Direito da Criança a Ter uma Tutela Educativa"
+				],
+				"paralelas": true,
+				"debate": false,
+				"tema": true
+			},
+			{
+				"hora": "11h00",
+				"título": "Pausa para Café",
+				"debate": false,
+				"tema": false
+			},
+			{
+				"hora": "11h30",
+				"título": "Continuação dos Trabalhos",
+				"debate": false,
+				"tema": true
+			},
+			{
+				"hora": "12h30",
+				"título": "Almoço Livre",
+				"debate": false,
+				"tema": false
+			},
+			{
+				"hora": "14h30",
+				"título": "Vozes",
+				"debate": false,
+				"tema": false
+			},
+			{
+				"hora": "15h30",
+				"título": "Pausa para Café",
+				"debate": false,
+				"tema": false
+			},
+			{
+				"hora": "15h45",
+				"título": "Apresentação das Conclusões das Sessões Paralelas",
+				"debate": true,
+				"tema": true
+			},
 			{
 				"hora": "17h15",
 				"título": "Comentário Final",
 				"debate": false,
 				"tema": false
-			}
-			,
+			},
 			{
 				"hora": "17h30",
-				"título": "Encerramento: Momento Musical pela Universidade Sénior de Oleiros",
+				"título": "Encerramento do IV Congresso Europeu Sobre Uma Justiça Amiga das Crianças",
 				"debate": false,
 				"tema": false
 			}
@@ -143,18 +213,18 @@ var dispSessions = new Vue({
 		"sessions": [
 			{
 				"id": "c_1",
-				"title": "Os Direitos Humanos num Mundo em Mudança",
+				"title": "O Direito Humano das Crianças à Educação: Perspetivas da Pedagogia, do Ensino e da Avaliação",
 				"oradores": [
 					{
-						"nome": "Rosa Clemente",
-						"cargo": "Centro de Direito da Família da Faculdade de Direito de Coimbra",
-						"nb": "NB2023/NB_RC.pdf",
+						"nome": "Comissão Nacional de Promoção dos Direitos e Proteção das Crianças e Jovens*",
+						"cargo": "",
+						"nb": "",
 						"presidente": true
 					},
 					{
-						"nome": "João da Silva Miguel",
-						"cargo": "Juiz Conselheiro Jubilado",
-						"nb": "NB2023/NB_JSM.pdf",
+						"nome": "Domingos Fernandes",
+						"cargo": "Presidente do Conselho Nacional de Educação",
+						"nb": "NB2024/NB2024_D6sF7s.pdf",
 						"presidente": false
 					}
 				],
@@ -162,34 +232,368 @@ var dispSessions = new Vue({
 			},
 			{
 				"id": "c_2",
-				"title": "Leitura das Conclusões do III Congresso Europeu Sobre Uma Justiça Amiga das Crianças",
+				"title": "Estratégia Global para a Família na Educação das Crianças",
 				"oradores": [
 					{
-						"nome": "Paulo Guerra",
-						"cargo": "Juiz Desembargador",
-						"nb": "NB2023/NB_PG.pdf",
+						"nome": "Juan Ambrósio",
+						"cargo": "Universidade Católica Portuguesa",
+						"nb": "",
 						"presidente": false,
-						"extra": true,
-						"texto": "Coordenador"
+						"extra": false,
+						"texto": ""
 					}
 				],
 				"layout": 1
 			},
 			{
 				"id": "c_3",
-				"title": "Comentário Final",
+				"title": "Pressupostos e Conteúdo do Direito à Educação na Convenção Sobre os Direitos da Criança",
 				"oradores": [
 					{
 						"nome": "Armando Leandro",
 						"cargo": "Juiz Conselheiro Jubilado",
-						"nb": "NB2023/NB_AL.pdf",
+						"nb": "",
+						"presidente": true,
+						"extra": false,
+						"texto": ""
+					},
+					{
+						"nome": "Laborinho Lúcio",
+						"cargo": "Juiz Conselheiro Jubilado",
+						"nb": "NB2024/NB2024_L7oL3o.pdf",
 						"presidente": false,
 						"extra": false,
-						"texto": "Coordenador"
+						"texto": ""
+					}
+				],
+				"layout": 2
+			},
+			{
+				"id": "c_4",
+				"title": "Momento Lúdico",
+				"oradores": [
+					{
+						"nome": "Jorge Serafim",
+						"cargo": "Contador de Histórias",
+						"nb": "",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					}
+				],
+				"layout": 1
+			},
+			{
+				"id": "c_5",
+				"title": "Missão da Escola: Educação Formal e Não Formal – Complementaridade ou Confronto?",
+				"oradores": [
+					{
+						"nome": "Centro de Direito da Família da Faculdade de Direito da Universidade de Coimbra*",
+						"cargo": "",
+						"nb": "",
+						"presidente": true,
+						"extra": false,
+						"texto": ""
+					},
+					{
+						"nome": "Maria de Fátima Matos",
+						"cargo": "Presidente do Conselho Diretivo da Casa Pia de Lisboa",
+						"nb": "NB2024/NB2024_M3aF4aM3s.pdf",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					}
+				],
+				"layout": 2
+			},
+			{
+				"id": "c_6",
+				"title": "O Direito à Educação na Era da Inteligência Artificial",
+				"oradores": [
+					{
+						"nome": "Ordem dos Advogados*",
+						"cargo": "",
+						"nb": "",
+						"presidente": true,
+						"extra": false,
+						"texto": ""
+					},
+					{
+						"nome": "João Couvaneiro",
+						"cargo": "Professor",
+						"nb": "NB2024/NB2024_J2oC8o.pdf",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					}
+				],
+				"layout": 2
+			},
+			{
+				"id": "c_7",
+				"title": "Outras Formas de Educar",
+				"oradores": [
+					{
+						"nome": "Direção-Geral de Reinserção e Serviços Prisionais*",
+						"cargo": "",
+						"nb": "",
+						"presidente": true,
+						"extra": false,
+						"texto": ""
+					},
+					{
+						"nome": "Ana Passos e Sousa",
+						"cargo": "Projeto Escola Lá Fora",
+						"nb": "NB2024/NB2024_A1aP4sS3a.pdf",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					},
+					{
+						"nome": "Projeto Achieve+",
+						"cargo": "Projeto Achieve+",
+						"nb": "",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					}
+				],
+				"layout": 3
+			},
+			{
+				"id": "c_8",
+				"title": "A Escola e a Saúde Mental das Crianças",
+				"oradores": [
+					{
+						"nome": "António Santinha",
+						"cargo": "Santa Casa da Misericórdia de Lisboa",
+						"nb": "NB2024/NB2024_A5oS6a.pdf",
+						"presidente": false,
+						"extra": true,
+						"texto": "Facilitador"
+					},
+					{
+						"nome": "Filipe Silva",
+						"cargo": "Psicólogo",
+						"nb": "",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					},
+					{
+						"nome": "Ricardo Rodrigues",
+						"cargo": "Enfermeiro",
+						"nb": "",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					},
+					{
+						"nome": "Rui Godinho",
+						"cargo": "Santa Casa da Misericórdia de Lisboa",
+						"nb": "",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					}
+				],
+				"layout": 4
+			},
+			{
+				"id": "c_9",
+				"title": "A Escola Inclusiva e a Multiculturalidade",
+				"oradores": [
+					{
+						"nome": "Leonor Fechas",
+						"cargo": "Casa Pia de Lisboa",
+						"nb": "NB2024/NB2024_L4rF4s.pdf",
+						"presidente": false,
+						"extra": true,
+						"texto": "Facilitador"
+					},
+					{
+						"nome": "Antero Afonso",
+						"cargo": "Arco Maior",
+						"nb": "",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					},
+					{
+						"nome": "António Vale",
+						"cargo": "Associação de Mães e Pais pela Liberdade de Orientação Sexual e Identidade de Género – AMPLOS",
+						"nb": "NB2024/NB2024_A5oV2e.pdf",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					},
+					{
+						"nome": "Fátima Teles",
+						"cargo": "Professora",
+						"nb": "NB2024/NB2024_F4aT3s.pdf",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					},
+					{
+						"nome": "Mafalda Nunes",
+						"cargo": "Casa Pia de Lisboa",
+						"nb": "NB2024/NB2024_M5aN3s.pdf",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					}
+				],
+				"layout": 5
+			},
+			{
+				"id": "c_10",
+				"title": "A Escola, Famílias e Cidadania",
+				"oradores": [
+					{
+						"nome": "José Carlos Matias",
+						"cargo": "Direção-Geral da Educação",
+						"nb": "NB2024/NB2024_J2eC4sM4s.pdf",
+						"presidente": false,
+						"extra": true,
+						"texto": "Facilitador"
+					},
+					{
+						"nome": "Dulce Marques",
+						"cargo": "Instituto Português do Desporto e Juventude, IP",
+						"nb": "",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					},
+					{
+						"nome": "Helena Gil",
+						"cargo": "Direção-Geral da Educação",
+						"nb": "NB2024/NB2024_H4aG1l.pdf",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					},
+					{
+						"nome": "Teresa Lopes",
+						"cargo": "Agrupamento de Escolas Ibn Mucana",
+						"nb": "",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					}
+				],
+				"layout": 4
+			},
+			{
+				"id": "c_11",
+				"title": "A Violência na Escola e o Direito da Criança a Ter uma Tutela Educativa",
+				"oradores": [
+					{
+						"nome": "Rosa Clemente",
+						"cargo": "Centro de Direito da Família da Faculdade de Direito da Universidade de Coimbra",
+						"nb": "",
+						"presidente": false,
+						"extra": true,
+						"texto": "Facilitador"
+					},
+					{
+						"nome": "José Pedro Barros",
+						"cargo": "Juiz de Direito",
+						"nb": "",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					},
+					{
+						"nome": "Paula Soares",
+						"cargo": "Procuradora-Geral Adjunta",
+						"nb": "NB2024/NB2024_P3aS4s.pdf",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					},
+					{
+						"nome": "Sofia Nunes da Silva",
+						"cargo": "Pedopsiquiatra",
+						"nb": "",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					},
+					{
+						"nome": "Tiago Castelo",
+						"cargo": "Procurador da República",
+						"nb": "NB2024/NB2024_T3oC5o.pdf",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					}
+				],
+				"layout": 5
+			},
+			{
+				"id": "c_12",
+				"title": "Apresentação das Conclusões das Sessões Paralelas",
+				"oradores": [
+					{
+						"nome": "Idália Serrão",
+						"cargo": "Associação Mutualista Montepio Geral",
+						"nb": "NB2024/NB2024_I4aS4o.pdf",
+						"presidente": true,
+						"extra": false,
+						"texto": ""
+					},
+					{
+						"nome": "Paulo Guerra",
+						"cargo": "Juiz Desembargador",
+						"nb": "NB2024/NB2024_P3oG4a.pdf",
+						"presidente": false,
+						"extra": true,
+						"texto": "Relator"
+					},
+					{
+						"nome": "Ana Castro",
+						"cargo": "Procuradora da República e Docente do Centro de Estudos Judiciários",
+						"nb": "",
+						"presidente": false,
+						"extra": true,
+						"texto": "Correlatores"
+					},
+					{
+						"nome": "Chandra Gracias",
+						"cargo": "Juíza de Direito",
+						"nb": "NB2024/NB2024_C5aG5s.pdf",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					},
+					{
+						"nome": "Maria Oliveira Mendes",
+						"cargo": "Procuradora da República e Docente do Centro de Estudos Judiciários",
+						"nb": "NB2024/NB2024_M3aO6aM4s.pdf",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					}
+				],
+				"layout": 5
+			},
+			{
+				"id": "c_13",
+				"title": "Comentário Final",
+				"oradores": [
+					{
+						"nome": "Maria João Leote de Carvalho",
+						"cargo": "Centro Interdisciplinar de Ciências Sociais (CICS.NOVA.FCSH) da Universidade NOVA de Lisboa",
+						"nb": "NB2024/NB2024_M3aJ2oL3eC6o.pdf",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
 					}
 				],
 				"layout": 1
 			}
 		]
-	}
+	},
 })

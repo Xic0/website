@@ -32,11 +32,11 @@ var Logos = new Vue({
                 "style": "height:80px; padding:5px;",
                 "src": "/img/CCCO08.jpg"
             },
-            {
-                "alt": "Logotipo Segurança Social",
-                "style": "padding:5px;",
-                "src": "/img/CCCO06.jpg"
-            },
+            // {
+            //     "alt": "Logotipo Segurança Social",
+            //     "style": "padding:5px;",
+            //     "src": "/img/CCCO06.jpg"
+            // },
             {
                 "alt": "Logotipo SCML",
                 "style": "height:100px; padding:5px;",
@@ -90,21 +90,47 @@ var Parceiros = new Vue({
     "el": "#idParceiros",
     "data": {
         "images": [
-            {
-                "alt": "Logotipo Camara Municipal Oleiros",
-                "style": "height:100px; padding:5px;",
-                "src": "img/23_05-PAR-001.jpg"
-            },
+            // {
+            //     "alt": "Logotipo Camara Municipal Oleiros",
+            //     "style": "height:100px; padding:5px;",
+            //     "src": "img/23_05-PAR-001.jpg"
+            // },
             {
                 "alt": "Logotipo do Centro de Formação da Associação de Escolas Rómulo de Carvalho",
                 "style": "height:100px; padding:5px;",
                 "src": "img/23_05-PAR-002.png"
-            },
-            {
-                "alt": "Logotipo Ordem dos Psicologos",
-                "style": "height:100px; padding:5px;",
-                "src": "img/23_05-PAR-003.jpg"
             }
+            // ,
+            // {
+            //     "alt": "Logotipo Ordem dos Psicologos",
+            //     "style": "height:100px; padding:5px;",
+            //     "src": "img/23_05-PAR-003.jpg"
+            // }
         ]
     }
 })
+
+var Apoios = new Vue({
+    "el": "#idApoios",
+    "data": {
+        "images": [
+            // {
+            //     "alt": "Logotipo Camara Municipal Oleiros",
+            //     "style": "height:100px; padding:5px;",
+            //     "src": "img/23_05-PAR-001.jpg"
+            // },
+            {
+                "alt": "Logotipo da Associação Mutualista Montepio Geral",
+                "style": "height:100px; padding:5px;",
+                "src": "img/2024_AP1.png"
+            }
+            // ,
+            // {
+            //     "alt": "Logotipo Ordem dos Psicologos",
+            //     "style": "height:100px; padding:5px;",
+            //     "src": "img/23_05-PAR-003.jpg"
+            // }
+        ]
+    }
+})
+
