@@ -29,7 +29,7 @@ var organization = new Vue({
 			{ text: 'Centro de Direito da Família da Universidade de Coimbra' },
 			{ text: 'Centro Interdisciplinar de Ciências Sociais da Universidade Nova de Lisboa' },
 			{ text: 'Universidade Atlântica' },
-			{ text: 'CrescerSer - Associação Portuguesa para o Direito dos Menores e da Família' },
+			{ text: 'CrescerSer ─ Associação Portuguesa para o Direito dos Menores e da Família' },
 			{ text: 'ComDignitatis ─ Associação Portuguesa para a Promoção da Dignidade Humana' }
 		]
 	}
@@ -67,15 +67,15 @@ var programa = new Vue({
 			},
 			{
 				"hora": "10h00",
-				"título": "O Direito Humano das Crianças à Educação: Perspetivas da Pedagogia, do Ensino e da Avaliação",
+				"título": "",
+				"subtítulos": [
+					"O Direito Humano das Crianças à Educação: Perspetivas da Pedagogia, do Ensino e da Avaliação",
+					"Estratégia Global para a Família na Educação das Crianças"
+				],
+				"paralelas": false,
+				"multiplas": true,
 				"debate": false,
-				"tema": true
-			},
-			{
-				"hora": "10h00",
-				"título": "Estratégia Global para a Família na Educação das Crianças",
-				"debate": false,
-				"tema": true
+				"tema": false
 			},
 			{
 				"hora": "11h30",

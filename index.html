@@ -89,7 +89,7 @@
             <h2 class="w3-wide w3-center w3-round w3-padding-16 w3-theme" style="font-variant: small-caps;">Entidade
                 Promotora</h2>
             <ul class="cd-list">
-                <li>ComDignitatis - Associação Portuguesa para a Promoção da Dignidade Humana</li>
+                <li>ComDignitatis ─ Associação Portuguesa para a Promoção da Dignidade Humana</li>
             </ul>
         </div>
 
@@ -117,12 +117,20 @@
                     <div class="w3-half tablink w3-bottombar w3-hover-border-theme w3-padding">07 de Maio de 2024</div>
                 </a>
             </div>
+
             <div id="idPrograma1" class="cPrograma" style="display:block">
                 <table class="w3-table w3-striped w3-theme-l4">
                     <tbody>
                         <tr v-for="h in horario">
                             <td class="cd-border-theme">{{ h.hora }}</td>
+                            <!-- alteração -->
                             <td>
+                                <p class="w3-center" v-if="h.multiplas">
+                                <ol class="cd-list" v-for="t in h.subtítulos">
+                                    <li><i>“{{ t }}”</i></li>
+                                </ol>
+                                </p>
+                                <!-- fim de alteração -->
                                 <p v-if="h.tema"><i>“{{ h.título }}”</i></p>
                                 <p v-else>{{ h.título }}</p>
                                 <p v-if='h.debate'>Debate</p>
@@ -131,6 +139,7 @@
                     </tbody>
                 </table>
             </div>
+
             <div id="idPrograma2" class="cPrograma" style="display:none">
                 <table class="w3-table w3-striped w3-theme-l4">
                     <tbody>
