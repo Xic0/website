@@ -414,7 +414,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Antero Afonso",
 						"cargo": "Arco Maior",
-						"nb": "",
+						"nb": "NB2024/NB2024_A4oA4o.pdf",
 						"presidente": false,
 						"extra": false,
 						"texto": ""
