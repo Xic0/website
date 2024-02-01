@@ -23,9 +23,14 @@ var Logos = new Vue({
                 "src": "/img/CCCO03.jpg"
             },
             {
+                "alt": "Logotipo República Portuguesa Justiça",
+                "style": "height:100px; padding:5px;",
+                "src": "/img/PAT14.png"
+            },
+            {
                 "alt": "Logotipo DGRSP",
-                "style": "height:80px; padding:5px;",
-                "src": "/img/CCCO02.jpg"
+                "style": "height:100px; padding:5px;",
+                "src": "/img/CCCO02a.jpg"
             },
             {
                 "alt": "Logotipo CEJ",
@@ -90,47 +95,49 @@ var Parceiros = new Vue({
     "el": "#idParceiros",
     "data": {
         "images": [
-            // {
-            //     "alt": "Logotipo Camara Municipal Oleiros",
-            //     "style": "height:100px; padding:5px;",
-            //     "src": "img/23_05-PAR-001.jpg"
-            // },
             {
                 "alt": "Logotipo do Centro de Formação da Associação de Escolas Rómulo de Carvalho",
                 "style": "height:100px; padding:5px;",
                 "src": "img/23_05-PAR-002.png"
             }
-            // ,
-            // {
-            //     "alt": "Logotipo Ordem dos Psicologos",
-            //     "style": "height:100px; padding:5px;",
-            //     "src": "img/23_05-PAR-003.jpg"
-            // }
         ]
     }
 })
 
-var Apoios = new Vue({
-    "el": "#idApoios",
+var Patrocinios = new Vue({
+    "el": "#idPatrocinios",
     "data": {
         "images": [
-            // {
-            //     "alt": "Logotipo Camara Municipal Oleiros",
-            //     "style": "height:100px; padding:5px;",
-            //     "src": "img/23_05-PAR-001.jpg"
-            // },
             {
                 "alt": "Logotipo da Associação Mutualista Montepio Geral",
                 "style": "height:100px; padding:5px;",
                 "src": "img/2024_AP1.png"
             }
-            // ,
-            // {
-            //     "alt": "Logotipo Ordem dos Psicologos",
-            //     "style": "height:100px; padding:5px;",
-            //     "src": "img/23_05-PAR-003.jpg"
-            // }
         ]
     }
 })
+
+// var Apoios = new Vue({
+//     "el": "#idApoios",
+//     "data": {
+//         "images": [
+//             // {
+//             //     "alt": "Logotipo Camara Municipal Oleiros",
+//             //     "style": "height:100px; padding:5px;",
+//             //     "src": "img/23_05-PAR-001.jpg"
+//             // },
+//             {
+//                 "alt": "Logotipo da Associação Mutualista Montepio Geral",
+//                 "style": "height:100px; padding:5px;",
+//                 "src": "img/2024_AP1.png"
+//             }
+//             // ,
+//             // {
+//             //     "alt": "Logotipo Ordem dos Psicologos",
+//             //     "style": "height:100px; padding:5px;",
+//             //     "src": "img/23_05-PAR-003.jpg"
+//             // }
+//         ]
+//     }
+// })
 
