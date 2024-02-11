@@ -237,7 +237,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Juan Ambrósio",
 						"cargo": "Universidade Católica Portuguesa",
-						"nb": "",
+						"nb": "NB2024/NB2024_J2nA6o.pdf",
 						"presidente": false,
 						"extra": false,
 						"texto": ""
