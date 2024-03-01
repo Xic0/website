@@ -375,7 +375,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Filipe Silva",
 						"cargo": "Psicólogo",
-						"nb": "",
+						"nb": "NB2024/NB2024_F4eS3a.pdf",
 						"presidente": false,
 						"extra": false,
 						"texto": ""
@@ -383,7 +383,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Ricardo Rodrigues",
 						"cargo": "Enfermeiro",
-						"nb": "",
+						"nb": "NB2024/NB2024_R5oR7s.pdf",
 						"presidente": false,
 						"extra": false,
 						"texto": ""
@@ -391,7 +391,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Rui Godinho",
 						"cargo": "Santa Casa da Misericórdia de Lisboa",
-						"nb": "",
+						"nb": "NB2024/NB2024_R1iG5o.pdf",
 						"presidente": false,
 						"extra": false,
 						"texto": ""
@@ -492,7 +492,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Rosa Clemente",
 						"cargo": "Centro de Direito da Família da Faculdade de Direito da Universidade de Coimbra",
-						"nb": "",
+						"nb": "NB2024/NB2024_R2aC6e.pdf",
 						"presidente": false,
 						"extra": true,
 						"texto": "Facilitador"
@@ -515,7 +515,7 @@ var dispSessions = new Vue({
 					},
 					{
 						"nome": "Sofia Nunes da Silva",
-						"cargo": "Pedopsiquiatra",
+						"cargo": "Psicóloga e Terapeuta Familiar",
 						"nb": "",
 						"presidente": false,
 						"extra": false,
