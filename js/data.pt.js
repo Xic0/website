@@ -35,6 +35,18 @@ var organization = new Vue({
 	}
 })
 
+var science = new Vue({
+	el: '#idCientifica',
+	data: {
+		header: 'Comissão Científica',
+		members: [
+			{ text: 'Professor Doutor Fausto Amaro' },
+			{ text: 'Doutora Maria João Leote de Carvalho' },
+			{ text: 'Doutora Rosa Clemente' },
+		]
+	}
+})
+
 var mensagem = new Vue({
 	"el": "#idMensagem",
 	"data": {
@@ -216,8 +228,8 @@ var dispSessions = new Vue({
 				"title": "O Direito Humano das Crianças à Educação: Perspetivas da Pedagogia, do Ensino e da Avaliação",
 				"oradores": [
 					{
-						"nome": "Comissão Nacional de Promoção dos Direitos e Proteção das Crianças e Jovens*",
-						"cargo": "",
+						"nome": "Rosário Farmhouse",
+						"cargo": "Comissão Nacional de Promoção dos Direitos e Proteção das Crianças e Jovens",
 						"nb": "",
 						"presidente": true
 					},
@@ -288,8 +300,8 @@ var dispSessions = new Vue({
 				"title": "Missão da Escola: Educação Formal e Não Formal – Complementaridade ou Confronto?",
 				"oradores": [
 					{
-						"nome": "Centro de Direito da Família da Faculdade de Direito da Universidade de Coimbra*",
-						"cargo": "",
+						"nome": "Paula Távora Vítor",
+						"cargo": "Centro de Direito da Família da Faculdade de Direito da Universidade de Coimbra",
 						"nb": "",
 						"presidente": true,
 						"extra": false,
@@ -516,7 +528,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Sofia Nunes da Silva",
 						"cargo": "Psicóloga e Terapeuta Familiar",
-						"nb": "",
+						"nb": "NB2024/NB2024_S3aN3sS3a.pdf",
 						"presidente": false,
 						"extra": false,
 						"texto": ""

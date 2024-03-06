@@ -99,6 +99,11 @@ var Parceiros = new Vue({
                 "alt": "Logotipo do Centro de Formação da Associação de Escolas Rómulo de Carvalho",
                 "style": "height:100px; padding:5px;",
                 "src": "img/23_05-PAR-002.png"
+            },
+            {
+                "alt": "Logotipo da Freguesia Queluz-Belas",
+                "style": "height:100px; padding:5px;",
+                "src": "img/PAR10.jpg"
             }
         ]
     }
@@ -112,6 +117,11 @@ var Patrocinios = new Vue({
                 "alt": "Logotipo da Associação Mutualista Montepio Geral",
                 "style": "height:100px; padding:5px;",
                 "src": "img/2024_AP1.png"
+            },
+            {
+                "alt": "Logotipo da Cafilesa",
+                "style": "height:100px; padding:5px;",
+                "src": "img/PAT14.jpg"
             }
         ]
     }
