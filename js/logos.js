@@ -3,6 +3,11 @@ var Logos = new Vue({
     "data": {
         "images": [
             {
+                "alt": "Com o Alto Patrocínio de Sua Excelência o Presidente da Républica",
+                "style": "width:100%;padding:5px;",
+                "src": "img/PAT00_2.png"
+            },
+            {
                 "alt": "Logotipo Ministério Público",
                 "style": "height:80px; padding:5px;",
                 "src": "/img/CCCO01.jpg"
@@ -96,10 +101,20 @@ var Parceiros = new Vue({
     "data": {
         "images": [
             {
+                "alt": "Logotipo da Ordem dos Psicólogos - Acção Formativa Acreditada",
+                "style": "height:100px; padding:5px;",
+                "src": "img/23_05-PAR-003.jpg"
+            },
+            {
                 "alt": "Logotipo do Centro de Formação da Associação de Escolas Rómulo de Carvalho",
                 "style": "height:100px; padding:5px;",
                 "src": "img/23_05-PAR-002.png"
             },
+            // {
+            //     "alt": "Logotipo Lamego",
+            //     "style": "height:100px; padding:5px;",
+            //     "src": "img/"
+            // },
             {
                 "alt": "Logotipo da Freguesia Queluz-Belas",
                 "style": "height:100px; padding:5px;",
