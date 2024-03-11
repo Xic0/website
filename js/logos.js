@@ -110,15 +110,20 @@ var Parceiros = new Vue({
                 "style": "height:100px; padding:5px;",
                 "src": "img/23_05-PAR-002.png"
             },
-            // {
-            //     "alt": "Logotipo Lamego",
-            //     "style": "height:100px; padding:5px;",
-            //     "src": "img/"
-            // },
+            {
+                "alt": "Logotipo Lamego",
+                "style": "height:100px; padding:5px;",
+                "src": "img/PAR11.png"
+            },
             {
                 "alt": "Logotipo da Freguesia Queluz-Belas",
                 "style": "height:100px; padding:5px;",
                 "src": "img/PAR10.jpg"
+            },
+            {
+                "alt": "Agrupamento de Escolas Queluz-Belas",
+                "style": "height:100px; padding:5px;",
+                "src": "img/PAR12.png"
             }
         ]
     }

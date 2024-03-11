@@ -323,8 +323,8 @@ var dispSessions = new Vue({
 				"title": "O Direito à Educação na Era da Inteligência Artificial",
 				"oradores": [
 					{
-						"nome": "Ordem dos Advogados*",
-						"cargo": "",
+						"nome": "Isabel Malheiro de Almeida",
+						"cargo": "Ordem dos Advogados",
 						"nb": "",
 						"presidente": true,
 						"extra": false,
@@ -540,6 +540,14 @@ var dispSessions = new Vue({
 						"presidente": false,
 						"extra": false,
 						"texto": ""
+					},
+					{
+						"nome": "Alcina da Costa Ribeiro",
+						"cargo": "Juíza Desembargadora do Tribunal da Relação de Coimbra e Presidente da Mesa da Assembleia Geral da ComDignitatis",
+						"nb": "NB2024/NB2024_A4aC3aR5o.pdf",
+						"presidente": false,
+						"extra": true,
+						"texto": "Vozes"
 					}
 				],
 				"layout": 5
@@ -567,7 +575,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Ana Castro",
 						"cargo": "Procuradora da República e Docente do Centro de Estudos Judiciários",
-						"nb": "",
+						"nb": "NB2024/NB2024_A1aC4o.pdf",
 						"presidente": false,
 						"extra": true,
 						"texto": "Correlatores"
