@@ -142,6 +142,21 @@ var Patrocinios = new Vue({
                 "alt": "Logotipo da Cafilesa",
                 "style": "height:100px; padding:5px;",
                 "src": "img/PAT14.jpg"
+            },
+            {
+                "alt": "Logotipo Martins Alves",
+                "style": "height:100px; padding:5px;",
+                "src": "img/PAT03.jpg"
+            },
+            {
+                "alt": "Logotipo A Casa das Casas",
+                "style": "height:130px; padding:5px;",
+                "src": "img/PAT11.jpg"
+            },
+            {
+                "alt": "Logotipo Grupo Das Casas",
+                "style": "height:130px; padding:5px;",
+                "src": "img/PAT12.jpg"
             }
         ]
     }

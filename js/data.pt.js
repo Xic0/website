@@ -325,7 +325,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Isabel Malheiro de Almeida",
 						"cargo": "Ordem dos Advogados",
-						"nb": "",
+						"nb": "NB2024/NB2024_I4lM6oA5a.pdf",
 						"presidente": true,
 						"extra": false,
 						"texto": ""
@@ -346,8 +346,8 @@ var dispSessions = new Vue({
 				"title": "Outras Formas de Educar",
 				"oradores": [
 					{
-						"nome": "Direção-Geral de Reinserção e Serviços Prisionais*",
-						"cargo": "",
+						"nome": "Rui Abrunhosa Gonçalves",
+						"cargo": "Diretor-Geral de Reinserção e Serviços Prisionais",
 						"nb": "",
 						"presidente": true,
 						"extra": false,
@@ -362,9 +362,9 @@ var dispSessions = new Vue({
 						"texto": ""
 					},
 					{
-						"nome": "Projeto Achieve+",
-						"cargo": "Projeto Achieve+",
-						"nb": "",
+						"nome": "Rui Pires",
+						"cargo": "Agrupamento de Escolas de Idães",
+						"nb": "NB2024/NB2024_R1iP3s.pdf",
 						"presidente": false,
 						"extra": false,
 						"texto": ""
@@ -540,17 +540,24 @@ var dispSessions = new Vue({
 						"presidente": false,
 						"extra": false,
 						"texto": ""
-					},
+					}
+				],
+				"layout": 5
+			},
+			{
+				"id": "c_11_1",
+				"title": "Vozes",
+				"oradores": [
 					{
 						"nome": "Alcina da Costa Ribeiro",
 						"cargo": "Juíza Desembargadora do Tribunal da Relação de Coimbra e Presidente da Mesa da Assembleia Geral da ComDignitatis",
 						"nb": "NB2024/NB2024_A4aC3aR5o.pdf",
 						"presidente": false,
-						"extra": true,
-						"texto": "Vozes"
+						"extra": false,
+						"texto": ""
 					}
 				],
-				"layout": 5
+				"layout": 1
 			},
 			{
 				"id": "c_12",
