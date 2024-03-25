@@ -121,6 +121,11 @@ var Parceiros = new Vue({
                 "src": "img/PAR10.jpg"
             },
             {
+                "alt": "Logotipo Agrupamento de Escolas de Latino Coelho",
+                "style": "height:100px; padding:5px;",
+                "src": "img/PAR24.png"
+            },
+            {
                 "alt": "Agrupamento de Escolas Queluz-Belas",
                 "style": "height:100px; padding:5px;",
                 "src": "img/PAR12.png"
@@ -157,6 +162,11 @@ var Patrocinios = new Vue({
                 "alt": "Logotipo Grupo Das Casas",
                 "style": "height:130px; padding:5px;",
                 "src": "img/PAT12.jpg"
+            },
+            {
+                "alt": "Logotipo Comboios de Portugal",
+                "style": "height:130px; padding:5px;",
+                "src": "img/PAT13.png"
             }
         ]
     }

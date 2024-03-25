@@ -512,7 +512,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "José Pedro Barros",
 						"cargo": "Juiz de Direito",
-						"nb": "",
+						"nb": "NB2024/NB2024_J2eP3oB4s.pdf",
 						"presidente": false,
 						"extra": false,
 						"texto": ""
