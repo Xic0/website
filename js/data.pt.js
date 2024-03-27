@@ -463,16 +463,16 @@ var dispSessions = new Vue({
 				"title": "A Escola, Famílias e Cidadania",
 				"oradores": [
 					{
-						"nome": "José Carlos Matias",
+						"nome": "José Carlos Sousa",
 						"cargo": "Direção-Geral da Educação",
-						"nb": "NB2024/NB2024_J2eC4sM4s.pdf",
+						"nb": "NB2024/NB2024_J2eC4sS3a.pdf",
 						"presidente": false,
 						"extra": true,
 						"texto": "Facilitador"
 					},
 					{
 						"nome": "Dulce Marques",
-						"cargo": "Instituto Português do Desporto e Juventude, IP",
+						"cargo": "Rede Europeia Anti-Pobreza",
 						"nb": "",
 						"presidente": false,
 						"extra": false,
