@@ -187,7 +187,7 @@ var programa1 = new Vue({
 			},
 			{
 				"hora": "14h30",
-				"título": "Vozes",
+				"título": "Vozes de Crianças e Jovens Sobre a Justiça e a Educação",
 				"debate": false,
 				"tema": false
 			},
@@ -546,7 +546,7 @@ var dispSessions = new Vue({
 			},
 			{
 				"id": "c_11_1",
-				"title": "Vozes",
+				"title": "Vozes de Crianças e Jovens Sobre a Justiça e a Educação",
 				"oradores": [
 					{
 						"nome": "Alcina da Costa Ribeiro",

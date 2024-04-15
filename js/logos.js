@@ -100,36 +100,12 @@ var Parceiros = new Vue({
     "el": "#idParceiros",
     "data": {
         "images": [
-            {
-                "alt": "Logotipo da Ordem dos Psicólogos - Acção Formativa Acreditada",
-                "style": "height:100px; padding:5px;",
-                "src": "img/23_05-PAR-003.jpg"
-            },
-            {
-                "alt": "Logotipo do Centro de Formação da Associação de Escolas Rómulo de Carvalho",
-                "style": "height:100px; padding:5px;",
-                "src": "img/23_05-PAR-002.png"
-            },
-            {
-                "alt": "Logotipo Lamego",
-                "style": "height:100px; padding:5px;",
-                "src": "img/PAR11.png"
-            },
-            {
-                "alt": "Logotipo da Freguesia Queluz-Belas",
-                "style": "height:100px; padding:5px;",
-                "src": "img/PAR10.jpg"
-            },
-            {
-                "alt": "Logotipo Agrupamento de Escolas de Latino Coelho",
-                "style": "height:100px; padding:5px;",
-                "src": "img/PAR24.png"
-            },
-            {
-                "alt": "Agrupamento de Escolas Queluz-Belas",
-                "style": "height:100px; padding:5px;",
-                "src": "img/PAR12.png"
-            }
+            { "alt": "Logotipo Agrupamento de Escolas de Latino Coelho", "style": "height:100px; padding:5px;", "src": "img/PAR24.png" },
+            { "alt": "Logotipo Agrupamento de Escolas Queluz-Belas", "style": "height:100px; padding:5px;", "src": "img/PAR12.png" },
+            { "alt": "Logotipo Centro de Formação da Associação de Escolas Rómulo de Carvalho", "style": "height:100px; padding:5px;", "src": "img/23_05-PAR-002.png" },
+            { "alt": "Logotipo Freguesia Queluz-Belas", "style": "height:100px; padding:5px;", "src": "img/PAR10.jpg" },
+            { "alt": "Logotipo Lamego", "style": "height:100px; padding:5px;", "src": "img/PAR11.png" },
+            { "alt": "Logotipo Ordem dos Psicólogos - Acção Formativa Acreditada", "style": "height:100px; padding:5px;", "src": "img/23_05-PAR-003.jpg" },
         ]
     }
 })
@@ -138,36 +114,15 @@ var Patrocinios = new Vue({
     "el": "#idPatrocinios",
     "data": {
         "images": [
-            {
-                "alt": "Logotipo da Associação Mutualista Montepio Geral",
-                "style": "height:100px; padding:5px;",
-                "src": "img/2024_AP1.png"
-            },
-            {
-                "alt": "Logotipo da Cafilesa",
-                "style": "height:100px; padding:5px;",
-                "src": "img/PAT14.jpg"
-            },
-            {
-                "alt": "Logotipo Martins Alves",
-                "style": "height:100px; padding:5px;",
-                "src": "img/PAT03.jpg"
-            },
-            {
-                "alt": "Logotipo A Casa das Casas",
-                "style": "height:130px; padding:5px;",
-                "src": "img/PAT11.jpg"
-            },
-            {
-                "alt": "Logotipo Grupo Das Casas",
-                "style": "height:130px; padding:5px;",
-                "src": "img/PAT12.jpg"
-            },
-            {
-                "alt": "Logotipo Comboios de Portugal",
-                "style": "height:130px; padding:5px;",
-                "src": "img/PAT13.png"
-            }
+            { "alt": "Logotipo Cafilesa", "style": "height:100px; padding:5px;", "src": "img/2024_PAT01.jpg" },
+            { "alt": "Logotipo Caixa de Crédito Agrícula", "style": "height:130px; padding:5px;", "src": "img/2024_PAT02.jpg" },
+            { "alt": "Logotipo Comboios de Portugal", "style": "height:100px; padding:5px;", "src": "img/2024_PAT03.png" },
+            { "alt": "Logotipo Fundação Calouste Gulbenkian", "style": "height:80px; padding:5px;", "src": "img/2024_PAT04.jpg" },
+            { "alt": "Logotipo Grupo Das Casas", "style": "height:130px; padding:5px;", "src": "img/2024_PAT05.jpg" },
+            { "alt": "Logotipo Casa das Casas", "style": "height:130px; padding:5px;", "src": "img/2024_PAT06.jpg" },
+            { "alt": "Logotipo Martins Alves", "style": "height:100px; padding:5px;", "src": "img/2024_PAT07.jpg" },
+            { "alt": "Logotipo Montepio", "style": "height:100px; padding:5px;", "src": "img/2024_PAT08.png" },
+            { "alt": "Logotipo Pestana", "style": "height:130px; padding:5px;", "src": "img/2024_PAT09.jpg" },
         ]
     }
 })
