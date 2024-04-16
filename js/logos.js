@@ -118,11 +118,12 @@ var Patrocinios = new Vue({
             { "alt": "Logotipo Caixa de Crédito Agrícula", "style": "height:130px; padding:5px;", "src": "img/2024_PAT02.jpg" },
             { "alt": "Logotipo Comboios de Portugal", "style": "height:100px; padding:5px;", "src": "img/2024_PAT03.png" },
             { "alt": "Logotipo Fundação Calouste Gulbenkian", "style": "height:80px; padding:5px;", "src": "img/2024_PAT04.jpg" },
+            { "alt": "Logotipo Gráfica Sobreirense", "style": "height:100px; padding:5px;", "src": "img/2024_PAT10.jpg" },
             { "alt": "Logotipo Grupo Das Casas", "style": "height:130px; padding:5px;", "src": "img/2024_PAT05.jpg" },
             { "alt": "Logotipo Casa das Casas", "style": "height:130px; padding:5px;", "src": "img/2024_PAT06.jpg" },
             { "alt": "Logotipo Martins Alves", "style": "height:100px; padding:5px;", "src": "img/2024_PAT07.jpg" },
             { "alt": "Logotipo Montepio", "style": "height:100px; padding:5px;", "src": "img/2024_PAT08.png" },
-            { "alt": "Logotipo Pestana", "style": "height:130px; padding:5px;", "src": "img/2024_PAT09.jpg" },
+            { "alt": "Logotipo Pestana", "style": "height:130px; padding:5px;", "src": "img/2024_PAT09.png" },
         ]
     }
 })

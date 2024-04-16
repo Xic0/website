@@ -142,7 +142,7 @@ var programa = new Vue({
 			},
 			{
 				"hora": "17h00",
-				"título": "Encerramento dos Trabalhos",
+				"título": "Momento Musical pelo Grupo Muzipia",
 				"debate": false,
 				"tema": false
 			}
@@ -192,13 +192,13 @@ var programa1 = new Vue({
 				"tema": false
 			},
 			{
-				"hora": "15h30",
+				"hora": "15h45",
 				"título": "Pausa para Café",
 				"debate": false,
 				"tema": false
 			},
 			{
-				"hora": "15h45",
+				"hora": "16h00",
 				"título": "Apresentação das Conclusões das Sessões Paralelas",
 				"debate": true,
 				"tema": true
@@ -473,7 +473,7 @@ var dispSessions = new Vue({
 					{
 						"nome": "Dulce Marques",
 						"cargo": "Rede Europeia Anti-Pobreza",
-						"nb": "",
+						"nb": "NB2024/NB2024_D4M5s.pdf",
 						"presidente": false,
 						"extra": false,
 						"texto": ""
