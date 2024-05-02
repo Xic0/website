@@ -487,8 +487,8 @@ var dispSessions = new Vue({
 						"texto": ""
 					},
 					{
-						"nome": "Teresa Lopes",
-						"cargo": "Agrupamento de Escolas Ibn Mucana",
+						"nome": "Faisal Aboobakar",
+						"cargo": "Agrupamento de Escolas de Marateca/Poceirão",
 						"nb": "",
 						"presidente": false,
 						"extra": false,
@@ -549,15 +549,23 @@ var dispSessions = new Vue({
 				"title": "Vozes de Crianças e Jovens Sobre a Justiça e a Educação",
 				"oradores": [
 					{
-						"nome": "Alcina da Costa Ribeiro",
-						"cargo": "Juíza Desembargadora do Tribunal da Relação de Coimbra e Presidente da Mesa da Assembleia Geral da ComDignitatis",
-						"nb": "NB2024/NB2024_A4aC3aR5o.pdf",
+						"nome": "Catarina Ribeiro",
+						"cargo": "Vice-Presidente da Câmara Municipal de Lamego",
+						"nb": "",
+						"presidente": false,
+						"extra": false,
+						"texto": ""
+					},
+					{
+						"nome": "Paula Alves",
+						"cargo": "Presidente da União de Freguesias de Queluz e Belas",
+						"nb": "NB2024/NB2024_P3aA3s.pdf",
 						"presidente": false,
 						"extra": false,
 						"texto": ""
 					}
 				],
-				"layout": 1
+				"layout": 2
 			},
 			{
 				"id": "c_12",
@@ -611,9 +619,9 @@ var dispSessions = new Vue({
 				"title": "Comentário Final",
 				"oradores": [
 					{
-						"nome": "Maria João Leote de Carvalho",
-						"cargo": "Centro Interdisciplinar de Ciências Sociais (CICS.NOVA.FCSH) da Universidade NOVA de Lisboa",
-						"nb": "NB2024/NB2024_M3aJ2oL3eC6o.pdf",
+						"nome": "Fausto Amaro",
+						"cargo": "Centro de Administração e Políticas Públicas (ISCSP) da Universidade de Lisboa",
+						"nb": "NB2024/NB2024_F4oA3o.pdf",
 						"presidente": false,
 						"extra": false,
 						"texto": ""
