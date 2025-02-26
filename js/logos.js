@@ -2,11 +2,11 @@ var Logos = new Vue({
     "el": "#idLogos",
     "data": {
         "images": [
-            {
-                "alt": "Com o Alto Patrocínio de Sua Excelência o Presidente da Républica",
-                "style": "width:100%;padding:5px;",
-                "src": "img/PAT00_2.png"
-            },
+            // {
+            //     "alt": "Com o Alto Patrocínio de Sua Excelência o Presidente da Républica",
+            //     "style": "width:100%;padding:5px;",
+            //     "src": "img/PAT00_2.png"
+            // },
             {
                 "alt": "Logotipo Ministério Público",
                 "style": "height:80px; padding:5px;",
@@ -85,7 +85,7 @@ var Logos = new Vue({
             {
                 "alt": "Logotipo CrescerSer",
                 "style": "height:80px; padding:5px;",
-                "src": "/img/CCCO12.jpg"
+                "src": "/img/CCCO12a.jpg"
             },
             {
                 "alt": "Logotipo ComDignitatis",
@@ -100,12 +100,12 @@ var Parceiros = new Vue({
     "el": "#idParceiros",
     "data": {
         "images": [
-            { "alt": "Logotipo Agrupamento de Escolas de Latino Coelho", "style": "height:100px; padding:5px;", "src": "img/PAR24.png" },
-            { "alt": "Logotipo Agrupamento de Escolas Queluz-Belas", "style": "height:100px; padding:5px;", "src": "img/PAR12.png" },
+            // { "alt": "Logotipo Agrupamento de Escolas de Latino Coelho", "style": "height:100px; padding:5px;", "src": "img/PAR24.png" },
+            // { "alt": "Logotipo Agrupamento de Escolas Queluz-Belas", "style": "height:100px; padding:5px;", "src": "img/PAR12.png" },
             { "alt": "Logotipo Centro de Formação da Associação de Escolas Rómulo de Carvalho", "style": "height:100px; padding:5px;", "src": "img/23_05-PAR-002.png" },
-            { "alt": "Logotipo Freguesia Queluz-Belas", "style": "height:100px; padding:5px;", "src": "img/PAR10.jpg" },
+            // { "alt": "Logotipo Freguesia Queluz-Belas", "style": "height:100px; padding:5px;", "src": "img/PAR10.jpg" },
             { "alt": "Logotipo Lamego", "style": "height:100px; padding:5px;", "src": "img/PAR11.png" },
-            { "alt": "Logotipo Ordem dos Psicólogos - Acção Formativa Acreditada", "style": "height:100px; padding:5px;", "src": "img/23_05-PAR-003.jpg" },
+            // { "alt": "Logotipo Ordem dos Psicólogos - Acção Formativa Acreditada", "style": "height:100px; padding:5px;", "src": "img/23_05-PAR-003.jpg" },
         ]
     }
 })
