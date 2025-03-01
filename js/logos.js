@@ -105,7 +105,7 @@ var Parceiros = new Vue({
             { "alt": "Logotipo Centro de Formação da Associação de Escolas Rómulo de Carvalho", "style": "height:100px; padding:5px;", "src": "img/23_05-PAR-002.png" },
             // { "alt": "Logotipo Freguesia Queluz-Belas", "style": "height:100px; padding:5px;", "src": "img/PAR10.jpg" },
             { "alt": "Logotipo Lamego", "style": "height:100px; padding:5px;", "src": "img/PAR11.png" },
-            // { "alt": "Logotipo Ordem dos Psicólogos - Acção Formativa Acreditada", "style": "height:100px; padding:5px;", "src": "img/23_05-PAR-003.jpg" },
+            { "alt": "Logotipo Ordem dos Psicólogos - Acção Formativa Acreditada", "style": "height:100px; padding:5px;", "src": "img/23_05-PAR-003.jpg" },
         ]
     }
 })
