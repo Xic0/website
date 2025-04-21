@@ -90,7 +90,7 @@ var Logos = new Vue({
             {
                 "alt": "Logotipo ComDignitatis",
                 "style": "height:80px; padding:5px;",
-                "src": "/img/CCCO13.jpg"
+                "src": "/img/RGB-horizontal-comdignitatis.png"
             }
         ]
     }

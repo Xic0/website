@@ -94,7 +94,7 @@ var programa = new Vue({
 			},
 			{
 				"hora": "11h45",
-				"título": "O Direito à Educação",
+				"título": "O Direito à Educação: Mythos e Logos na Edificação do Humano",
 				"debate": false,
 				"tema": true
 			},
@@ -157,7 +157,7 @@ var dispSessions = new Vue({
 				"title": "Leitura das Conclusões do IV Congresso Europeu Sobre Uma Justiça Amiga das Crianças",
 				"oradores": [
 					{
-						"nome": "Ana Castro",
+						"nome": "Ana Marinho de Castro",
 						"cargo": "Centro de Estudos Judiciários",
 						"nb": "NB2025/NB2025_A1aC4o.pdf",
 						"presidente": false,
@@ -177,16 +177,16 @@ var dispSessions = new Vue({
 			},
 			{
 				"id": "c_2",
-				"title": "O Direito à Educação",
+				"title": "O Direito à Educação: Mythos e Logos na Edificação do Humano",
 				"oradores": [
-					{
-						"nome": "Norberto Martins",
-						"cargo": "Procurador-Geral Regional do Porto",
-						"nb": "NB2025/NB2025_N6oM5s.pdf",
-						"presidente": true,
-						"extra": false,
-						"texto": ""
-					},
+					// {
+					// 	"nome": "Norberto Martins",
+					// 	"cargo": "Procurador-Geral Regional do Porto",
+					// 	"nb": "NB2025/NB2025_N6oM5s.pdf",
+					// 	"presidente": true,
+					// 	"extra": false,
+					// 	"texto": ""
+					// },
 					{
 						"nome": "Juan Ambrósio",
 						"cargo": "Universidade Católica Portuguesa",
@@ -266,12 +266,20 @@ var dispSessions = new Vue({
 						"nome": "Alcina da Costa Ribeiro",
 						"cargo": "Juíza Desembargadora do Tribunal da Relação de Coimbra e Presidente da Mesa da Assembleia Geral da ComDignitatis",
 						"nb": "NB2025/NB2025_A4aC3aR5o.pdf",
+						"presidente": true,
+						"extra": false,
+						"texto": "Facilitador"
+					},
+					{
+						"nome": "Maria João Fernandes",
+						"cargo": "Vice-Presidente da Comissão Nacional de Promoção dos Direitos e Proteção das Crianças e Jovens",
+						"nb": "NB2025/NB2025_M35J2oF7s.pdf",
 						"presidente": false,
 						"extra": false,
 						"texto": "Facilitador"
 					}
 				],
-				"layout": 1
+				"layout": 2
 			}
 		]
 	},
