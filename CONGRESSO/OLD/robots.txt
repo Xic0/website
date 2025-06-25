@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /.git/
+Sitemap: http://congresso.comdignitatis.org/sitemap.xml

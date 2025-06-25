@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <meta charset=utf-8>
+    <meta name="description" content="Location: Fundação Calouste Gulbenkian, Days: 07 and 08 of May 2020, Promoter Organisation: Comdignitatis" />
+    <meta name="keywords" content="congress, european, justice, children" />
+    <meta name="author" content="ComDignitatis">
+    <meta name="robots" content="index, nofollow">
+    <meta name=googlebot content=noodp />
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <!-- congress, justice, children -->
+    <title>III Congresso Europeu Sobre uma Justiça Amiga das Crianças</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="js/fontawesome-all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <style>
+            body {font-family: "Lato", sans-serif !important}
+
+            h1, h2, h3, h4, h5, h6 {font-family: "Roboto", sans-serif !important; font-weight: 400; margin: 10px 0;}
+
+            .cd-cover-image {max-width:100%;background-size:cover;background-attachment:fixed;position:relative;background-color:#30662c !important}
+            .cd-list {list-style-type:square !important}
+            .w3-theme-l5 {color:#000 !important; background-color:#f0f8f0 !important}
+            .w3-theme-l4 {color:#000 !important; background-color:#cee9cc !important}
+            .w3-theme-l3 {color:#000 !important; background-color:#9dd49a !important}
+            .w3-theme-l2 {color:#fff !important; background-color:#6dbe67 !important}
+            .w3-theme-l1 {color:#fff !important; background-color:#489a42 !important}
+            .w3-theme-d1 {color:#fff !important; background-color:#2b5d28 !important}
+            .w3-theme-d2 {color:#fff !important; background-color:#275323 !important}
+            .w3-theme-d3 {color:#fff !important; background-color:#22481f !important}
+            .w3-theme-d4 {color:#fff !important; background-color:#1d3e1b !important}
+            .w3-theme-d5 {color:#fff !important; background-color:#183416 !important}
+            .cd-theme-bg {color:#fff !important; background-color:#A2C731 !important}
+
+            .w3-theme-light {color:#000 !important; background-color:#f0f8f0 !important}
+            .w3-theme-dark {color:#fff !important; background-color:#183416 !important}
+            .w3-theme-action {color:#fff !important; background-color:#183416 !important}
+
+            .w3-theme {color:#fff !important; background-color:#30662c !important}
+            .w3-text-theme {color:#30662c !important}
+            .w3-border-theme {border-color:#30662c !important}
+            .cd-border-theme {border-color:#30662c; border-right-style:ridge; vertical-align: middle !important}
+
+            .w3-hover-theme:hover {color:#fff !important; background-color:#30662c !important}
+            .w3-hover-text-theme {color:#30662c !important}
+            .w3-hover-border-theme:hover {border-color:#30662c !important}
+        </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div id="Navbar" class="w3-top">
+<div class="w3-bar w3-black w3-card-4">
+    <span class="w3-bar-item">{{ shorttitle }}</span>
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fas fa-bars"></i></a>
+    <a class="w3-bar-item w3-button w3-padding-large w3-right w3-hover-none w3-text-grey w3-hover-text-white w3-hide-small" href="#Programa"><span class="fas fa-clock"></span> Programa</a>
+    <a class="w3-bar-item w3-button w3-padding-large w3-right w3-hover-none w3-text-grey w3-hover-text-white w3-hide-small" href="https://goo.gl/forms/Hf2k5fPtL371e6aR2" target=_blank><span class="fas fa-list-alt"></span> Formulário de Inscrição</a>
+</div>
+</div>
+
+<!-- Navbar on small screens -->  <!-- CHECK THIS -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a class="w3-bar-item w3-button w3-padding-large" href="#Programa"><span class="fas fa-clock"></span> Programa</a>
+  <a class="w3-bar-item w3-button w3-padding-large" href="https://goo.gl/forms/Hf2k5fPtL371e6aR2" target=_blank><span class="fas fa-list-alt"></span> Formulário de Inscrição</a>
+  <!-- <a class="w3-bar-item w3-button w3-padding-large w3-text-amber" onclick="document.getElementById('MomentoCultural').style.display='block'"><span class="fas fa-hand-holding-heart"></span> Momento Cultural</a> -->
+</div>
+
+<!-- Page content -->
+<div class="w3-content w3-theme-l5" style="max-width:2000px;margin-top:46px">
+
+<!-- BANNER --> <!-- PEDIR FOTO > RES -->
+<div class="w3-display-container w3-center cd-cover-image">
+    <img alt="Poster do Congresso" src="img/bannersite.png" style="width:100%">
+</div>
+
+<!-- LOGOS -->
+<div id="idLogos" class="w3-panel w3-border-theme w3-bottombar w3-padding-32 w3-center w3-white" style="margin-top:0">
+    <span v-for="logo in images">
+        <img :alt="logo.alt" :style="logo.style" :src="logo.src">
+    </span>
+</div>
+
+<!-- ENTIDADE PROMOTORA -->
+<div id="Promotora" class="w3-container w3-content w3-padding-32" style="max-width:900px">
+    <h2 class="w3-wide w3-center w3-round w3-padding-32 w3-theme" style="font-variant: small-caps;">Entidade Promotora</h2>
+    <ul class="cd-list">
+        <li>ComDignitatis - Associação Portuguesa para a Promoção da Dignidade Humana</li>
+    </ul>
+</div>
+
+<!-- COMISSÃO ORGANIZADORA -->
+<div id="idOrganização" class="w3-container w3-content w3-padding-32" style="max-width:900px">
+    <h2 class="w3-wide w3-center w3-round w3-padding-32 w3-theme" style="font-variant: small-caps;">{{ header }}</h2>
+    <ul class="cd-list">
+        <li v-for="member in members">{{ member.text }}</li>
+    </ul>
+</div>
+
+<!-- COMISSÃO CIENTÍFICA -->
+<div id="idCientifica" class="w3-container w3-content w3-padding-16" style="max-width:900px">
+    <h2 class="w3-wide w3-center w3-round w3-padding-16 w3-theme" style="font-variant: small-caps;">{{ header }}</h2>
+    <ul class="cd-list">
+        <li v-for="membro in membros">{{ membro.nome }}</li>
+    </ul>
+</div>
+
+
+<!-- PROGRAMA -->
+<div id="Programa" class="w3-container w3-content" style="max-width:900px">
+    <h2 class="w3-wide w3-center w3-round w3-padding-32 w3-theme" style="font-variant: small-caps;">Programa</h2>
+    <div class="w3-row w3-padding-16 w3-center">
+        <a href="javascript:void(0)" onclick="openProgram(event, 'idPrograma1');">
+            <div class="w3-half tablink w3-bottombar w3-hover-border-theme w3-border-theme w3-padding">07 de Maio de 2020</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openProgram(event, 'idPrograma2');">
+            <div class="w3-half tablink w3-bottombar w3-hover-border-theme w3-padding">08 de Maio de 2020</div>
+        </a>
+    </div>
+    <div id="idPrograma1" class="cPrograma" style="display:block">
+        <table class="w3-table w3-striped w3-theme-l4">
+            <tbody>
+                <tr v-for="h in horario">
+                    <td class="cd-border-theme">{{ h.hora }}</td>
+                    <td>
+                        <p v-if="h.tema"><i>“{{ h.título }}”</i></p>
+                        <p v-else>{{ h.título }}</p>
+                        <p v-if='h.debate'>Debate</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="idPrograma2" class="cPrograma" style="display:none">
+        <table class="w3-table w3-striped w3-theme-l4">
+            <tbody>
+                <tr v-for="h in horario">
+                    <td class="cd-border-theme">{{ h.hora }}</td>
+                    <td>
+                    <p class="w3-center" v-if="h.paralelas">
+                        <span class="w3-wide">Sessões Paralelas</span><br>
+                        <i>{{ h.título }}</i>
+                        <ol class="cd-list" v-for="t in h.subtítulos">
+                            <li><i>“{{ t }}”</i></li>
+                        </ol>
+                    </p>
+                    <p v-if="!h.paralelas">{{ h.título }}</p>
+                    <p v-if='h.debate'>Debate</p>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<p class="w3-padding-16">&nbsp;</p>
+
+
+<!-- ORADORES -->
+<div class="w3-container w3-content w3-center w3-padding-16" style="max-width:900px" id="idOradores">
+    <h2 class="w3-wide w3-round w3-padding-32 w3-theme" style="font-variant: small-caps;">Oradores</h2>
+    <div v-for="s in sessions">
+        
+        <div class="w3-row w3-padding-32" v-if="s.layout === 1">
+            <h4 class="w3-text-theme"><i>“{{ s.title }}”</i></h4>
+            <div v-for="o in s.oradores">
+        
+                <div class="w3-center">
+                    <p v-if="o.presidente" class="w3-wide w3-small">Presidente da Mesa</p>
+                    <p v-else class="w3-wide w3-small">&nbsp;</p>
+                    
+                    <p v-else class="w3-large" style="font-variant: small-caps;">
+                        <a target="_blank" type="application/pdf" hreflang="pt" v-bind:href="o.nb">
+                            <span class="w3-text-theme far fa-file-pdf"></span>
+                        </a> {{ o.nome }}
+                    </p>
+
+                    <p class="w3-small">{{ o.cargo }}</p>
+                </div>
+
+            </div>
+        
+        </div>
+
+        <div class="w3-row w3-padding-32" v-if="s.layout === 2">
+            <h4 class="w3-text-theme"><i>“{{ s.title }}”</i></h4>
+            <div v-for="o in s.oradores">
+            
+                <div class="w3-half">
+                    <p v-if="o.presidente" class="w3-wide w3-small">Presidente da Mesa</p>
+                    <p v-else class="w3-wide w3-small">&nbsp;</p>
+
+                    <p class="w3-large" style="font-variant: small-caps;">
+                        <a target="_blank" type="application/pdf" hreflang="pt" v-bind:href="o.nb">
+                            <span class="w3-text-theme far fa-file-pdf"></span>
+                        </a> {{ o.nome }}
+                    </p>
+                    
+                    <p class="w3-small">{{ o.cargo }}</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="w3-row w3-padding-32" v-if="s.layout === 6">
+            <h4 class="w3-text-theme"><i>“{{ s.title }}”</i></h4>
+            <div v-for="o in s.oradores.slice(0, 3)">
+            
+                <div class="w3-third">
+                    <p v-if="o.presidente" class="w3-wide w3-small">Presidente da Mesa</p>
+                    <p v-else class="w3-wide w3-small">&nbsp;</p>
+
+                    <p class="w3-large" style="font-variant: small-caps;">
+                        <a target="_blank" type="application/pdf" hreflang="pt" v-bind:href="o.nb">
+                            <span class="w3-text-theme far fa-file-pdf"></span>
+                        </a> {{ o.nome }}
+                    </p>
+                    
+                    <p class="w3-small">{{ o.cargo }}</p>
+                </div>
+
+            </div>
+            <div class="w3-row">
+            <div v-for="o in s.oradores.slice(3)">
+            
+                <div class="w3-third">
+                    <p v-if="o.presidente" class="w3-wide w3-small">Presidente da Mesa</p>
+                    <p v-else class="w3-wide w3-small">&nbsp;</p>
+
+                    <p class="w3-large" style="font-variant: small-caps;">
+                        <a target="_blank" type="application/pdf" hreflang="pt" v-bind:href="o.nb">
+                            <span class="w3-text-theme far fa-file-pdf"></span>
+                        </a> {{ o.nome }}
+                    </p>
+                    
+                    <p class="w3-small">{{ o.cargo }}</p>
+                </div>
+
+            </div>
+            </div>
+
+        </div>
+
+        <div class="w3-row w3-padding-32" v-if="s.layout === 7">
+            <h4 class="w3-text-theme"><i>“{{ s.title }}”</i></h4>
+            <div v-for="o in s.oradores.slice(0, 3)">
+            
+                <div class="w3-third">
+                    <p v-if="o.presidente" class="w3-wide w3-small">Presidente da Mesa</p>
+                    <p v-else class="w3-wide w3-small">&nbsp;</p>
+
+                    <p class="w3-large" style="font-variant: small-caps;">
+                        <a target="_blank" type="application/pdf" hreflang="pt" v-bind:href="o.nb">
+                            <span class="w3-text-theme far fa-file-pdf"></span>
+                        </a> {{ o.nome }}
+                    </p>
+                    
+                    <p class="w3-small">{{ o.cargo }}</p>
+                </div>
+
+            </div>
+            <div class="w3-row">
+            <div v-for="o in s.oradores.slice(3)">
+            
+                <div class="w3-quarter">
+                    <p v-if="o.presidente" class="w3-wide w3-small">Presidente da Mesa</p>
+                    <p v-else class="w3-wide w3-small">&nbsp;</p>
+
+                    <p class="w3-large" style="font-variant: small-caps;">
+                        <a target="_blank" type="application/pdf" hreflang="pt" v-bind:href="o.nb">
+                            <span class="w3-text-theme far fa-file-pdf"></span>
+                        </a> {{ o.nome }}
+                    </p>
+                    
+                    <p class="w3-small">{{ o.cargo }}</p>
+                </div>
+
+            </div>
+            </div>
+
+        </div>
+
+        <div class="w3-row w3-padding-32" v-if="s.layout === 10">
+            <h4 class="w3-text-theme"><i>“{{ s.title }}”</i></h4>
+            <div v-for="o in s.oradores.slice(0, 2)">
+            
+                <div class="w3-half">
+                    <p v-if="o.extra" class="w3-wide w3-small">{{ o.texto }}</p>
+                    <p v-else class="w3-wide w3-small">&nbsp;</p>
+
+                    <p class="w3-large" style="font-variant: small-caps;">
+                        <a target="_blank" type="application/pdf" hreflang="pt" v-bind:href="o.nb">
+                            <span class="w3-text-theme far fa-file-pdf"></span>
+                        </a> {{ o.nome }}
+                    </p>
+                    
+                    <p class="w3-small">{{ o.cargo }}</p>
+                </div>
+
+            </div>
+            <div class="w3-row">
+            <div v-for="o in s.oradores.slice(2)">
+            
+                <div class="w3-quarter">
+                    <p v-if="o.extra" class="w3-wide w3-small">{{ o.texto }}</p>
+                    <p v-else class="w3-wide w3-small">&nbsp;</p>
+
+                    <p class="w3-large" style="font-variant: small-caps;">
+                        <a target="_blank" type="application/pdf" hreflang="pt" v-bind:href="o.nb">
+                            <span class="w3-text-theme far fa-file-pdf"></span>
+                        </a> {{ o.nome }}
+                    </p>
+                    
+                    <p class="w3-small">{{ o.cargo }}</p>
+                </div>
+
+            </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- PATROCÍNIOS / APOIOS / PARCEIROS  -->
+    <div class="w3-container w3-border-theme w3-topbar w3-padding-32 w3-center w3-white" style="font-weight:900">
+        <div class="w3-row">
+            <div class="w3-half">
+                <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran', monospace !important;">Alto Patrocínio</p>
+                <img alt="Com o Alto Patrocínio de Sua Excelência o Presidente da Républica" style="height:100px; padding:5px;" src="img/PAT00.jpg">
+            </div>
+            <div class="w3-half">
+                <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran', monospace !important;">Com o apoio de</p>
+                <img alt="Logotipo Fundação Calouste Gulbenkian" style="height:60px; padding:5px;" src="img/PAT01.png">
+            </div>
+        </div>
+        
+        <div class="w3-row w3-padding-16">
+                <div class="w3-half">
+                    <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran', monospace !important;">Parceiros</p>
+                    <img alt="Logotipo do Município de Viseu" style="height:100px; padding:5px;" src="img/PAR00.jpg">
+                    <img alt="Logotipo Ordem Psicólogos" style="height:100px; padding:5px;" src="img/PAR06.jpg">
+                    <img alt="Logotipo do Centro de Formação da Associação de Escolas Rómulo de Carvalho" style="height:100px; padding:5px;" src="img/PAR01.png">
+                    <img alt="Logotipo Museu Grão Vasco" style="height:100px; padding:5px;" src="img/PAR02.png">
+                    <img alt="Logotipo Museu Grão Vasco" style="height:100px; padding:5px;" src="img/PAR03.png">
+                    <img alt="Logotipo Museu Grão Vasco" style="height:100px; padding:5px;" src="img/PAR04.png">
+                    <img alt="Logotipo Agrupamento de Escolas Mundão" style="height:100px; padding:5px;" src="img/PAR05.png">
+                </div>
+                <div class="w3-half">
+                    <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran', monospace !important;">Media Partner</p>
+                    <img alt="Logotipos dos apoios" style="height:100px; padding:5px;" src="img/MP01.jpg">
+                </div>
+        </div>
+
+        <div class="w3-row w3-padding-16">
+                <div class="w3-half">
+                    <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran', monospace !important;">Patrocínios</p>
+                    <img alt="Logotipo da Glintt" style="height:100px; padding:5px;" src="img/PAT04.jpg">
+                    <img alt="Logotipo do Crédito Agrícola Mútuo" style="height:100px; padding:5px;" src="img/PAT02.jpg">
+                    <img alt="Logotipo Martins Alves" style="height:50px; padding:5px;" src="img/PAT03.jpg">
+                    <img alt="Logotipo Grupo Lourenço & Lousada" style="height:100px; padding:5px;" src="img/PAT05.png">
+                    <img alt="Logotipo CML" style="height:100px; padding:5px;" src="img/PAT06.svg">
+                </div>
+                <div class="w3-half">
+                    <p class="w3-xlarge w3-text-theme" style="font-family:'Catamaran', monospace !important;">Apoios</p>
+                    <img alt="Logotipo Justiça TA" style="height:100px; padding:5px;" src="img/AP01.png">
+                    <img alt="Logotipo DATAJURIS" style="height:100px; padding:5px;" src="img/AP02.png">
+                    <img alt="Logotipo EPI" style="height:100px; padding:5px;" src="img/AP03.jpg">
+                </div>
+        </div>
+    </div>
+
+<!-- FOOTER -->
+    <section class="w3-black">
+        <footer class="w3-container w3-content w3-black" style="max-width:900px" id="FOOTER">
+            <h2 class="w3-wide" style="font-variant:small-caps">Secretariado</h2>
+            <i class="fa fa-home fa-lg" style="width:30px"></i> Morada: Rua da Escola s/n, 2655-430 ERICEIRA, Portugal<br>
+            <i class="fa fa-envelope fa-lg" style="width:30px"></i> E-mail: comunicacao@comdignitatis.org<br>
+            <i class="fa fa-phone fa-lg" style="width:30px"></i> Telefone: +351(93)574-40-24 ─ Rita Jorge<br>
+            <br>
+            <a href="https://www.facebook.com/ComDignitatis-561123327240658/"><i class="w3-margin-bottom fa fa-facebook-official fa-3x"></i></a>
+        </footer>
+    </section>
+</div>
+
+<script src="js/data.js"></script>
+
+<script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+
+    // English message
+    function displaySwitcher(id) {
+        var x = document.getElementById(id);
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+
+    // Element Switcher
+    function elSwitcher(id, id1) {
+        var x = document.getElementById(id);
+        var y = document.getElementById(id1);
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+            y.className = y.className.replace("w3-show", "w3-hide")
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+            y.className = y.className.replace("w3-hide", "w3-show")
+        }
+    }
+
+    function openProgram(evt, day) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("cPrograma");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" w3-border-theme", "");
+        }
+        document.getElementById(day).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " w3-border-theme";
+    }
+</script>
+
+<script type="application/ld+json">
+    {  
+        "@context":"http://schema.org",
+        "@type":"EducationEvent",
+        "name":"III Congresso Europeu Sobre uma Justiça Amiga das Crianças",
+        "description":"III Congresso Europeu Sobre uma Justiça Amiga das Crianças",
+        "image":"http://congresso.comdignitatis.org/img/banner.png",
+        "organizer":"ComDignitatis",
+        "doorTime":"2020-05-07T08:30",
+        "startDate":"2020-05-07T09:00",
+        "endDate":"2020-05-08T17:00",
+        "url":"http://congresso.comdignitatis.org",
+        "location":{  
+            "@type":"Place",
+            "sameAs":"http://www.gulbenkian.pt",
+            "name":"Fundação Calouste Gulbenkian",
+            "address":"Av. Berna 45A, 1067-001 Lisboa"
+        },
+        "offers":[  
+            {  
+                "@type":"Offer",
+                "name":"Congresso (não estudante)",
+                "url":"https://goo.gl/forms/Hf2k5fPtL371e6aR2",
+                "price":"25",
+                "priceCurrency":"EUR",
+                "availability":"http://schema.org/LimitedAvailability",
+                "validFrom":"2020-02-01"
+            },
+            {  
+                "@type":"Offer",
+                "name":"Congresso (estudante)",
+                "url":"https://goo.gl/forms/Hf2k5fPtL371e6aR2",
+                "price":"20",
+                "priceCurrency":"EUR",
+                "availability":"http://schema.org/LimitedAvailability",
+                "validFrom":"2020-02-01"
+            }
+        ]
+    }
+</script>
+
+<script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','js/analytics_a606df9ff9f9e27f97a535270aed9f70.js','ga');
+        ga('create', 'UA-73257825-1', 'auto');
+        ga('send', 'pageview');
+</script>
+
+</body>
+</html>

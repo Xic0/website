@@ -1,0 +1,374 @@
+[
+    {
+        "nome": "Ana Castro",
+        "cargo": "Centro de Estudos Judiciários",
+        "nb": "NB2025/NB2025_A1aC4o.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": "Correlatores"
+    },
+    {
+        "nome": "Paulo Guerra",
+        "cargo": "Juiz Desembargador do Tribunal da Relação de Coimbra",
+        "nb": "NB2025/NB2025_P3oG4a.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": "Relator"
+    },
+    {
+        "nome": "Rosário Farmhouse",
+        "cargo": "Comissão Nacional de Promoção dos Direitos e Proteção das Crianças e Jovens",
+        "nb": "",
+        "presidente": true
+    },
+    {
+        "nome": "Domingos Fernandes",
+        "cargo": "Presidente do Conselho Nacional de Educação",
+        "nb": "NB2024/NB2024_D6sF7s.pdf",
+        "presidente": false
+    },
+    {
+        "nome": "Norberto Martins",
+        "cargo": "Procurador-Geral Regional do Porto",
+        "nb": "NB2025/NB2025_N6oM5s.pdf",
+        "presidente": true,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Juan Ambrósio",
+        "cargo": "Universidade Católica Portuguesa",
+        "nb": "NB2024/NB2024_J2nA6o.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "António Santinha",
+        "cargo": "Santa Casa da Misericórdia de Lisboa",
+        "nb": "NB2024/NB2024_A5oS6a.pdf",
+        "presidente": false,
+        "extra": true,
+        "texto": "Facilitador"
+    },
+    {
+        "nome": "Armando Leandro",
+        "cargo": "Juiz Conselheiro Jubilado",
+        "nb": "",
+        "presidente": true,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Laborinho Lúcio",
+        "cargo": "Juiz Conselheiro Jubilado",
+        "nb": "NB2024/NB2024_L7oL3o.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Leonor Fechas",
+        "cargo": "Casa Pia de Lisboa",
+        "nb": "NB2024/NB2024_L4rF4s.pdf",
+        "presidente": false,
+        "extra": true,
+        "texto": "Facilitador"
+    },
+    {
+        "nome": "Jorge Serafim",
+        "cargo": "Contador de Histórias",
+        "nb": "",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "José Carlos Matias",
+        "cargo": "Centro de Direito da Família da Faculdade de Direito da Universidade de Coimbra",
+        "nb": "NB2025/NB2025_J2eC4sM4s.pdf",
+        "presidente": false,
+        "extra": true,
+        "texto": "Facilitador"
+    },
+    {
+        "nome": "Paula Távora Vítor",
+        "cargo": "Centro de Direito da Família da Faculdade de Direito da Universidade de Coimbra",
+        "nb": "",
+        "presidente": true,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Maria de Fátima Matos",
+        "cargo": "Presidente do Conselho Diretivo da Casa Pia de Lisboa",
+        "nb": "NB2024/NB2024_M3aF4aM3s.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Rosa Clemente",
+        "cargo": "Centro de Direito da Família da Faculdade de Direito da Universidade de Coimbra",
+        "nb": "NB2024/NB2024_R2aC6e.pdf",
+        "presidente": false,
+        "extra": true,
+        "texto": "Facilitador"
+    },
+    {
+        "nome": "Isabel Malheiro de Almeida",
+        "cargo": "Ordem dos Advogados",
+        "nb": "NB2024/NB2024_I4lM6oA5a.pdf",
+        "presidente": true,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "João Couvaneiro",
+        "cargo": "Professor",
+        "nb": "NB2024/NB2024_J2oC8o.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Alcina da Costa Ribeiro",
+        "cargo": "Juíza Desembargadora do Tribunal da Relação de Coimbra e Presidente da Mesa da Assembleia Geral da ComDignitatis",
+        "nb": "NB2025/NB2025_A4aC3aR5o.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": "Facilitador"
+    },
+    {
+        "nome": "Rui Abrunhosa Gonçalves",
+        "cargo": "Diretor-Geral de Reinserção e Serviços Prisionais",
+        "nb": "",
+        "presidente": true,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Ana Passos e Sousa",
+        "cargo": "Projeto Escola Lá Fora",
+        "nb": "NB2024/NB2024_A1aP4sS3a.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Rui Pires",
+        "cargo": "Agrupamento de Escolas de Idães",
+        "nb": "NB2024/NB2024_R1iP3s.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "António Santinha",
+        "cargo": "Santa Casa da Misericórdia de Lisboa",
+        "nb": "NB2024/NB2024_A5oS6a.pdf",
+        "presidente": false,
+        "extra": true,
+        "texto": "Facilitador"
+    },
+    {
+        "nome": "Filipe Silva",
+        "cargo": "Psicólogo",
+        "nb": "NB2024/NB2024_F4eS3a.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Ricardo Rodrigues",
+        "cargo": "Enfermeiro",
+        "nb": "NB2024/NB2024_R5oR7s.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Rui Godinho",
+        "cargo": "Santa Casa da Misericórdia de Lisboa",
+        "nb": "NB2024/NB2024_R1iG5o.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Leonor Fechas",
+        "cargo": "Casa Pia de Lisboa",
+        "nb": "NB2024/NB2024_L4rF4s.pdf",
+        "presidente": false,
+        "extra": true,
+        "texto": "Facilitador"
+    },
+    {
+        "nome": "Antero Afonso",
+        "cargo": "Arco Maior",
+        "nb": "NB2024/NB2024_A4oA4o.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "António Vale",
+        "cargo": "Associação de Mães e Pais pela Liberdade de Orientação Sexual e Identidade de Género – AMPLOS",
+        "nb": "NB2024/NB2024_A5oV2e.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Fátima Teles",
+        "cargo": "Professora",
+        "nb": "NB2024/NB2024_F4aT3s.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Mafalda Nunes",
+        "cargo": "Casa Pia de Lisboa",
+        "nb": "NB2024/NB2024_M5aN3s.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "José Carlos Sousa",
+        "cargo": "Direção-Geral da Educação",
+        "nb": "NB2024/NB2024_J2eC4sS3a.pdf",
+        "presidente": false,
+        "extra": true,
+        "texto": "Facilitador"
+    },
+    {
+        "nome": "Dulce Marques",
+        "cargo": "Rede Europeia Anti-Pobreza",
+        "nb": "NB2024/NB2024_D4M5s.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Helena Gil",
+        "cargo": "Direção-Geral da Educação",
+        "nb": "NB2024/NB2024_H4aG1l.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Faisal Aboobakar",
+        "cargo": "Agrupamento de Escolas de Marateca/Poceirão",
+        "nb": "",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Rosa Clemente",
+        "cargo": "Centro de Direito da Família da Faculdade de Direito da Universidade de Coimbra",
+        "nb": "NB2024/NB2024_R2aC6e.pdf",
+        "presidente": false,
+        "extra": true,
+        "texto": "Facilitador"
+    },
+    {
+        "nome": "José Pedro Barros",
+        "cargo": "Juiz de Direito",
+        "nb": "NB2024/NB2024_J2eP3oB4s.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Paula Soares",
+        "cargo": "Procuradora-Geral Adjunta",
+        "nb": "NB2024/NB2024_P3aS4s.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Sofia Nunes da Silva",
+        "cargo": "Psicóloga e Terapeuta Familiar",
+        "nb": "NB2024/NB2024_S3aN3sS3a.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Tiago Castelo",
+        "cargo": "Procurador da República",
+        "nb": "NB2024/NB2024_T3oC5o.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Catarina Ribeiro",
+        "cargo": "Vice-Presidente da Câmara Municipal de Lamego",
+        "nb": "",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Paula Alves",
+        "cargo": "Presidente da União de Freguesias de Queluz e Belas",
+        "nb": "NB2024/NB2024_P3aA3s.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Idália Serrão",
+        "cargo": "Associação Mutualista Montepio Geral",
+        "nb": "NB2024/NB2024_I4aS4o.pdf",
+        "presidente": true,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Paulo Guerra",
+        "cargo": "Juiz Desembargador",
+        "nb": "NB2024/NB2024_P3oG4a.pdf",
+        "presidente": false,
+        "extra": true,
+        "texto": "Relator"
+    },
+    {
+        "nome": "Ana Castro",
+        "cargo": "Procuradora da República e Docente do Centro de Estudos Judiciários",
+        "nb": "NB2024/NB2024_A1aC4o.pdf",
+        "presidente": false,
+        "extra": true,
+        "texto": "Correlatores"
+    },
+    {
+        "nome": "Chandra Gracias",
+        "cargo": "Juíza de Direito",
+        "nb": "NB2024/NB2024_C5aG5s.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Maria Oliveira Mendes",
+        "cargo": "Procuradora da República e Docente do Centro de Estudos Judiciários",
+        "nb": "NB2024/NB2024_M3aO6aM4s.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    },
+    {
+        "nome": "Fausto Amaro",
+        "cargo": "Centro de Administração e Políticas Públicas (ISCSP) da Universidade de Lisboa",
+        "nb": "NB2024/NB2024_F4oA3o.pdf",
+        "presidente": false,
+        "extra": false,
+        "texto": ""
+    }
+]
